@@ -1,5 +1,9 @@
- /*-- NAVBAR --*/
-
+/*-- NAVBAR --*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
 .navbar{
     border-radius: 0;
     text-align: center;
@@ -21,6 +25,7 @@
 
 .nav{
     padding-top: 11px;
+
 }
 
 
@@ -55,11 +60,14 @@
 
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000;
+    color: #fffefe;
     font-family: Bebas Neue;
     font-size: 20px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #000000 !important;
+}
 
 @media screen and (max-width:770px){
 
@@ -75,8 +83,12 @@
 
 
 
- /*-- FOOTER --*/
- 
+/*-- FOOTER --*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 
@@ -120,9 +132,7 @@
   padding-left:0;
   list-style:none;
 }
-/*.left{
-  padding-left: 0% !important;
-}*/
+
 .footer-links li
 {
   display:block
@@ -266,9 +276,17 @@ footer ul.quick-links li:hover a i {
 
 
 /* BODY HOMEPAGE */
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
 
+body{
+  background-color: #f1f1f1;
+}
 
-.body-container{
+.body-container-card{
   text-align: center;
   margin-bottom:100px;
   margin-left: 0;
@@ -286,6 +304,133 @@ footer ul.quick-links li:hover a i {
   height:100%;
 }
 
-#FraseMotivazionale{
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+.titolo{
+  text-align: center;
+  color:black !important;
+  font-family: Bebas Neue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+
+/* Create two equal columns that floats next to each other */
+.columnimg {
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #f1f1f1;
   
 }
+
+
+
+
+/* Clear floats after the columns */
+.rowimg:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 950px) {
+  .columnimg {
+    width: 100%;
+  }
+}
+
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  font-family: Bebas Neue;
+  width: 450px;
+  height: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin:auto;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #f1f1f1;
+  color: white;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #03662f;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+/*-------MAPPA----------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  width: 100%;
+
+  padding-top: 25px;
+  margin-bottom:25px;
+
+}
+
+
+/*-------TABLE----------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
