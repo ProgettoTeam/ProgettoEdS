@@ -18,8 +18,10 @@
 
 
     <link rel="stylesheet" href="../CSS/style.css">
-    
+    <script src="../JS/index.js"></script>
 
+    
+  
     <!-- ###################### -->
     
     
@@ -28,7 +30,7 @@
 
 
 <body>
-    <?php include 'navbar.php'?>
+  <?php include 'navbar.php'?>
 
 
 <div class="body-container">
@@ -44,19 +46,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="../CSS/foto-motivazionale-1.jpeg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-1.jpg" style="width:100%;height:100%;">
       </div>
 
       <div class="item">
-        <img src="../CSS/foto-motivazionale-2.jpeg" style="width:100%;height:100%;";>
+        <img src="../CSS/foto-motivazionale-2.jpg" style="width:100%;height:100%;";>
       </div>
     
       <div class="item">
-        <img src="../CSS/foto-motivazionale-3.jpeg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-3.jpg" style="width:100%;height:100%;">
       </div>
 
       <div class="item">
-        <img src="../CSS/foto-motivazionale-4.jpeg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-4.jpg" style="width:100%;height:100%;">
       </div>
     </div>
 
@@ -72,9 +74,49 @@
   </div>
 </div>
 
-    
+<div class="titolo">
+  <h1>I 2 Parchi più grandi d'Italia</h1>
+</div>
 
-    <?php include 'footer.php'?>
+
+<!-- prova hoverlay img -->
+<div class="rowimg">
+  <div class="columnimg">
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="../CSS/foto-motivazionale-1.jpg" alt="Paris" style="width:100%;height:100%">
+    </div>
+    <div class="flip-box-back">
+      <h2>Foto-1</h2>
+      <p>Descrizione-1</p>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="columnimg">
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="../CSS/foto-motivazionale-2.jpg" alt="Paris" style="width:100%;height:100%">
+    </div>
+    <div class="flip-box-back">
+      <h2>Foto-2</h2>
+      <p>Descrizione-2</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<h2 class="titolo">Viualizza qui i Parchi:</h2>
+<div id="map"></div>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmxa27-uGFIPD7pW_P5l0mxsXglRxpos&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+
+  <?php include 'footer.php'?>
 
 </body>
 
