@@ -89,7 +89,7 @@
   <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
-      <img src="../CSS/foto-motivazionale-1.jpg" alt="Paris" style="width:100%;height:100%">
+      <img src="../CSS/foto-motivazionale-5.jpeg" alt="Paris" style="width:100%;height:100%">
     </div>
     <div class="flip-box-back">
       <h2>Foto-1</h2>
@@ -102,7 +102,7 @@
   <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
-      <img src="../CSS/foto-motivazionale-2.jpg" alt="Paris" style="width:100%;height:100%">
+      <img src="../CSS/foto-motivazionale-6.jpeg" alt="Paris" style="width:100%;height:100%">
     </div>
     <div class="flip-box-back">
       <h2>Foto-2</h2>
