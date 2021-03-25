@@ -436,7 +436,7 @@ body{
 /*-----------------------*/
 
 .paging-nav {
-  text-align: right;
+  text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -445,11 +445,11 @@ body{
   margin: auto 1px;
   text-decoration: none;
   display: inline-block;
-  padding: 1px 7px;
+  padding: 1px 10px;
   background: #1d814a;
   color: white;
   border-radius: 3px;
-  padding: 2px;
+  
 }
 
 .paging-nav .selected-page {
