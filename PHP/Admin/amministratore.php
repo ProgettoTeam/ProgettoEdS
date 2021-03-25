@@ -30,7 +30,20 @@
 
 <h1 class="titolo">Pagina Amministratore</h1>
 
-<h2 class="titolo2">Flora</h2>
+<div class="rowimg">
+   <div class="columnbtn">
+      <h2 class="titolo2">Parchi</h2>
+   </div>
+
+   <div class="columnbtn">
+      <div class="bottone">
+         <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+         </a>
+      </div>
+   </div>
+</div>
+
 <table id="tableData" class="table table-bordered table-striped">
    <thead>
       <tr>
@@ -122,8 +135,19 @@
 <!--------------->
 <!--------------->
 
-<h2 class="titolo2">Fauna</h2>
+<div class="rowimg">
+   <div class="columnbtn">
+      <h2 class="titolo2">Responsabili</h2>
+   </div>
 
+   <div class="columnbtn">
+      <div class="bottone">
+         <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+         </a>
+      </div>
+   </div>
+</div>
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
       <tr>
