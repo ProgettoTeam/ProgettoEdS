@@ -420,10 +420,10 @@ body{
 /* Set the size of the div element that contains the map */
 #map {
   height: 400px;
-  width: 100%;
-
+  width: 95%;
   padding-top: 25px;
-  margin-bottom:25px;
+  margin:auto;
+  margin-bottom: 20px;
 
 }
 
@@ -458,7 +458,7 @@ body{
 
 .paging-nav,
 #tableData {
-  width: 400px;
+  width: 90%;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
