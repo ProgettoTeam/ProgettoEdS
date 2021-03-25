@@ -8,8 +8,8 @@
     
     <!-- librerie importate -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     
@@ -113,7 +113,7 @@
   </div>
 </div>
 
-<h2 class="titolo">Viualizza qui i Parchi:</h2>
+<h2 class="titolo">Viualizza qui i Parchi sulla mappa:</h2>
 
 <div id="map"></div>
   <script
@@ -121,7 +121,7 @@
     async>
   </script>
 
-
+<h2 class="titolo">Tabella dei Parchi:</h2>
 <table id="tableData" class="table table-bordered table-striped">
    <thead>
       <tr>
