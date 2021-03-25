@@ -29,6 +29,7 @@
 <body>
 <?php include ("../navbar.php")?>
 
+<h1 class="titolo">Nome del Parco</h1>
 
 <img src="../../CSS/foto-motivazionale-5.jpeg" class="imgparco"> </img>
 
@@ -38,7 +39,21 @@
 <!-- TABELLA 1 -->
 <!--------------->
 <!--------------->
-<h2 class="titolo2">Flora</h2>
+
+<div class="rowimg">
+   <div class="columnbtn">
+      <h2 class="titolo2" style="float:left;">Flora</h2>
+   </div>
+
+   <div class="columnbtn">
+      <div class="bottone">
+         <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+         </a>
+      </div>
+   </div>
+</div>
+
 <table id="tableData" class="table table-bordered table-striped">
    <thead>
       <tr>
@@ -130,8 +145,19 @@
 <!--------------->
 <!--------------->
 
-<h2 class="titolo2">Fauna</h2>
+<div class="rowimg">
+   <div class="columnbtn">
+      <h2 class="titolo2">Fauna</h2>
+   </div>
 
+   <div class="columnbtn">
+      <div class="bottone">
+         <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+         </a>
+      </div>
+   </div>
+</div>
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
       <tr>
