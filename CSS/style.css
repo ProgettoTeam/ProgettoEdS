@@ -61,7 +61,7 @@
 
 .navbar-inverse .navbar-nav>li>a {
     color: #fffefe;
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size: 20px;
 }
 
@@ -100,6 +100,7 @@
   line-height:24px;
   color:#000000;
   bottom: 0 !important;
+  font-family: Roboto !important;
 }
 .site-footer hr
 {
@@ -314,7 +315,7 @@ body{
 .titolo{
   text-align: center;
   color:black !important;
-  font-family: Bebas Neue;
+  font-family: Roboto;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -366,7 +367,7 @@ body{
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
-  font-family: Bebas Neue;
+  font-family: Roboto;
   width: 450px;
   height: 100%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
