@@ -320,6 +320,15 @@ body{
   padding-bottom: 15px;
 }
 
+.titolo2{
+  text-align: left;
+  color:black !important;
+  font-family: Roboto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:5%;
+}
+
 
 
 /*-----------------------*/
@@ -461,5 +470,11 @@ body{
 #tableData {
   width: 90%;
   margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+.paging-nav,
+#tableData2 {
+  width: 90%;
+  margin: 10px auto;
   font-family: Arial, sans-serif;
 }
