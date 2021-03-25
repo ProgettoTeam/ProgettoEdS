@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
     <script src="../JS/js.js"></script>
 
 
@@ -23,7 +24,7 @@
 
     <?php include 'navbar.php'; ?>
 
-    <div class="image-aboutus-banner">
+ <div class="image-aboutus-banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -32,7 +33,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     
     <div class="aboutus-secktion paddingTB60">
         <div class="container">
@@ -59,13 +60,13 @@
         <div class="row">
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="https://images.pexels.com/photos/462680/pexels-photo-462680.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    <img src="../CSS/teo.jpg">
                     <div class="team-content">
-                        <h3>Philip Freeman</h3>
+                        <h3>Toader Mirza</h3>
                         <div class="border-team"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
+                            <a href="https://www.facebook.com/teomirza.mirza"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
                             <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social i-aboutus"></i></a>
                             <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social i-aboutus"></i></a>
@@ -75,13 +76,13 @@
             </div>
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="https://images.pexels.com/photos/567459/pexels-photo-567459.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    <img src="../CSS/zuza.jpg">
                     <div class="team-content">
-                        <h3>David Smith</h3>
+                        <h3>Zuzanna Kacka</h3>
                         <div class="border-team"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
+                            <a href="https://www.facebook.com/zuzanna.kacka"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
                             <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social i-aboutus"></i></a>
                             <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social i-aboutus"></i></a>
@@ -91,13 +92,13 @@
             </div>
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="https://images.pexels.com/photos/325682/pexels-photo-325682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    <img src="../CSS/tosca .jpg">
                     <div class="team-content">
-                        <h3>Robert D'costa</h3>
+                        <h3>Tommaso Tosca</h3>
                         <div class="border-team"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
+                            <a href="https://it-it.facebook.com/tommaso.tosca"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
                             <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social i-aboutus"></i></a>
                             <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social i-aboutus"></i></a>
