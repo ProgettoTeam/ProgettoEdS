@@ -34,10 +34,11 @@
 
 
 <body>
-  <?php include 'navbar.php'?>
+<?php include 'navbar.php'?>
 
 
 <div class="body-container">
+  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -50,21 +51,27 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="../CSS/foto-motivazionale-1.jpg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-1.jpg" class="img-carousel">
       </div>
 
       <div class="item">
-        <img src="../CSS/foto-motivazionale-2.jpg" style="width:100%;height:100%;";>
+        <img src="../CSS/foto-motivazionale-2.jpg" class="img-carousel";>
       </div>
     
       <div class="item">
-        <img src="../CSS/foto-motivazionale-3.jpg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-3.jpg" class="img-carousel">
       </div>
 
       <div class="item">
-        <img src="../CSS/foto-motivazionale-4.jpg" style="width:100%;height:100%;">
+        <img src="../CSS/foto-motivazionale-4.jpg" class="img-carousel">
       </div>
     </div>
+    <div class="carousel-caption">
+      <h3> Troverai di più nei boschi che nei libri.</br>
+          Animali e alberi ti insegneranno ciò che non si può imparare dai maestri.
+      </h3>
+      
+</div>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
