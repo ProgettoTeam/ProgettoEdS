@@ -28,18 +28,17 @@
 <?php include '../navbar.php'?>
 
 <h1 class="titolo">Nome del Parco</h1>
-<img src="../../CSS/foto-motivazionale-5.jpeg" class="imgparco"> </img>
+<div class="container-img" id="containerimg">
+   <img src="../../CSS/foto-motivazionale-5.jpeg" class="imgparco"> </img>
+   <div class="overlay" id="overlay">
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu leo ultricies, sollicitudin sapien tincidunt, viverra metus.</br>
+         Sed at finibus est. Vestibulum lobortis sollicitudin libero eget dictum.</br>
+         Sed a rhoncus arcu, sit amet dignissim eros. Vestibulum odio est, fringilla non tempus vitae, porta ac metus.
+         </br> Mauris dolor eros, rutrum vel varius a, pharetra eget eros. 
+         </br>Proin magna urna, maximus consectetur purus at, rhoncus luctus arcu. Aenean mollis sit amet enim ut varius.</div>
+      </div>
+</div>
 
-
-<h2 class="titolo" style="padding-bottom:0% !important;">Descrizione</h2>
-
-<p class="paragrafo"> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu leo ultricies, sollicitudin sapien tincidunt, viverra metus.</n>
-Sed at finibus est. Vestibulum lobortis sollicitudin libero eget dictum.</n>
-Sed a rhoncus arcu, sit amet dignissim eros. Vestibulum odio est, fringilla non tempus vitae, porta ac metus.
-</n> Mauris dolor eros, rutrum vel varius a, pharetra eget eros. 
-</n>Proin magna urna, maximus consectetur purus at, rhoncus luctus arcu. Aenean mollis sit amet enim ut varius.
-</p>
 
 <h2 class="titolo" style="padding-bottom:0% !important;">Luogo</h2>
 <p class="paragrafo"> 
