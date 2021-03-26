@@ -31,11 +31,7 @@
 <div class="container-img" id="containerimg">
    <img src="../../CSS/foto-motivazionale-5.jpeg" class="imgparco"> </img>
    <div class="overlay" id="overlay">
-      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu leo ultricies, sollicitudin sapien tincidunt, viverra metus.</br>
-         Sed at finibus est. Vestibulum lobortis sollicitudin libero eget dictum.</br>
-         Sed a rhoncus arcu, sit amet dignissim eros. Vestibulum odio est, fringilla non tempus vitae, porta ac metus.
-         </br> Mauris dolor eros, rutrum vel varius a, pharetra eget eros. 
-         </br>Proin magna urna, maximus consectetur purus at, rhoncus luctus arcu. Aenean mollis sit amet enim ut varius.</div>
+      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu leo ultricies, sollicitudin sapien tincidunt, viverra metus.</div>
       </div>
 </div>
 
