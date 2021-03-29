@@ -1,0 +1,500 @@
+1,Estate,CSS/img_flora/flora7.jpg,Arbusto,Rhamnaceae,Ceanothus divergens Parry,Calistoga Ceanothus,5m,Loeselia L.,Maroon,2
+2,Inverno,CSS/img_flora/flora9.jpg,Albero,Fabaceae,Lupinus argenteus Pursh ssp. moabensis D. Dunn & Harmon,Silvery Lupine,1m,Pennellia micrantha (A. Gray) Nieuwl.,Purple,9
+3,Inverno,CSS/img_flora/flora2.jpg,Arbusto,Salicaceae,Salix koriyanagi Kimura ex Goerz,Kori-yanagi,1m,Tigridia grandiflora Diels,Puce,3
+4,Autunno,CSS/img_flora/flora6.jpg,Pianta erbacea,Poaceae,Zizania latifolia (Griseb.) Turcz. ex Stapf,Manchurian Wildrice,3m,Lagotis minor (Willd.) Standl.,Violet,42
+5,Inverno,CSS/img_flora/flora5.jpg,Albero,Polemoniaceae,Allophyllum divaricatum (Nutt.) A.D. Grant & V.E. Grant,Purple False Gilyflower,2m,Carex spectabilis Dewey,Purple,15
+6,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Fagaceae,Quercus buckleyi Nixon & Dorr,Texas Red Oak,4m,Calibrachoa Llave & Lex.,Pink,34
+7,Autunno,CSS/img_flora/flora9.jpg,Pianta erbacea,Gesneriaceae,Cyrtandra wagneri Lorence & Perlman,Wagner's Cyrtandra,3m,Penstemon harringtonii Penl.,Green,48
+8,Estate,CSS/img_flora/flora1.jpg,Albero,Poaceae,Scolochloa Link,Rivergrass,1m,Arthothelium orbilliferum (Almq.) Hasse,Green,39
+9,Inverno,CSS/img_flora/flora10.jpg,Albero,Poaceae,Koeleria asiatica Domin,Eurasian Junegrass,3m,Hymenopappus artemisiifolius DC.,Goldenrod,48
+10,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Lamiaceae,Trichostema parishii Vasey,Parish's Bluecurls,5m,Plagiobryum zieri (Hedw.) Lindb.,Maroon,25
+11,Primavera,CSS/img_flora/flora6.jpg,Pianta erbacea,Betulaceae,Betula occidentalis Hook.,Water Birch,3m,Corallorhiza odontorhiza (Willd.) Poir. var. odontorhiza,Aquamarine,22
+12,Estate,CSS/img_flora/flora4.jpg,Arbusto,Scrophulariaceae,Castilleja hispida Benth.,Harsh Indian Paintbrush,4m,Astragalus robbinsii (Oakes) A. Gray var. occidentalis S. Watson,Violet,17
+13,Inverno,CSS/img_flora/flora2.jpg,Albero,Asteraceae,Trichocoronis rivularis A. Gray,Rio Grande Bugheal,4m,Chionodoxa luciliae Boiss.,Teal,31
+14,Autunno,CSS/img_flora/flora8.jpg,Albero,Physciaceae,Rinodina laevigata (Ach.) Malme,Rinodina Lichen,5m,Bryum wrightii Sull. & Lesq.,Blue,47
+15,Inverno,CSS/img_flora/flora9.jpg,Pianta erbacea,Asteraceae,Eupatorium album L. var. subvenosum A. Gray,White Thoroughwort,3m,Claytonia virginica L. var. virginica,Purple,43
+16,Autunno,CSS/img_flora/flora9.jpg,Albero,Asteraceae,Achillea millefolium L. var. californica (Pollard) Jeps.,California Yarrow,2m,Sida fallax Walp.,Pink,36
+17,Estate,CSS/img_flora/flora4.jpg,Arbusto,Buxaceae,Buxus vahlii Baill.,Vahl's Box,1m,Rubus saltuensis L.H. Bailey,Khaki,8
+18,Autunno,CSS/img_flora/flora6.jpg,Albero,Cucurbitaceae,Momordica cochinchinensis (Lour.) Spreng.,Balsampear,2m,Baccharis glomeruliflora Pers.,Puce,46
+19,Inverno,CSS/img_flora/flora3.jpg,Arbusto,Fabaceae,Lupinus perennis L. ssp. perennis,Sundial Lupine,5m,Hydrophyllum occidentale (S. Watson) A. Gray,Turquoise,44
+20,Inverno,CSS/img_flora/flora9.jpg,Albero,Cyperaceae,Carex microchaeta T. Holm,Smallawned Sedge,4m,Ceratodon purpureus (Hedw.) Brid. var. rotundifolius Berggr.,Khaki,27
+21,Autunno,CSS/img_flora/flora2.jpg,Arbusto,Arthoniaceae,Arthonia gyalectoides Müll. Arg.,Dot Lichen,5m,Trifolium variegatum Nutt.,Yellow,22
+22,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Poaceae,Arthrostylidium Rupr.,Climbing Bamboo,5m,Lupinus dalesiae Eastw.,Blue,9
+23,Primavera,CSS/img_flora/flora6.jpg,Pianta erbacea,Scrophulariaceae,Castilleja applegatei Fernald ssp. disticha (Eastw.) T.I. Chuang & Heckard,Wavyleaf Indian Paintbrush,1m,Rhus lancea L. f.,Aquamarine,36
+24,Autunno,CSS/img_flora/flora9.jpg,Albero,Garryaceae,Garrya ovata Benth. ssp. lindheimeri (Torr.) Dahling,Lindheimer's Silktassel,2m,Ziziphus obtusifolia (Hook. ex Torr. & A. Gray) A. Gray var. obtusifolia,Violet,14
+25,Inverno,CSS/img_flora/flora3.jpg,Albero,Alismataceae,Sagittaria graminea Michx. var. graminea,Grassy Arrowhead,2m,Candelariella arctica (Körb.) R. Sant.,Purple,49
+26,Primavera,CSS/img_flora/flora2.jpg,Pianta erbacea,Asteraceae,Grindelia hirsutula Hook. & Arn.,Hairy Gumweed,5m,Arthothelium adveniens Nyl.,Turquoise,26
+27,Autunno,CSS/img_flora/flora4.jpg,Pianta erbacea,Oleaceae,Forestiera godfreyi L.C. Anderson,Godfrey's Swampprivet,1m,Delphinium hesperium A. Gray ssp. hesperium,Pink,29
+28,Primavera,CSS/img_flora/flora1.jpg,Albero,Rosaceae,Rubus velox L.H. Bailey,Fuzzy Dewberry,1m,Hyeronima clusioides (Tul.) Griseb.,Mauv,43
+29,Autunno,CSS/img_flora/flora5.jpg,Albero,Cyperaceae,Carex sychnocephala Carey,Manyhead Sedge,2m,Calamagrostis holmii Lange,Crimson,48
+30,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Eriocaulaceae,Eriocaulon nigrobracteatum Bridges & Orzell,Blackbract Pipewort,3m,Cyperus neokunthianus Kük.,Maroon,26
+31,Inverno,CSS/img_flora/flora10.jpg,Albero,Fabaceae,Retama Raf.,Bridal Broom,5m,Clermontia samuelii Forbes,Khaki,28
+32,Estate,CSS/img_flora/flora5.jpg,Albero,Apiaceae,Glehnia F. Schmidt ex Miq.,Silvertop,4m,Dichanthelium dichotomum (L.) Gould,Green,37
+33,Estate,CSS/img_flora/flora7.jpg,Pianta erbacea,Monotropaceae,Sarcodes Torr.,Snowplant,2m,Veronica austriaca L.,Turquoise,11
+34,Estate,CSS/img_flora/flora1.jpg,Albero,Poaceae,Panicum miliaceum L. ssp. ruderale (Kitagawa) Tzvelev,Broomcorn Millet,1m,Salvia parryi A. Gray,Green,38
+35,Primavera,CSS/img_flora/flora7.jpg,Albero,Scrophulariaceae,Castilleja cervina Greenm.,Deer Indian Paintbrush,5m,Silene hookeri Nutt. ssp. hookeri,Puce,26
+36,Estate,CSS/img_flora/flora7.jpg,Pianta erbacea,Asteraceae,Pityopsis graminifolia (Michx.) Nutt. var. latifolia (Fernald) Semple & F.D. Bowers,Narrowleaf Silkgrass,3m,Lygodesmia grandiflora (Nutt.) Torr. & A. Gray,Khaki,31
+37,Autunno,CSS/img_flora/flora3.jpg,Albero,Agavaceae,Yucca pallida McKelvey,Twistleaf Yucca,2m,Grindelia subalpina Greene var. erecta (A. Nelson) Steyerm.,Violet,40
+38,Autunno,CSS/img_flora/flora5.jpg,Arbusto,Cyperaceae,Carex congdonii L.H. Bailey,Congdon's Sedge,5m,Physalis mollis Nutt. var. mollis,Purple,8
+39,Primavera,CSS/img_flora/flora4.jpg,Albero,Anacardiaceae,Pistacia mexicana Kunth,American Pistachio,3m,Cetraria islandica (L.) Ach.,Crimson,14
+40,Autunno,CSS/img_flora/flora2.jpg,Arbusto,Fabaceae,Thermopsis californica S. Watson,California Goldenbanner,1m,Eurybia horrida (Wooton & Standl.) G.L. Nesom,Violet,35
+41,Estate,CSS/img_flora/flora1.jpg,Arbusto,Poaceae,Koeleria Pers.,Junegrass,1m,Coprosma elliptica W.R.B. Oliv.,Goldenrod,1
+42,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Resedaceae,Reseda alba L.,White Upright Mignonette,2m,Claytonia sibirica L. var. bulbifera A. Gray,Yellow,47
+43,Autunno,CSS/img_flora/flora4.jpg,Albero,Poaceae,Elionurus barbiculmis Hack.,Woolyspike Balsamscale,1m,Plantago tweedyi A. Gray,Yellow,16
+44,Primavera,CSS/img_flora/flora9.jpg,Albero,Poaceae,Sorghastrum nutans (L.) Nash,Indiangrass,2m,Eriodictyon altissimum P.V. Wells,Mauv,22
+45,Autunno,CSS/img_flora/flora9.jpg,Arbusto,Brassicaceae,Nasturtium R. Br.,Yellowcress,3m,Anemone tuberosa Rydb. var. tuberosa,Orange,38
+46,Primavera,CSS/img_flora/flora10.jpg,Albero,Fabaceae,Cytisus striatus (Hill) Rothm.,Striated Broom,3m,Hesperevax (A. Gray) A. Gray,Puce,35
+47,Primavera,CSS/img_flora/flora8.jpg,Arbusto,Cactaceae,Acanthocereus (Engelm. ex A. Berger) Britton & Rose,Triangle Cactus,4m,Muehlenbeckia hastatula (Sm.) I.M. Johnst.,Teal,38
+48,Estate,CSS/img_flora/flora1.jpg,Arbusto,Magnoliaceae,Magnolia fraseri Walter,Mountain Magnolia,5m,Cyperus javanicus Houtt.,Maroon,37
+49,Primavera,CSS/img_flora/flora6.jpg,Albero,Salicaceae,Salix breweri Bebb,Brewer's Willow,1m,"Arundinaria appalachiana Triplett, Weakley, & L.G. Clark",Yellow,3
+50,Primavera,CSS/img_flora/flora10.jpg,Albero,Rosaceae,Potentilla L.,Cinquefoil,1m,Lophiola aurea Ker Gawl.,Blue,16
+51,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Asteraceae,Heliopsis parvifolia A. Gray,Mountain Oxeye,5m,Rinodina silicicola de Lesd.,Teal,40
+52,Primavera,CSS/img_flora/flora2.jpg,Albero,Caryophyllaceae,Drymaria pachyphylla Wooton & Standl.,Thickleaf Drymary,3m,Myriophyllum quitense Kunth,Aquamarine,38
+53,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Fabaceae,Trifolium monanthum A. Gray ssp. monanthum,Mountain Carpet Clover,2m,Encalypta spathulata Müll. Hal.,Fuscia,7
+54,Inverno,CSS/img_flora/flora6.jpg,Arbusto,Verrucariaceae,Verrucaria silicicola Fink,Wart Lichen,5m,Nama torynophyllum Greenm.,Red,1
+55,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Liliaceae,Zigadenus elegans Pursh,Mountain Deathcamas,1m,Navarretia peninsularis Greene,Orange,8
+56,Primavera,CSS/img_flora/flora7.jpg,Pianta erbacea,Poaceae,Bromus lanatipes (Shear) Rydb.,Woolly Brome,4m,Bruguiera Savigny,Yellow,22
+57,Primavera,CSS/img_flora/flora5.jpg,Pianta erbacea,Araliaceae,Tetraplasandra waialealae Rock,Mt. Waialeale 'ohe,3m,Paspalum clavuliferum C. Wright,Aquamarine,39
+58,Inverno,CSS/img_flora/flora2.jpg,Pianta erbacea,Rosaceae,Rubus bigelovianus L.H. Bailey,Lowland Blackberry,5m,Ardisia glauciflora Urb.,Violet,17
+59,Primavera,CSS/img_flora/flora5.jpg,Albero,Potamogetonaceae,Potamogeton robbinsii Oakes,Robbins' Pondweed,5m,Fagopyrum Mill.,Crimson,35
+60,Inverno,CSS/img_flora/flora7.jpg,Pianta erbacea,Poaceae,Cortaderia araucana Stapf,Pampas Grass,4m,Thelypteris angustifolia (Willd.) Proctor,Blue,18
+61,Estate,CSS/img_flora/flora1.jpg,Arbusto,Asteraceae,Heterosperma Cav.,Heterosperma,1m,Epilobium saximontanum Hausskn.,Khaki,37
+62,Primavera,CSS/img_flora/flora1.jpg,Albero,Betulaceae,Alnus serrulata (Aiton) Willd.,Hazel Alder,1m,Symphyotrichum dumosum (L.) G.L. Nesom var. strictior (Torr. & A. Gray) G.L. Nesom,Green,33
+63,Inverno,CSS/img_flora/flora5.jpg,Albero,Asteraceae,Bahia dissecta (A. Gray) Britton,Ragleaf Bahia,4m,Cyperus dentatus Torr.,Teal,48
+64,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Rosaceae,Crataegus ×incaedua Sarg. (pro sp.),Hawthorn,4m,Lechea tenuifolia Michx.,Mauv,36
+65,Primavera,CSS/img_flora/flora7.jpg,Albero,Cyperaceae,Carex capitata L.,Capitate Sedge,5m,Stephanomeria exigua Nutt. ssp. deanei (J.F. Macbr.) Gottlieb,Maroon,43
+66,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Fumariaceae,Corydalis DC.,Fumewort,4m,Carex obnupta L.H. Bailey,Aquamarine,34
+67,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Brassicaceae,Warea Nutt.,Pinelandcress,4m,Lobelia ×speciosa Sweet (pro sp.),Maroon,16
+68,Estate,CSS/img_flora/flora7.jpg,Arbusto,Asteraceae,Solidago speciosa Nutt. var. jejunifolia (Steele) Cronquist,Showy Goldenrod,3m,Juncus occidentalis Wiegand,Yellow,43
+69,Estate,CSS/img_flora/flora7.jpg,Albero,Arthoniaceae,Arthonia caudata Willey,Dot Lichen,1m,Phaseolus ritensis M.E. Jones,Green,44
+70,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Asteraceae,Helianthus anomalus S.F. Blake,Western Sunflower,3m,Papillaria (Müll. Hal.) Müll. Hal.,Blue,37
+71,Primavera,CSS/img_flora/flora7.jpg,Albero,Brassicaceae,Braya glabella Richardson ssp. prostrata J.G. Harris,Smooth Northern-rockcress,3m,Heterotheca sessiliflora (Nutt.) Shinners,Goldenrod,7
+72,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Lecideaceae,Lecidea ramulosa Th. Fr.,Lecidea Lichen,2m,Littorella P.J. Bergius,Teal,10
+73,Primavera,CSS/img_flora/flora7.jpg,Pianta erbacea,Polygonaceae,Polygonum douglasii Greene ssp. spergulariiforme (Meisn. ex Small) J.C. Hickman,Scatter Knotweed,3m,Fioria Mattei,Yellow,39
+74,Autunno,CSS/img_flora/flora9.jpg,Albero,Caricaceae,Jarilla heterophylla (Cerv. ex Llave) Rusby,Jarilla,3m,Quercus ×smallii Trel.,Maroon,8
+75,Inverno,CSS/img_flora/flora7.jpg,Albero,Teloschistaceae,Fulgensia A. Massal. & De Not.,Sulphur Lichen,4m,Sisyrinchium idahoense E.P. Bicknell var. macounii (E.P. Bicknell) Douglass M. Hend.,Purple,39
+76,Estate,CSS/img_flora/flora8.jpg,Albero,Fabaceae,Thermopsis robusta Howell,Showy Goldenbanner,4m,Santalum freycinetianum Gaudich. var. lanaiense Rock,Puce,20
+77,Primavera,CSS/img_flora/flora6.jpg,Arbusto,Asteraceae,Erigeron lanatus Hook.,Woolly Fleabane,5m,Penstemon parryi (A. Gray) A. Gray,Pink,39
+78,Primavera,CSS/img_flora/flora9.jpg,Albero,Portulacaceae,Claytonia lanceolata Pall. ex Pursh var. lanceolata,Lanceleaf Springbeauty,4m,Rotala ramosior (L.) Koehne,Aquamarine,36
+79,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Gentianaceae,Frasera Walter,Green Gentian,5m,Lagophylla ramosissima Nutt.,Purple,10
+80,Estate,CSS/img_flora/flora3.jpg,Arbusto,Poaceae,Setaria grisebachii Fourn.,Grisebach's Bristlegrass,4m,Salix cascadensis Cockerell,Teal,5
+81,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Gesneriaceae,Cyrtandra ×waihoiensis H. St. John,Cyrtandra,4m,Rollinia A. St.-Hil.,Green,12
+82,Autunno,CSS/img_flora/flora6.jpg,Albero,Ericaceae,Arctostaphylos manzanita Parry ssp. glaucescens P.V. Wells,Whiteleaf Manzanita,1m,Thymophylla pentachaeta (DC.) Small var. puberula (Rydb.) Strother,Maroon,41
+83,Autunno,CSS/img_flora/flora6.jpg,Pianta erbacea,Sphagnaceae,Sphagnum riparium Ångstr.,Streamside Sphagnum,1m,Ligustrum L.,Maroon,48
+84,Inverno,CSS/img_flora/flora1.jpg,Albero,Asteraceae,Agoseris glauca (Pursh) Raf. var. agrestis (Osterh.) Q. Jones ex Cronquist,Pale Agoseris,3m,Oenothera brachycarpa A. Gray,Red,4
+85,Estate,CSS/img_flora/flora2.jpg,Arbusto,Asteraceae,Helianthus salicifolius A. Dietr.,Willowleaf Sunflower,2m,Fendlera wrightii (A. Gray) A. Heller,Indigo,40
+86,Estate,CSS/img_flora/flora9.jpg,Arbusto,Scrophulariaceae,Melampyrum lineare Desr. var. pectinatum (Pennell) Fernald,Narrowleaf Cowwheat,1m,Bacidia pammellii (Fink) Zahlbr.,Red,50
+87,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Fabaceae,Desmodium floridanum Chapm.,Florida Ticktrefoil,5m,Artemisia porteri Cronquist,Mauv,38
+88,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Dryopteridaceae,Gymnocarpium appalachianum Pryer,Appalachian Oakfern,4m,Staurothele lecideoides de Lesd.,Fuscia,40
+89,Primavera,CSS/img_flora/flora10.jpg,Albero,Asteraceae,Stephanomeria exigua Nutt. ssp. exigua,Small Wirelettuce,4m,Trifolium microcephalum Pursh,Aquamarine,17
+90,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Pinaceae,Pinus maximartinezii Rzed.,Maxipiñon,4m,Marina calycosa (A. Gray) Barneby,Indigo,17
+91,Inverno,CSS/img_flora/flora2.jpg,Arbusto,Asclepiadaceae,Metaplexis japonica (Thunb.) Makino,Rough Potato,5m,Cryptogramma crispa (L.) R. Br. ex Hook. [excluded],Turquoise,20
+92,Autunno,CSS/img_flora/flora7.jpg,Albero,Lamiaceae,Agastache pallidiflora (A. Heller) Rydb. ssp. pallidiflora var. gilensis R.W. Sanders,Bill Williams Mountain Giant Hyssop,5m,Platystigma Benth.,Blue,11
+93,Autunno,CSS/img_flora/flora7.jpg,Pianta erbacea,Chenopodiaceae,Beta lomatogona Fisch. & C.A. Mey.,Beet,4m,Lantana exarata Urb. & Ekman,Blue,21
+94,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Tiliaceae,Heliocarpus L.,Heliocarpus,1m,Lonicera utahensis S. Watson,Aquamarine,46
+95,Autunno,CSS/img_flora/flora7.jpg,Albero,Caprifoliaceae,Linnaea borealis L. ssp. borealis,Twinflower,3m,Pseudelephantopus spicatus (Juss. ex Aubl.) C.F. Baker,Khaki,10
+96,Primavera,CSS/img_flora/flora5.jpg,Arbusto,Scrophulariaceae,Penstemon nitidus Douglas ex Benth. var. nitidus,Waxleaf Penstemon,4m,Conicosia N.R. Br.,Yellow,28
+97,Estate,CSS/img_flora/flora10.jpg,Arbusto,Fabaceae,Astragalus gypsodes Barneby,Gypsum Milkvetch,5m,Chlorogalum purpureum Brandegee,Mauv,4
+98,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Liliaceae,Triteleia crocea (Alph. Wood) Greene,Yellow Triteleia,4m,Conoclinium greggii (A. Gray) Small,Blue,26
+99,Primavera,CSS/img_flora/flora10.jpg,Pianta erbacea,Scrophulariaceae,Antirrhinum bellidifolium (L.) Willd.,Lilac Snapdragon,5m,Triplaris Loefl. ex L.,Goldenrod,2
+100,Autunno,CSS/img_flora/flora8.jpg,Pianta erbacea,Rosaceae,Potentilla glandulosa Lindl. ssp. pseudorupestris (Rydb.) D.D. Keck,Sticky Cinquefoil,3m,Calliergon stramineum (Brid.) Kindb.,Turquoise,7
+101,Inverno,CSS/img_flora/flora2.jpg,Albero,Araceae,Epipremnum pinnatum (L.) Engl.,Centipede Tongavine,2m,Tripterocladium leucocladulum (Müll. Hal.) A. Jaeger,Yellow,14
+102,Inverno,CSS/img_flora/flora9.jpg,Albero,Parmeliaceae,Tuckermannopsis chlorophylla (Willd.) Hale,Greenleaf Tuckermannopsis Lichen,1m,Castilleja lanata A. Gray ssp. hololeuca (Greene) T.I. Chuang & Heckard,Turquoise,1
+103,Autunno,CSS/img_flora/flora5.jpg,Pianta erbacea,Cucurbitaceae,Marah fabaceus (Naud.) Naud. ex Greene var. fabaceus,California Manroot,5m,Sedum moranense Kunth,Goldenrod,28
+104,Primavera,CSS/img_flora/flora2.jpg,Albero,Saxifragaceae,Saxifraga sibirica L.,Bract Saxifrage,1m,Chrysolepis chrysophylla (Douglas ex Hook.) Hjelmqvist var. chrysophylla,Puce,41
+105,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Rubiaceae,Psychotria kosraensis Lorence & K.R. Wood,Kosrae Wild Coffee,4m,Penstemon radicosus A. Nelson,Orange,23
+106,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Fabaceae,Aeschynomene elaphroxylon (Guill. & Perr.) Taubert,Ambatch,4m,Albizia procera (Roxb.) Benth.,Maroon,2
+107,Primavera,CSS/img_flora/flora3.jpg,Arbusto,Cactaceae,Brasiliopuntia (K. Schum.) A. Berger,Brazilian Pricklypear,2m,Phacelia hastata Douglas ex Lehm. var. compacta (Brand) Cronquist,Orange,3
+108,Inverno,CSS/img_flora/flora8.jpg,Arbusto,Pinaceae,Pinus ponderosa Lawson & C. Lawson var. benthamiana (Hartw.) Vasey,Ponderosa Pine,4m,Trichomanes punctatum Poir. ssp. floridanum W. Boer,Turquoise,46
+109,Primavera,CSS/img_flora/flora5.jpg,Pianta erbacea,Orthotrichaceae,Groutiella Steere,Groutiella Moss,3m,Pouzolzia occidentalis (Liebm.) Weddell,Purple,29
+110,Estate,CSS/img_flora/flora3.jpg,Arbusto,Polemoniaceae,Polemonium californicum Eastw.,Moving Polemonium,3m,Acacia aneura F. Muell. ex Benth.,Teal,1
+111,Primavera,CSS/img_flora/flora1.jpg,Albero,Cactaceae,Opuntia valida Griffiths,San Antonio Pricklypear,1m,Erigeron eatonii A. Gray var. nevadincola (S.F. Blake) G.L. Nesom,Khaki,46
+112,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Asteraceae,Oreostemma Greene,Aster,1m,Dichanthelium pedicellatum (Vasey) Gould,Green,50
+113,Estate,CSS/img_flora/flora9.jpg,Pianta erbacea,Asteraceae,Packera tampicana (DC.) C. Jeffrey,Great Plains Ragwort,3m,Callistemon linearis (Schrad. & J.C. Wendl.) Sweet,Yellow,15
+114,Autunno,CSS/img_flora/flora4.jpg,Pianta erbacea,Poaceae,Pleuraphis Torr.,Galleta Grass,5m,Dendroalsia abietina (Hook.) E. Britton,Orange,4
+115,Estate,CSS/img_flora/flora9.jpg,Albero,Teloschistaceae,Caloplaca wrightii (Willey) Fink,Wright's Orange Lichen,2m,Acanthomintha ilicifolia (A. Gray) A. Gray,Orange,42
+116,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Liliaceae,Nolina bigelovii (Torr.) S. Watson,Bigelow's Nolina,5m,Melicope (J.R. Forst. & G. Forst.) T.G. Hartley & B.C. Stone,Red,29
+117,Estate,CSS/img_flora/flora8.jpg,Pianta erbacea,Rosaceae,Argentina anserina (L.) Rydb.,Silverweed Cinquefoil,3m,Stillingia sylvatica L. ssp. sylvatica,Orange,19
+118,Estate,CSS/img_flora/flora10.jpg,Albero,Asteraceae,Ericameria greenei (A. Gray) G.L. Nesom,Greene's Goldenbush,1m,Carex paleacea Schreb. ex Wahlenb.,Pink,45
+119,Autunno,CSS/img_flora/flora6.jpg,Pianta erbacea,Boraginaceae,Plagiobothrys infectivus I.M. Johnst.,Dye Popcornflower,2m,Asperugo L.,Orange,32
+120,Estate,CSS/img_flora/flora4.jpg,Arbusto,Orchidaceae,Dendrophylax Rchb.,Ghost Orchid,5m,Astragalus californicus (A. Gray) Greene,Goldenrod,38
+121,Autunno,CSS/img_flora/flora10.jpg,Albero,Malvaceae,Hibiscus lasiocarpos Cav.,Rosemallow,5m,Tripolium pannonicum (Jacq.) Dobrocz.,Puce,36
+122,Primavera,CSS/img_flora/flora7.jpg,Arbusto,Cucurbitaceae,Sicyos glaber Wooton,Smooth Bur Cucumber,5m,Trifolium eriocephalum Nutt. ssp. martinii J.M. Gillett,Green,26
+123,Inverno,CSS/img_flora/flora3.jpg,Arbusto,Rubiaceae,Antirhea Comm. ex Juss.,Quina,4m,Ampelopsis cordata Michx.,Fuscia,22
+124,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Araliaceae,Aralia spinosa L.,Devil's Walkingstick,1m,Juniperus rigida Siebold & Zucc. [excluded],Maroon,6
+125,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Poaceae,Cymbopogon flexuosus (Nees ex Steud.) J.F. Watson,East Indian Lemongrass,5m,Sarcogyne privigna (Ach.) A. Massal.,Red,34
+126,Primavera,CSS/img_flora/flora1.jpg,Albero,Lecideaceae,Hypocenomyce praestabilis (Nyl.) Timdal,Cockleshell Lichen,5m,Orbexilum lupinellum (Michx.) Isely,Red,40
+127,Inverno,CSS/img_flora/flora10.jpg,Albero,Pandanaceae,Freycinetia storckii Seem.,Freycinetia,5m,Sphaeralcea munroana (Douglas) Spach,Puce,21
+128,Primavera,CSS/img_flora/flora7.jpg,Albero,Fabaceae,Bituminaria bituminosa (L.) Stirt.,Arabian Pea,3m,Agoseris glauca (Pursh) Raf. var. glauca,Teal,48
+129,Primavera,CSS/img_flora/flora4.jpg,Arbusto,Bombacaceae,Quararibea turbinata (Sw.) Poir.,Swizzlestick Tree,3m,Crotalaria L.,Pink,50
+130,Autunno,CSS/img_flora/flora3.jpg,Arbusto,Araliaceae,Aralia californica S. Watson,California Spikenard,1m,Carex ramenskii Kom.,Crimson,33
+131,Estate,CSS/img_flora/flora6.jpg,Albero,Brassicaceae,Euclidium W.T. Aiton,Mustard,2m,Amaranthus blitum L. var. emarginatus (Salzm. ex Uline & W.L. Bray) Lambinon,Aquamarine,9
+132,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Caliciaceae,Calicium viride Pers.,Spike Lichen,5m,Phaeographis erumpens (Nyl.) Müll. Arg.,Indigo,17
+133,Primavera,CSS/img_flora/flora5.jpg,Albero,Boraginaceae,Cynoglossum glochidiatum Wall. ex Benth.,Prickly Hound's Tongue,1m,Sarracenia L.,Pink,29
+134,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Campanulaceae,Nemacladus montanus Greene,Mountain Threadplant,4m,Antigonon leptopus Hook. & Arn.,Turquoise,31
+135,Autunno,CSS/img_flora/flora4.jpg,Arbusto,Fabaceae,Lupinus nootkatensis Donn ex Sims,Nootka Lupine,1m,Perityle gilensis (M.E. Jones) J.F. Macbr. var. gilensis,Maroon,40
+136,Inverno,CSS/img_flora/flora6.jpg,Albero,Brassicaceae,Draba maguirei C.L. Hitchc.,Maguire's Draba,2m,Woodwardia virginica (L.) Sm.,Crimson,22
+137,Inverno,CSS/img_flora/flora3.jpg,Pianta erbacea,Asteraceae,Cirsium pallidum Wooton & Standl.,Pale Thistle,5m,Conostegia rufescens Naud.,Aquamarine,8
+138,Inverno,CSS/img_flora/flora7.jpg,Albero,Urticaceae,Parietaria hespera Hinton var. californica Hinton,California Pellitory,2m,Racomitrium affine (Schleich. ex F. Weber & D. Mohr) Lindb.,Green,48
+139,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Amblystegiaceae,Calliergon megalophyllum Mikut.,Calliergon Moss,1m,Helianthus ×orgyaloides Cockerell (pro sp.),Maroon,17
+140,Estate,CSS/img_flora/flora4.jpg,Arbusto,Peltulaceae,Peltula obscurans (Nyl.) Gyel. var. deserticola (Zahlbr.) Wetmore,Peltula Lichen,2m,Pedicularis sylvatica L.,Mauv,16
+141,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Nyctaginaceae,Boerhavia linearifolia A. Gray,Narrowleaf Spiderling,4m,Montia chamissoi (Ledeb. ex Spreng.) Greene,Mauv,47
+142,Inverno,CSS/img_flora/flora2.jpg,Albero,Onagraceae,Oenothera caespitosa Nutt. ssp. marginata (Nutt. ex Hook. & Arn.) Munz,Tufted Evening Primrose,1m,Thelypodium sagittatum (Nutt. ex Torr. & A. Gray) Endl. ex Walp. ssp. sagittatum,Yellow,50
+143,Autunno,CSS/img_flora/flora6.jpg,Albero,Lamiaceae,Phyllostegia renovans W.L. Wagner,Red-leaf Phyllostegia,4m,Xanthoparmelia piedmontensis (Hale) Hale,Puce,32
+144,Estate,CSS/img_flora/flora9.jpg,Albero,Rubiaceae,Galium angustifolium Nutt. ex A. Gray ssp. gabrielense (Munz & I.M. Johnst.) Dempster & Stebbins,San Antoinio Canyon Bedstraw,2m,Penstemon harbourii A. Gray,Purple,34
+145,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Asteraceae,Ageratina luciae-brauniae (Fernald) R.M. King & H. Rob.,Lucy Braun's Snakeroot,2m,Tephrosia potosina Brandegee,Orange,32
+146,Estate,CSS/img_flora/flora7.jpg,Arbusto,Pteridaceae,Cryptogramma crispa (L.) R. Br. ex Hook. [excluded],Parsley Fern,4m,Ernodea littoralis Sw.,Teal,3
+147,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Caryophyllaceae,Scopulophila M.E. Jones,Rockwort,3m,Schoenoplectus lacustris (L.) Palla,Mauv,39
+148,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Rubiaceae,Galium californicum Hook. & Arn. ssp. sierrae Dempster & Stebbins,El Dorado Bedstraw,1m,Minuartia rosei (Maguire & Barneby) McNeill,Indigo,47
+149,Autunno,CSS/img_flora/flora8.jpg,Arbusto,Scrophulariaceae,Cordylanthus kingii S. Watson ssp. helleri (Ferris) T.I. Chuang & Heckard,Heller's Bird's-beak,3m,Descurainia pinnata (Walter) Britton ssp. ochroleuca (Wooton) Detling,Yellow,10
+150,Primavera,CSS/img_flora/flora8.jpg,Arbusto,Collemataceae,Leptogium cyanescens (Rabenh.) Körb.,Skin Lichen,2m,Petasites frigidus (L.) Fr. var. palmatus (Aiton) Cronquist,Aquamarine,39
+151,Inverno,CSS/img_flora/flora3.jpg,Arbusto,Caryophyllaceae,Minuartia obtusiloba (Rydb.) House,Twinflower Sandwort,4m,Stylocline Nutt.,Maroon,43
+152,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Acanthaceae,Blechum pyramidatum (Lam.) Urb.,Browne's Blechum,3m,Acalypha neomexicana Müll. Arg.,Yellow,36
+153,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Scrophulariaceae,Penstemon fruticosus (Pursh) Greene,Bush Penstemon,3m,Phacelia malvifolia Cham.,Green,16
+154,Autunno,CSS/img_flora/flora3.jpg,Albero,Apiaceae,Bunium L.,Earth-nut,2m,Bacidia circumspecta (Nyl. ex Vain.) Malme,Purple,12
+155,Primavera,CSS/img_flora/flora5.jpg,Pianta erbacea,Commelinaceae,Commelina forskaolii Vahl,Rat's Ear,2m,Delissea niihauensis H. St. John ssp. niihauensis,Crimson,1
+156,Primavera,CSS/img_flora/flora2.jpg,Albero,Fabaceae,Strophostyles umbellata (Muhl. ex Willd.) Britton,Pink Fuzzybean,1m,Stylomecon G. Taylor,Maroon,15
+157,Autunno,CSS/img_flora/flora10.jpg,Pianta erbacea,Nymphaeaceae,Nymphaea ampla (Salisb.) DC. var. pulchella (DC.) Caspary,Dotleaf Waterlily,4m,Distictis buccinatoria (DC.) A.H. Gentry,Turquoise,19
+158,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Arecaceae,Trachycarpus H. Wendl.,Chinese Windmill Palm,2m,Carex subfusca W. Boott,Violet,20
+159,Primavera,CSS/img_flora/flora9.jpg,Albero,Myrtaceae,Eucalyptus amplifolia Naudin,Cabbage Gum,2m,Bromus lanatipes (Shear) Rydb.,Aquamarine,23
+160,Estate,CSS/img_flora/flora2.jpg,Albero,Poaceae,Coelorachis Brongn.,Jointtail Grass,4m,Plagiobothrys collinus (Phil.) I.M. Johnst.,Puce,34
+161,Estate,CSS/img_flora/flora9.jpg,Pianta erbacea,Polygonaceae,Eriogonum nudum Douglas ex Benth. var. pubiflorum Benth.,Naked Buckwheat,5m,Canna sylvestris Roscoe,Red,16
+162,Autunno,CSS/img_flora/flora7.jpg,Albero,Scrophulariaceae,Penstemon davidsonii Greene var. davidsonii,Davidson's Penstemon,1m,Lipochaeta kamolensis O. Deg. & Sherff,Crimson,11
+163,Primavera,CSS/img_flora/flora4.jpg,Arbusto,Sapotaceae,Sapota zapotilla (Jacq.) Cov.,Manilkara Zapota,2m,Calliandra purpurea (L.) Benth.,Orange,25
+164,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Myrtaceae,Eucalyptus amplifolia Naudin,Cabbage Gum,4m,Houstonia procumbens (Walter ex J.F. Gmel.) Standl.,Blue,13
+165,Autunno,CSS/img_flora/flora7.jpg,Pianta erbacea,Vitaceae,Cissus antarctica Venten.,Kangaroo Vine,2m,Pyrrocoma carthamoides Hook. var. carthamoides,Fuscia,39
+166,Primavera,CSS/img_flora/flora7.jpg,Arbusto,Scrophulariaceae,Penstemon incertus Brandegee,Mojave Beardtongue,4m,Stenogonum Nutt.,Puce,28
+167,Autunno,CSS/img_flora/flora3.jpg,Albero,Polemoniaceae,Leptosiphon nuttallii (A. Gray) J.M. Porter & L.A. Johnson ssp. nuttallii,Nuttall's Linanthus,3m,Potentilla norvegica L. ssp. monspeliensis (L.) Asch. & Graebn.,Orange,13
+168,Autunno,CSS/img_flora/flora7.jpg,Pianta erbacea,Parmeliaceae,Parmelia fraudans (Nyl.) Nyl.,Shield Lichen,2m,Sphagnum angustifolium (C.E.O. Jensen ex Russow) C.E.O. Jensen,Red,2
+169,Inverno,CSS/img_flora/flora2.jpg,Albero,Liliaceae,Lilium philadelphicum L. var. andinum (Nutt.) Ker Gawl.,Wood Lily,2m,Haplostachys haplostachya (A. Gray) H. St. John,Fuscia,16
+170,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Arecaceae,Phoenix canariensis hort. ex Chabaud,Canary Island Date Palm,3m,Arnoglossum reniforme (Hook.) H. Rob.,Aquamarine,27
+171,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Pottiaceae,Stegonia Vent.,Stegonia Moss,4m,Hypogymnia oceanica Goward,Purple,29
+172,Inverno,CSS/img_flora/flora9.jpg,Arbusto,Asteraceae,Ericameria ×viscosa (D.D. Keck) G.L. Nesom & Baird,Goldenbush,1m,Prunus dulcis (Mill.) D.A. Webb,Violet,36
+173,Primavera,CSS/img_flora/flora2.jpg,Albero,Cyperaceae,Carex helleri Mack.,Heller's Sedge,1m,Alisma gramineum Lej.,Aquamarine,6
+174,Primavera,CSS/img_flora/flora8.jpg,Pianta erbacea,Cyperaceae,Rhynchospora domingensis Urb.,Long-leaf Beak Sedge,4m,Galium hypotrichium A. Gray ssp. hypotrichium,Indigo,38
+175,Autunno,CSS/img_flora/flora10.jpg,Albero,Fabaceae,Parkinsonia microphylla Torr.,Yellow Paloverde,3m,Mertensia paniculata (Aiton) G. Don var. alaskana (Britton) L.O. Williams,Maroon,23
+176,Primavera,CSS/img_flora/flora5.jpg,Albero,Apiaceae,Thaspium Nutt.,Meadowparsnip,1m,Lesquerella gordonii (A. Gray) S. Watson var. densifolia Rollins,Aquamarine,5
+177,Autunno,CSS/img_flora/flora2.jpg,Albero,Myrsinaceae,Myrsine pukooensis (Levl.) Hosaka,Molokai Colicwood,5m,Rumex confertus Willd.,Puce,1
+178,Autunno,CSS/img_flora/flora9.jpg,Pianta erbacea,Hypnaceae,Gollania turgens (Müll. Hal.) Ando,Gollania Moss,3m,Schizachyrium brevifolium (Sw.) Nees ex Büse,Green,10
+179,Autunno,CSS/img_flora/flora6.jpg,Pianta erbacea,Acarosporaceae,Acarospora interjecta H. Magn.,Cracked Lichen,1m,Cypripedium parviflorum Salisb. var. parviflorum,Crimson,30
+180,Primavera,CSS/img_flora/flora7.jpg,Arbusto,Araliaceae,Tetraplasandra hawaiensis A. Gray,Hawai'i 'ohe,4m,Logfia arvensis (L.) Holub,Purple,29
+181,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Aristolochiaceae,Hexastylis arifolia (Michx.) Small var. ruthii (Ashe) Blomquist,Ruth's Littlebrownjug,2m,Milla biflora Cav.,Indigo,24
+182,Autunno,CSS/img_flora/flora4.jpg,Albero,Gentianaceae,Eustoma exaltatum (L.) Salisb. ex G. Don ssp. russellianum (Hook.) Kartesz,Showy Prairie Gentian,5m,Cliftonia Banks ex C.F. Gaertn.,Turquoise,41
+183,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Primulaceae,Dodecatheon dentatum Hook. ssp. ellisiae (Standl.) H.J. Thomp.,Ellis' Shootingstar,4m,Stenaria nigricans (Lam.) Terrell,Purple,37
+184,Autunno,CSS/img_flora/flora10.jpg,Arbusto,Brassicaceae,Stroganowia Kar. & Kir.,Stroganowia,2m,Jasminum dichotomum Vahl,Green,8
+185,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Rhamnaceae,Rhamnus davurica Pall. ssp. davurica,Dahurian Buckthorn,3m,Arthopyrenia A. Massal.,Blue,29
+186,Estate,CSS/img_flora/flora6.jpg,Albero,Polemoniaceae,Phlox viridis E.E. Nelson ssp. longipes (M.E. Jones) Wherry,Green Phlox,3m,Penstemon pseudospectabilis M.E. Jones ssp. connatifolius (A. Nelson) D.D. Keck,Turquoise,50
+187,Autunno,CSS/img_flora/flora7.jpg,Pianta erbacea,Coniocybaceae,Chaenotheca furfuracea (L.) Tibell,Needle Lichen,4m,Carlowrightia texana Henrickson & Daniel,Indigo,22
+188,Estate,CSS/img_flora/flora2.jpg,Albero,Rosaceae,Potentilla biflora Willd. ex Schltdl.,Twoflower Cinquefoil,5m,Caloplaca sorocarpa (Vain.) Zahlbr.,Puce,20
+189,Inverno,CSS/img_flora/flora5.jpg,Albero,Scrophulariaceae,Penstemon heterophyllus Lindl.,Bunchleaf Penstemon,2m,Thelypodium milleflorum A. Nelson,Fuscia,26
+190,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Aspleniaceae,Asplenium cookii Copeland,Cook's Spleenwort,4m,Rosa ×harisonii Rivers,Yellow,25
+191,Estate,CSS/img_flora/flora4.jpg,Arbusto,Cactaceae,Pediocactus simpsonii (Engelm.) Britton & Rose var. simpsonii,Mountain Ball Cactus,2m,Aliciella mcvickerae (M.E. Jones) J.M. Porter,Mauv,40
+192,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Lamiaceae,Melissa officinalis L.,Common Balm,2m,Trichostema rubisepalum Elmer,Puce,31
+193,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Primulaceae,Primula alcalina Cholewa & Douglass M. Hend.,Bluedome Primrose,4m,Myriotrema microporum (Mont.) Hale,Yellow,1
+194,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Leptodontaceae,Leptodon D. Mohr,Leptodon Moss,2m,Astragalus pattersonii A. Gray ex Brandegee,Green,25
+195,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Poaceae,Heteropogon contortus (L.) P. Beauv. ex Roem. & Schult.,Tanglehead,5m,Linum australe A. Heller var. glandulosum C.M. Rogers,Red,41
+196,Autunno,CSS/img_flora/flora5.jpg,Arbusto,Rosaceae,Rubus semisetosus Blanch.,Swamp Blackberry,1m,Eriophorum altaicum Meinsh.,Maroon,9
+197,Autunno,CSS/img_flora/flora1.jpg,Pianta erbacea,Sarraceniaceae,Sarracenia leucophylla Raf.,Crimson Pitcherplant,3m,Cleyera Thunb.,Yellow,49
+198,Autunno,CSS/img_flora/flora7.jpg,Albero,Asteraceae,Neurolaena lobata (L.) Cass.,Sepi,3m,Bellemerea diamarta (Ach.) Hafellner & Roux,Crimson,5
+199,Autunno,CSS/img_flora/flora1.jpg,Arbusto,Ericaceae,Arctostaphylos tomentosa (Pursh) Lindl. ssp. tomentosa,Woollyleaf Manzanita,2m,Neonotonia wightii (Wight & Arn.) Lackey var. mearnsii (De Wild.) Lackey,Khaki,36
+200,Primavera,CSS/img_flora/flora6.jpg,Arbusto,Fabaceae,Lupinus punto-reyesensis C.P. Sm.,Point Reyes Lupine,2m,Arctostaphylos ×jepsonii Eastw. (pro sp.),Fuscia,20
+201,Estate,CSS/img_flora/flora5.jpg,Arbusto,Rosaceae,Crataegus ×kennedyi Sarg. (pro sp.),Hawthorn,2m,Arthonia didyma Körb.,Puce,41
+202,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Burseraceae,Canarium indicum L.,Java Almond,1m,Verbena bonariensis L.,Puce,36
+203,Autunno,CSS/img_flora/flora2.jpg,Albero,Zingiberaceae,Hitchenia Wall.,Hitchenia,3m,Trillium decumbens Harbison,Indigo,3
+204,Estate,CSS/img_flora/flora3.jpg,Albero,Seligeriaceae,Seligeria calcarea (Hedw.) Bruch & Schimp.,Small Limestone Moss,4m,Pseudognaphalium luteoalbum (L.) Hilliard & B.L. Burtt,Goldenrod,25
+205,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Cyperaceae,Scirpus cyperinus (L.) Kunth,Woolgrass,1m,Plagiobothrys torreyi (A. Gray) A. Gray,Fuscia,5
+206,Estate,CSS/img_flora/flora8.jpg,Pianta erbacea,Asteraceae,Thelesperma subnudum A. Gray,Navajo Tea,1m,Oonopsis multicaulis (Nutt.) Greene,Violet,17
+207,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Cyperaceae,Scleria pauciflora Muhl. ex Willd.,Fewflower Nutrush,4m,Antennaria friesiana (Trautv.) Ekman ssp. alaskana (Malte) Hultén,Orange,27
+208,Estate,CSS/img_flora/flora7.jpg,Pianta erbacea,Teloschistaceae,Caloplaca microthallina (Wedd.) Zahlbr.,Orange Lichen,5m,Xanthoparmelia isidiascens Hale,Purple,1
+209,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Lythraceae,Lythrum thymifolia L.,Thymeleaf Loosestrife,3m,Bassia californica (S. Watson) A.J. Scott,Green,48
+210,Primavera,CSS/img_flora/flora4.jpg,Pianta erbacea,Portulacaceae,Lewisia glandulosa (Rydb.) Dempster,Sierra Lewisia,1m,Parentucellia latifolia (L.) Caruel,Pink,49
+211,Inverno,CSS/img_flora/flora4.jpg,Albero,Solanaceae,Nicotiana longiflora Cav.,Longflower Tobacco,3m,Chamaemelum Mill.,Puce,50
+212,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Asteraceae,Hazardia squarrosa (Hook. & Arn.) Greene var. obtusa (Greene) Jeps.,Sawtooth Bristleweed,5m,Solidago nana Nutt.,Teal,45
+213,Inverno,CSS/img_flora/flora9.jpg,Albero,Poaceae,Dinebra Jacq.,Viper Grass,3m,Hymenoxys jamesii Bierner,Crimson,25
+214,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Rutaceae,Phellodendron japonicum Maxim.,Japanese Corktree,1m,Pseudogynoxys chenopodioides Kunth,Fuscia,11
+215,Estate,CSS/img_flora/flora2.jpg,Pianta erbacea,Solanaceae,Solanum hispidum Pers.,Devil's Fig,3m,Encalypta brevicolla (Bruch & Schimp.) Bruch ex Ångstr. var. crumiana (Horton) H.A. Crum & L.E. Anderson,Green,33
+216,Estate,CSS/img_flora/flora9.jpg,Albero,Cyperaceae,Cladium mariscus (L.) Pohl,Swamp Sawgrass,4m,Amaranthus albus L.,Pink,30
+217,Inverno,CSS/img_flora/flora5.jpg,Pianta erbacea,Poaceae,Enneapogon cenchroides (Licht.) Roem. & Schult. ex C.E. Hubbard,Soft Feather Pappusgrass,2m,Scutellaria bushii Britton,Puce,24
+218,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Caryophyllaceae,Herniaria L.,Rupturewort,5m,Tephrosia purpurea (L.) Pers.,Puce,17
+219,Estate,CSS/img_flora/flora1.jpg,Arbusto,Ranunculaceae,Ranunculus ficaria L. var. bulbifera Marsden-Jones,Fig Buttercup,1m,Plagiobothrys shastensis Greene ex A. Gray,Green,26
+220,Estate,CSS/img_flora/flora5.jpg,Albero,Bacidiaceae,Biatora botryosa Fr.,Biatora Lichen,3m,Echinochloa pyramidalis (Lam.) Hitchc. & Chase,Blue,30
+221,Autunno,CSS/img_flora/flora4.jpg,Pianta erbacea,Verbenaceae,Phyla stoechadifolia (L.) Small,Southern Fogfruit,3m,Senecio bigelovii A. Gray var. hallii A. Gray,Mauv,35
+222,Primavera,CSS/img_flora/flora1.jpg,Albero,Sterculiaceae,Theobroma mammosum Cuatrec. & Leon,Theobroma,3m,Urochloa villosa (Lam.) T.Q. Nguyen,Blue,24
+223,Inverno,CSS/img_flora/flora9.jpg,Arbusto,Asteraceae,Hymenoxys rusbyi (A. Gray) Cockerell,Rusby's Rubberweed,3m,Scopelophila ligulata (Spruce) Spruce,Yellow,19
+224,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Asteraceae,Lipochaeta connata (Gaudich.) DC. var. connata,Nehe,3m,Arecastrum (Drude) Becc.,Crimson,25
+225,Primavera,CSS/img_flora/flora7.jpg,Albero,Orchidaceae,Tetramicra Lindl.,Wallflower Orchid,3m,Ipomoea wrightii A. Gray,Puce,48
+226,Estate,CSS/img_flora/flora7.jpg,Arbusto,Lamiaceae,Pycnanthemum verticillatum (Michx.) Pers.,Whorled Mountainmint,5m,Kigelia DC.,Teal,24
+227,Estate,CSS/img_flora/flora2.jpg,Pianta erbacea,Rosaceae,Rosa rugosa Thunb.,Rugosa Rose,3m,Plagiobothrys fulvus (Hook. & Arn.) I.M. Johnst. var. campestris (Greene) I.M. Johnst.,Yellow,22
+228,Primavera,CSS/img_flora/flora9.jpg,Pianta erbacea,Potamogetonaceae,Potamogeton marianensis Cham. & Schltdl.,Pondweed,1m,Bryum gemmiparum De Not.,Fuscia,25
+229,Primavera,CSS/img_flora/flora4.jpg,Albero,Brassicaceae,Cardamine flagellifera O.E. Schulz var. flagellifera,Blue Ridge Bittercress,5m,Pieris phillyreifolia (Hook.) DC.,Green,19
+230,Inverno,CSS/img_flora/flora2.jpg,Pianta erbacea,Cuscutaceae,Cuscuta gronovii Willd. ex Schult.,Scaldweed,5m,Caloplaca rosei Hasse,Maroon,36
+231,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Amaranthaceae,Amaranthus fimbriatus (Torr.) Benth. ex S. Watson,Fringed Amaranth,5m,Cladonia santensis Tuck.,Violet,13
+232,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Sapotaceae,Manilkara bidentata (A. DC.) A. Chev,Bulletwood,2m,Linum medium (Planch.) Britton var. medium,Green,8
+233,Inverno,CSS/img_flora/flora2.jpg,Pianta erbacea,Physciaceae,Rinodina colobinoides (Nyl.) Zahlbr.,Rinodina Lichen,1m,Pediomelum subacaule (Torr. & A. Gray) Rydb.,Purple,46
+234,Autunno,CSS/img_flora/flora8.jpg,Albero,Polygonaceae,Eriogonum pyrolifolium Hook. var. pyrolifolium,Shasta Buckwheat,3m,Silene repens Patrin ex Pers. ssp. purpurata (Greene) C.L. Hitchc. & Maguire,Goldenrod,5
+235,Autunno,CSS/img_flora/flora8.jpg,Pianta erbacea,Gentianaceae,Frasera Walter,Green Gentian,5m,Carex debilis Michx. var. strictior L.H. Bailey,Violet,16
+236,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Parmeliaceae,Hypogymnia canadensis Goward & McCune,Pacific Tube Lichen,3m,Aspidotis (Nutt. ex Hook.) Copeland,Teal,11
+237,Estate,CSS/img_flora/flora2.jpg,Albero,Asteraceae,Erigeron austiniae Greene,Sagebrush Fleabane,4m,Collinsia sparsiflora Fisch. & C.A. Mey.,Pink,44
+238,Autunno,CSS/img_flora/flora2.jpg,Arbusto,Liliaceae,Gloriosa superba L.,Flame Lily,1m,Salix barclayi Andersson,Aquamarine,9
+239,Primavera,CSS/img_flora/flora6.jpg,Arbusto,Iridaceae,Aristea gerrardii Weim.,Gerrard's Aristea,5m,Astragalus ampullarius S. Watson,Red,33
+240,Primavera,CSS/img_flora/flora6.jpg,Pianta erbacea,Theliaceae,Thelia Sull.,Thelia Moss,4m,Pithecoctenium Mart. ex Meisn.,Puce,49
+241,Primavera,CSS/img_flora/flora4.jpg,Albero,Malvaceae,Sidalcea hickmanii Greene ssp. parishii (B.L. Rob.) C.L. Hitchc.,Parish's Checker,2m,Ruta graveolens L.,Green,13
+242,Autunno,CSS/img_flora/flora5.jpg,Pianta erbacea,Cyperaceae,Cyperus digitatus Roxb.,Finger Flatsedge,1m,Leymus racemosus (Lam.) Tzvelev ssp. racemosus,Pink,23
+243,Primavera,CSS/img_flora/flora4.jpg,Pianta erbacea,Asteraceae,Solidago petiolaris Aiton var. petiolaris,Downy Ragged Goldenrod,2m,Tetraplodon paradoxus (R. Br.) I. Hagen,Purple,11
+244,Estate,CSS/img_flora/flora7.jpg,Arbusto,Fabaceae,Astragalus giganteus S. Watson,Giant Milkvetch,4m,Tetraplodon angustatus (Hedw.) Bruch & Schimp.,Turquoise,3
+245,Primavera,CSS/img_flora/flora1.jpg,Albero,Poaceae,Enneapogon desvauxii Desv. ex P. Beauv.,Nineawn Pappusgrass,3m,Nolina micrantha I.M. Johnst.,Crimson,10
+246,Primavera,CSS/img_flora/flora9.jpg,Pianta erbacea,Poaceae,Calamagrostis deschampsioides Trin.,Circumpolar Reedgrass,2m,Dicranoweisia Lindb. ex Milde,Maroon,33
+247,Autunno,CSS/img_flora/flora3.jpg,Albero,Pinaceae,Abies guatemalensis Rehder,Guatemalan Fir,5m,Brickellia veronicifolia (Kunth) A. Gray var. veronicifolia,Red,29
+248,Inverno,CSS/img_flora/flora3.jpg,Pianta erbacea,Violaceae,Viola ×porteriana Pollard (pro sp.),Hybrid Violet,2m,Reynoldsia A. Gray,Blue,33
+249,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Lamiaceae,Meehania cordata (Nutt.) Britton,Meehan's Mint,5m,Phacelia stebbinsii Constance & Heckard,Indigo,16
+250,Estate,CSS/img_flora/flora2.jpg,Albero,Asteraceae,Perityle rupestris (A. Gray) Shinners var. rupestris,Leafy Rockdaisy,2m,Silphium brachiatum Gattinger,Crimson,44
+251,Primavera,CSS/img_flora/flora2.jpg,Pianta erbacea,Grimmiaceae,Jaffueliobryum wrightii (Sull.) Thér.,Wright's Jaffueliobryum Moss,3m,Lomatium juniperinum (M.E. Jones) J.M. Coult. & Rose,Goldenrod,39
+252,Estate,CSS/img_flora/flora9.jpg,Arbusto,Rosaceae,Potentilla atrosanguinea Lodd. ex D. Don,Ruby Cinquefoil,3m,Digitaria filiformis (L.) Koeler,Khaki,36
+253,Estate,CSS/img_flora/flora8.jpg,Pianta erbacea,Ditrichaceae,Saelania glaucescens (Hedw.) Broth.,Saelania Moss,4m,Hymenoclea sandersonii (S.L. Welsh) N.H. Holmgren,Mauv,47
+254,Primavera,CSS/img_flora/flora9.jpg,Albero,Caprifoliaceae,Diervilla sessilifolia Buckley,Southern Bush Honeysuckle,5m,Engelmannia A. Gray ex Nutt.,Green,37
+255,Estate,CSS/img_flora/flora6.jpg,Albero,Caryophyllaceae,Stellaria graminea L.,Grass-like Starwort,3m,Arthonia glaucomaria (Nyl.) Nyl.,Blue,23
+256,Autunno,CSS/img_flora/flora2.jpg,Albero,Mycocaliciaceae,Mycocalicium calicioides (Nadv.) Tibell,Mycocalicium Lichen,2m,Helenium pinnatifidum (Nutt.) Rydb.,Aquamarine,46
+257,Estate,CSS/img_flora/flora6.jpg,Albero,Rubiaceae,Spermacoce floridana Urb.,Florida False Buttonweed,4m,Ivesia lycopodioides A. Gray ssp. scandularis (Rydb.) D.D. Keck,Pink,20
+258,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Asteraceae,Packera bolanderi (A. Gray) W.A. Weber & Á. Löve,Bolander's Ragwort,4m,Phacelia demissa A. Gray var. demissa,Turquoise,31
+259,Primavera,CSS/img_flora/flora3.jpg,Pianta erbacea,Rosaceae,Potentilla reptans L.,Creeping Cinquefoil,1m,Elymus stebbinsii Gould ssp. stebbinsii,Crimson,44
+260,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Cupressaceae,Hesperocyparis abramsiana (C.B. Wolf) Bartel var. abramsiana ,Santa Cruz Cypress,4m,×Hesperotropsis leylandii (A.B. Jacks. & Dallim.) Garland & Gerry Moore,Yellow,35
+261,Primavera,CSS/img_flora/flora8.jpg,Arbusto,Lichinaceae,Lempholemma cladodes (Tuck.) Zahlbr.,Lempholemma Lichen,5m,Dianella caerulea Sims,Indigo,33
+262,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Apiaceae,Tauschia tenuissima (Geyer ex Hook.) Mathias & Constance,Leiberg's Umbrellawort,3m,Symphyotrichum simmondsii (Small) G.L. Nesom,Goldenrod,37
+263,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Liliaceae,Allium lacunosum S. Watson,Pitted Onion,3m,Persea palustris (Raf.) Sarg.,Mauv,42
+264,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Amblystegiaceae,Hygroamblystegium noterophilum (Sull. & Lesq.) Warnst.,Hygroamblystegium Moss,3m,Rinodina conradii Körb.,Maroon,49
+265,Inverno,CSS/img_flora/flora8.jpg,Pianta erbacea,Asteraceae,Heterotheca sessiliflora (Nutt.) Shinners ssp. echioides (Benth.) Semple,Sessileflower False Goldenaster,4m,Trifolium subterraneum L.,Indigo,43
+266,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Porpidiaceae,Amygdalaria Norman,Amygdalaria Lichen,5m,Saccharum bengalense Retz.,Red,17
+267,Inverno,CSS/img_flora/flora3.jpg,Albero,Brassicaceae,Rorippa palustris (L.) Besser,Bog Yellowcress,1m,Trachycystis Lindb.,Indigo,35
+268,Estate,CSS/img_flora/flora6.jpg,Arbusto,Graphidaceae,Graphis insidiosa (C. Knight & Mitt.) Hook. f.,Script Lichen,3m,Opegrapha rufescens Pers.,Teal,48
+269,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Chenopodiaceae,Atriplex bunburyana F. Muell.,Silver Saltbush,4m,Condalia correllii M.C. Johnst.,Fuscia,8
+270,Primavera,CSS/img_flora/flora7.jpg,Pianta erbacea,Asclepiadaceae,Asclepias linearis Scheele,Slim Milkweed,4m,Triplaris melaenodendron (Bertol.) Standl. & Steyerm.,Maroon,8
+271,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Polemoniaceae,Phlox speciosa Pursh ssp. woodhousei (Torr. ex A. Gray) Wherry,Woodhouse's Phlox,1m,Eriogonum divaricatum Hook.,Green,42
+272,Inverno,CSS/img_flora/flora8.jpg,Pianta erbacea,Grossulariaceae,Ribes diacanthum Pall.,Siberian Currant,2m,Dichanthelium ovale (Elliott) Gould & C.A. Clark var. ovale,Purple,47
+273,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Psoraceae,Protoblastenia calva (Dicks.) Zahlbr.,Protoblastenia Lichen,4m,Pediocactus Britton & Rose,Blue,46
+274,Autunno,CSS/img_flora/flora8.jpg,Arbusto,Rhamnaceae,Ceanothus ×serrulatus McMinn (pro sp.),Cascade Lake Ceanothus,2m,Oxalis intermedia A. Rich.,Blue,33
+275,Estate,CSS/img_flora/flora3.jpg,Arbusto,Scrophulariaceae,Castilleja rubicundula (Jeps.) T.I. Chuang & Heckard,Cream Sacs,5m,Eupatorium sessilifolium L. var. vaseyi (Porter) Fernald & Grisc.,Pink,17
+276,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Asteraceae,Porophyllum ruderale (Jacq.) Cass. ssp. ruderale,Yerba Porosa,4m,Perityle cernua (Greene) Shinners,Khaki,49
+277,Primavera,CSS/img_flora/flora2.jpg,Albero,Boraginaceae,Cryptantha gracilis Osterh.,Narrowstem Cryptantha,4m,Antennaria monocephala DC. ssp. angustata (Greene) Hultén,Indigo,48
+278,Estate,CSS/img_flora/flora2.jpg,Albero,Entodontaceae,Entodon Müll. Hal.,Entodon Moss,4m,Chaenothecopsis epithallina Tibell,Yellow,24
+279,Primavera,CSS/img_flora/flora8.jpg,Pianta erbacea,Asteraceae,Scolymus L.,Goldenthistle,4m,Streptanthus glandulosus Hook. ssp. secundus (Greene) Kruckeb. var. secundus,Purple,43
+280,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Poaceae,Tridens strictus (Nutt.) Nash,Longspike Tridens,1m,Morus rubra L.,Teal,15
+281,Estate,CSS/img_flora/flora6.jpg,Albero,Ramalinaceae,Ramalina petrina Bowler & Rundel,Cartilage Lichen,1m,Penstemon attenuatus Douglas ex Lindl. var. palustris (Pennell) Cronquist,Khaki,32
+282,Primavera,CSS/img_flora/flora5.jpg,Pianta erbacea,Brassicaceae,Lepidium integrifolium Nutt.,Thickleaf Pepperweed,5m,Pediomelum argophyllum (Pursh) J. Grimes,Yellow,10
+283,Autunno,CSS/img_flora/flora8.jpg,Pianta erbacea,Rosaceae,Malus fusca (Raf.) C.K. Schneid.,Oregon Crab Apple,4m,Phyllodoce Salisb.,Goldenrod,35
+284,Primavera,CSS/img_flora/flora4.jpg,Arbusto,Moraceae,Treculia Decne. ex Trec.,Treculia,3m,Ipomoea ternifolia Cav.,Crimson,34
+285,Estate,CSS/img_flora/flora9.jpg,Pianta erbacea,Cyperaceae,Fuirena Rottb.,Umbrella-sedge,5m,Ulmus pumila L.,Pink,45
+286,Inverno,CSS/img_flora/flora10.jpg,Pianta erbacea,Ranunculaceae,Aconitum ferox Wall. ex Ser.,Indian Aconite,2m,Cladonia labradorica Ahti & Brodo,Mauv,1
+287,Estate,CSS/img_flora/flora2.jpg,Pianta erbacea,Vitaceae,Cissus obovata Vahl,Spoonleaf Treebine,3m,Lasiospermum bipinnatum (Thunb.) Druce,Blue,20
+288,Inverno,CSS/img_flora/flora10.jpg,Arbusto,Annonaceae,Asimina parviflora (Michx.) Dunal,Smallflower Pawpaw,4m,Astragalus loanus Barneby,Fuscia,1
+289,Autunno,CSS/img_flora/flora10.jpg,Albero,Seligeriaceae,Brachydontium olympicum (E. Britton) T.T. McIntosh & J.R. Spence,Olympic Brachydontium Moss,4m,Pouteria sapota (Jacq.) H.E. Moore & Stearn,Aquamarine,1
+290,Estate,CSS/img_flora/flora9.jpg,Arbusto,Fabaceae,Astragalus palmeri A. Gray,Palmer's Milkvetch,2m,Phlox griseola Wherry ssp. tumulosa Wherry,Goldenrod,37
+291,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Boraginaceae,Mertensia oblongifolia (Nutt.) G. Don,Oblongleaf Bluebells,5m,Penstemon leonardii Rydb. var. patricus (N.H. Holmgren) Neese,Mauv,42
+292,Autunno,CSS/img_flora/flora4.jpg,Pianta erbacea,Cyperaceae,Carex cumulata (L.H. Bailey) Fernald,Clustered Sedge,3m,Calicium salicinum Pers.,Goldenrod,49
+293,Estate,CSS/img_flora/flora8.jpg,Arbusto,Asteraceae,Marshallia obovata (Walter) Beadle & F.E. Boynt. var. obovata,Spoonshape Barbara's Buttons,3m,Filago pyramidata L.,Aquamarine,32
+294,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Bromeliaceae,Vriesea proctorii (Cedeño-Mald.) Acev.-Rodr.,Proctor's Vriesea,3m,Astragalus emoryanus (Rydb.) Cory var. terlinguensis (Cory) Barneby,Blue,40
+295,Inverno,CSS/img_flora/flora2.jpg,Arbusto,Boraginaceae,Cryptantha palmeri (A. Gray) Payson,Palmer's Cryptantha,3m,Ivesia callida (H.M. Hall) Rydb.,Fuscia,4
+296,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Physciaceae,Physcia convexa Nyl.,Rosette Lichen,4m,Arabis media N. Busch,Aquamarine,22
+297,Estate,CSS/img_flora/flora7.jpg,Albero,Apiaceae,Lomatium farinosum (Hook.) J.M. Coult. & Rose var. hambleniae (Mathias & Constance) Schlessman,Hamblen's Biscuitroot,3m,Securigera DC.,Aquamarine,8
+298,Estate,CSS/img_flora/flora10.jpg,Arbusto,Gentianaceae,Sabatia calycina (Lam.) A. Heller,Coastal Rose Gentian,1m,Gilia capitata Sims ssp. abrotanifolia (Nutt. ex Greene) V.E. Grant,Indigo,49
+299,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Fabaceae,Pterocarpus officinalis Jacq.,Dragonsblood Tree,2m,Pteris mutilata L.,Maroon,44
+300,Estate,CSS/img_flora/flora10.jpg,Pianta erbacea,Asteraceae,Gundelia L.,Gundelia,4m,Potentilla stipularis L. var. groenlandica T.J. Sørensen,Turquoise,27
+301,Autunno,CSS/img_flora/flora10.jpg,Arbusto,Brassicaceae,Draba albertina Greene,Slender Draba,3m,Manfreda sileri Verh-Will.,Indigo,39
+302,Estate,CSS/img_flora/flora9.jpg,Albero,Caryophyllaceae,Stellaria ruscifolia Pall. ex Schltdl. ssp. ruscifolia,Circumpolar Starwort,1m,Stanleya pinnata (Pursh) Britton var. pinnata,Indigo,4
+303,Estate,CSS/img_flora/flora2.jpg,Arbusto,Asteraceae,Erigeron purpuratus Greene var. purpuratus,Purple Fleabane,5m,Eriastrum diffusum (A. Gray) H. Mason,Khaki,17
+304,Inverno,CSS/img_flora/flora4.jpg,Pianta erbacea,Verrucariaceae,Dermatocarpon rivulorum (Arnold) Dalla Torre & Sarnth.,Silverskin Lichen,5m,Malaxis massonii (Ridley) Kuntze,Orange,45
+305,Primavera,CSS/img_flora/flora4.jpg,Arbusto,Grossulariaceae,Ribes hudsonianum Richardson var. hudsonianum,Hudson Bay Currant,3m,Erodium brachycarpum (Godr.) Thell.,Purple,33
+306,Inverno,CSS/img_flora/flora7.jpg,Albero,Cyperaceae,Carex venusta Dewey,Darkgreen Sedge,1m,Trichodon cylindricus (Hedw.) Schimp.,Blue,38
+307,Estate,CSS/img_flora/flora10.jpg,Albero,Rubiaceae,Mitracarpus hirtus (L.) DC.,Tropical Girdlepod,2m,Tribolium obliterum (Hemsl.) Renvoize,Red,2
+308,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Asteraceae,Doellingeria umbellata (Mill.) Nees,Parasol Whitetop,1m,Wisteria sinensis (Sims) DC.,Fuscia,37
+309,Primavera,CSS/img_flora/flora2.jpg,Pianta erbacea,Cactaceae,Echinomastus mariposensis Hester,Lloyd's Fishhook Cactus,4m,Ranunculus coloradensis (L.D. Benson) L.D. Benson,Puce,13
+310,Estate,CSS/img_flora/flora10.jpg,Albero,Haemodoraceae,Xiphidium Aubl.,Xiphidium,3m,Marattia Sw.,Orange,19
+311,Autunno,CSS/img_flora/flora9.jpg,Albero,Apiaceae,Angelica canbyi J.M. Coult. & Rose,Canby's Angelica,5m,Lemna perpusilla Torr.,Purple,13
+312,Estate,CSS/img_flora/flora8.jpg,Pianta erbacea,Saxifragaceae,Heuchera pilosissima Fisch. & C.A. Mey. var. hemisphaerica (Rydb.) Rosend.,Seaside Alumroot,2m,Opegrapha astraea Tuck.,Turquoise,28
+313,Estate,CSS/img_flora/flora7.jpg,Arbusto,Isoetaceae,Isoetes acadiensis Kott,Acadian Quillwort,1m,Astragalus brandegeei Porter,Mauv,24
+314,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Fabaceae,Astragalus lentiginosus Douglas ex Hook. var. micans Barneby,Freckled Milkvetch,3m,Froelichia gracilis (Hook.) Moq.,Blue,18
+315,Inverno,CSS/img_flora/flora2.jpg,Arbusto,Physciaceae,Rinodina conradii Körb.,Conrad's Rinodina Lichen,4m,Polyblastia theleodes (Sommerf.) Th. Fr.,Mauv,24
+316,Autunno,CSS/img_flora/flora10.jpg,Pianta erbacea,Rubiaceae,Ixora ferrea (Jacq.) Benth.,Palo De Hierro,3m,Frasera tubulosa Coville,Blue,5
+317,Inverno,CSS/img_flora/flora6.jpg,Arbusto,Asteraceae,Brickellia longifolia S. Watson var. multiflora (Kellogg) Cronquist,Longleaf Brickellbush,3m,Euphorbia petiolaris Sims,Purple,26
+318,Estate,CSS/img_flora/flora2.jpg,Arbusto,Teloschistaceae,Fulgensia bracteata (Hoffm.) Rasanen,Bracted Sulphur Lichen,2m,Hibiscus cannabinus L.,Indigo,46
+319,Primavera,CSS/img_flora/flora4.jpg,Pianta erbacea,Ericaceae,Lyonia truncata Urb.,Dominican Staggerbush,3m,Streptanthus cordatus Nutt. var. piutensis J.T. Howell,Turquoise,38
+320,Inverno,CSS/img_flora/flora4.jpg,Albero,Asteraceae,Anisocoma acaulis Torr. & A. Gray,Scalebud,4m,Viola ×mulfordiae Pollard (pro sp.),Red,28
+321,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Caryophyllaceae,Cerastium axillare Correll,Trans-pecos Chickweed,5m,Cyphelium notarisii (Tul.) Blomb. & Forss.,Yellow,37
+322,Inverno,CSS/img_flora/flora6.jpg,Albero,Boraginaceae,Tiquilia greggii (Torr. & A. Gray) A.T. Richardson,Plumed Crinklemat,3m,Ivesia gordonii (Hook.) Torr. & A. Gray,Pink,39
+323,Autunno,CSS/img_flora/flora7.jpg,Albero,Asteraceae,Helianthus grosseserratus M. Martens,Sawtooth Sunflower,2m,Dactylis glomerata L.,Maroon,45
+324,Inverno,CSS/img_flora/flora1.jpg,Albero,Saxifragaceae,Saxifraga nivalis L.,Alpine Saxifrage,1m,Muhlenbergia sobolifera (Muhl. ex Willd.) Trin.,Goldenrod,10
+325,Autunno,CSS/img_flora/flora1.jpg,Albero,Asteraceae,Symphyotrichum lateriflorum (L.) Á. Löve & D. Löve var. flagellare (Shinners) G.L. Nesom,Calico Aster,2m,Marah fabaceus (Naud.) Naud. ex Greene var. agrestis (Greene) Stocking,Crimson,2
+326,Estate,CSS/img_flora/flora8.jpg,Albero,Euphorbiaceae,Phyllanthus polygonoides Nutt. ex Spreng.,Smartweed Leaf-flower,1m,Castilleja salsuginosa N.H. Holmgren,Blue,17
+327,Primavera,CSS/img_flora/flora2.jpg,Arbusto,Lichinaceae,Ephebe solida Bornet,Thread Lichen,5m,Portulaca lutea Sol. ex G. Forst.,Indigo,1
+328,Primavera,CSS/img_flora/flora1.jpg,Albero,Fabaceae,Afzelia Sm.,Mahogany,4m,Dioscorea composita Hemsl.,Blue,17
+329,Inverno,CSS/img_flora/flora4.jpg,Albero,Lycopodiaceae,Huperzia filiformis (Sw.) Holub,Stringleaf Clubmoss,3m,Pediocactus bradyi L.D. Benson,Orange,17
+330,Inverno,CSS/img_flora/flora6.jpg,Arbusto,Ranunculaceae,Actaea pachypoda Elliott,White Baneberry,4m,Candelariella subdeflexa (Nyl.) Lettau,Teal,1
+331,Inverno,CSS/img_flora/flora8.jpg,Albero,Poaceae,Loudetia simplex (Nees) C.E. Hubb.,Common Russet Grass,5m,Stephanomeria exigua Nutt. ssp. macrocarpa Gottlieb,Turquoise,3
+332,Inverno,CSS/img_flora/flora8.jpg,Albero,Asteraceae,Antennaria friesiana (Trautv.) Ekman ssp. alaskana (Malte) Hultén,Fries' Pussytoes,4m,Keckiella breviflora (Lindl.) Straw,Puce,9
+333,Estate,CSS/img_flora/flora6.jpg,Pianta erbacea,Portulacaceae,Cistanthe parryi (A. Gray) Hershkovitz var. arizonica (J.T. Howell) Kartesz & Gandhi,Arizona Pussypaws,3m,Graphina Müll. Arg.,Teal,15
+334,Primavera,CSS/img_flora/flora9.jpg,Pianta erbacea,Onagraceae,Ludwigia microcarpa Michx.,Smallfruit Primrose-willow,5m,Clinopodium ashei (Weath.) Small,Aquamarine,32
+335,Estate,CSS/img_flora/flora8.jpg,Albero,Fabaceae,Vicia hirsuta (L.) Gray,Tiny Vetch,4m,Achillea sibirica Ledeb.,Yellow,38
+336,Autunno,CSS/img_flora/flora1.jpg,Albero,Leucodontaceae,Leucodon julaceus (Hedw.) Sull.,Leucodon Moss,4m,Thelypteris nevadensis (Baker) Clute ex Morton,Maroon,20
+337,Inverno,CSS/img_flora/flora4.jpg,Pianta erbacea,Fabaceae,Chamaecrista nictitans (L.) Moench ssp. nictitans var. leptadenia (Greenm.) Gandhi & Hatch,Sensitive Partridge Pea,3m,Eriogonum cronquistii Reveal,Purple,34
+338,Inverno,CSS/img_flora/flora8.jpg,Albero,Lamiaceae,Pycnanthemum setosum Nutt.,Awned Mountainmint,5m,Lomatium californicum (Nutt.) Mathias & Constance,Aquamarine,5
+339,Autunno,CSS/img_flora/flora6.jpg,Arbusto,Orchidaceae,Spiranthes eatonii Ames ex P.M. Brown,Eaton's Lady's Tresses,5m,Rytidosperma semiannulare (Labill.) Connor & Edgar,Yellow,40
+340,Primavera,CSS/img_flora/flora10.jpg,Arbusto,Apiaceae,Lomatium triternatum (Pursh) J.M. Coult. & Rose var. triternatum,Nineleaf Biscuitroot,1m,Bryoerythrophyllum inaequalifolium (Taylor) R.H. Zander,Indigo,44
+341,Inverno,CSS/img_flora/flora4.jpg,Albero,Aristolochiaceae,Hexastylis contracta Blomquist,Mountain Heartleaf,1m,Eucalyptus banksii Maiden,Yellow,37
+342,Inverno,CSS/img_flora/flora2.jpg,Arbusto,Asteraceae,Symphyotrichum chilense (Nees) G.L. Nesom var. medium (Jeps.) G.L. Nesom,Pacific Aster,3m,Streptanthus barbatus S. Watson,Turquoise,4
+343,Estate,CSS/img_flora/flora3.jpg,Arbusto,Poaceae,Elymus tangutorum (Nevshi) Hand.,Wildrye,2m,Spiraea chamaedryfolia L.,Fuscia,16
+344,Estate,CSS/img_flora/flora6.jpg,Pianta erbacea,Asteraceae,Bidens aurea (Aiton) Sherff,Arizona Beggarticks,4m,Astragalus amnis-amissi Barneby ex C.L. Hitchc.,Crimson,1
+345,Inverno,CSS/img_flora/flora7.jpg,Pianta erbacea,Caryophyllaceae,Eremogone Fenzl,Eremogone,4m,Cucurbita okeechobeensis (Small) L.H. Bailey,Teal,37
+346,Primavera,CSS/img_flora/flora7.jpg,Arbusto,Asteraceae,Senecio serra Hook. var. serra,Tall Ragwort,2m,Melochia umbellata (Houtt.) Stapf,Turquoise,2
+347,Autunno,CSS/img_flora/flora2.jpg,Arbusto,Asteraceae,Venegasia DC.,Venegasia,2m,Pinus pinea L.,Goldenrod,39
+348,Autunno,CSS/img_flora/flora4.jpg,Arbusto,Myrtaceae,Eucalyptus amplifolia Naudin,Cabbage Gum,2m,Cassia javanica L.,Purple,20
+349,Estate,CSS/img_flora/flora10.jpg,Pianta erbacea,Cyperaceae,Carex cordillerana Saarela & B.A. Ford,Cordilleran Sedge,1m,Rhynchospora microcarpa Baldw. ex A. Gray,Maroon,6
+350,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Liliaceae,Eremocrinum albomarginatum (M.E. Jones) M.E. Jones,Lonely Lily,1m,Allium fistulosum L.,Green,2
+351,Autunno,CSS/img_flora/flora10.jpg,Arbusto,Arthoniaceae,Arthonia leucopellaea (Ach.) Almq.,Dot Lichen,1m,Spiraea tomentosa L.,Purple,42
+352,Autunno,CSS/img_flora/flora3.jpg,Arbusto,Lecideaceae,Lecidea erythrophaea Flörke ex Sommerf.,Lecidea Lichen,1m,Ranunculus inamoenus Greene var. inamoenus,Goldenrod,15
+353,Autunno,CSS/img_flora/flora10.jpg,Arbusto,Asteraceae,Berlandiera subacaulis (Nutt.) Nutt.,Florida Greeneyes,2m,Tomentypnum nitens (Hedw.) Loeske,Purple,23
+354,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Cactaceae,Echinocereus engelmannii (Parry ex Engelm.) Lem. var. engelmannii,Engelmann's Hedgehog Cactus,3m,Cladonia magyarica Vain.,Aquamarine,8
+355,Primavera,CSS/img_flora/flora5.jpg,Arbusto,Saxifragaceae,Jepsonia heterandra Eastw.,Foothill Jepsonia,5m,Penstemon teucrioides Greene,Turquoise,4
+356,Estate,CSS/img_flora/flora4.jpg,Albero,Rosaceae,Horkelia wilderae Parish,Barton Flats Horkelia,5m,Carex mertensii Prescott ex Bong.,Blue,16
+357,Primavera,CSS/img_flora/flora10.jpg,Pianta erbacea,Asteraceae,Microseris laciniata (Hook.) Sch. Bip. ssp. laciniata,Cutleaf Silverpuffs,5m,Chenopodium cycloides A. Nelson,Indigo,33
+358,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Fabaceae,Astragalus alvordensis M.E. Jones,Alvord Milkvetch,4m,Malus toringo (Siebold) Siebold ex de Vriese,Orange,15
+359,Primavera,CSS/img_flora/flora9.jpg,Albero,Cyperaceae,Carex lurida Wahlenb.,Shallow Sedge,1m,Astragalus columbianus Barneby,Blue,38
+360,Autunno,CSS/img_flora/flora3.jpg,Albero,Parmeliaceae,Tuckermannopsis fendleri (Nyl.) Hale,Fendler's Tuckermannopsis Lichen,3m,Poa pratensis L. ssp. irrigata (Lindm.) H. Lindb.,Pink,35
+361,Inverno,CSS/img_flora/flora1.jpg,Albero,Rosaceae,Rubus arvensis L.H. Bailey,Field Blackberry,5m,Anemone edwardsiana Tharp,Blue,17
+362,Estate,CSS/img_flora/flora10.jpg,Albero,Orchidaceae,Prescotia oligantha (Sw.) Lindl.,Small Prescott Orchid,4m,Clarkia concinna (Fisch. & C.A. Mey.) Greene ssp. concinna,Violet,3
+363,Autunno,CSS/img_flora/flora2.jpg,Albero,Fabaceae,Desmodium rotundifolium DC.,Prostrate Ticktrefoil,3m,Conyza bonariensis (L.) Cronquist,Green,9
+364,Estate,CSS/img_flora/flora3.jpg,Pianta erbacea,Poaceae,Poa supina Schrad.,Supine Bluegrass,1m,Tripterocladium leucocladulum (Müll. Hal.) A. Jaeger,Purple,7
+365,Inverno,CSS/img_flora/flora8.jpg,Pianta erbacea,Poaceae,Aristida purpurea Nutt. var. perplexa Allred & Valdés-Reyna,Purple Threeawn,5m,Carex scopulorum T. Holm var. bracteosa (L.H. Bailey) F.J. Herm.,Pink,44
+366,Inverno,CSS/img_flora/flora1.jpg,Arbusto,Poaceae,Anthaenantia rufa (Nutt.) Schult.,Purple Silkyscale,2m,Saxifraga spicata D. Don,Turquoise,21
+367,Primavera,CSS/img_flora/flora8.jpg,Albero,Tiliaceae,Corchorus aestuans L.,Jute,2m,Tabebuia donnell-smithii Rose,Pink,22
+368,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Nyctaginaceae,Nyctaginia Choisy,Nyctaginia,1m,Lobelia grayana E. Wimm.,Crimson,32
+369,Inverno,CSS/img_flora/flora1.jpg,Albero,Brunelliaceae,Brunellia comocladiifolia Humb. & Bonpl. ssp. domingensis Cuatrec.,West Indian Sumac,4m,Habenaria rodeiensis Barb. Rodr.,Pink,14
+370,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Asteraceae,Brickellia microphylla (Nutt.) A. Gray var. watsonii (B.L. Rob.) S.L. Welsh,Watson's Brickellbush,2m,Pediocactus paradinei B.W. Benson,Khaki,30
+371,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Polemoniaceae,Leptosiphon ciliatus (Benth.) Jeps.,Whiskerbrush,4m,Streptanthus cordatus Nutt. var. cordatus,Teal,42
+372,Estate,CSS/img_flora/flora2.jpg,Pianta erbacea,Boraginaceae,Cordia boissieri A. DC.,Anacahuita,5m,Mertensia ciliata (James ex Torr.) G. Don var. ciliata,Pink,13
+373,Estate,CSS/img_flora/flora3.jpg,Pianta erbacea,Climaciaceae,Climacium F. Weber & D. Mohr ex Mohr,Climacium Moss,2m,Urochloa texana (Buckley) R. Webster,Indigo,29
+374,Autunno,CSS/img_flora/flora7.jpg,Pianta erbacea,Acarosporaceae,Acarospora albomarginata (Herre) Salisb.,Cracked Lichen,1m,Cucurbita pepo L. var. pepo,Purple,26
+375,Primavera,CSS/img_flora/flora2.jpg,Pianta erbacea,Scrophulariaceae,Mimulus whipplei A.L. Grant,Whipple's Monkeyflower,5m,Hieracium scabrum Michx. var. scabrum,Violet,45
+376,Inverno,CSS/img_flora/flora6.jpg,Albero,Campanulaceae,Cyanea copelandii Rock,Treetrunk Cyanea,4m,Galium humifusum M. Bieb.,Purple,15
+377,Estate,CSS/img_flora/flora3.jpg,Albero,Cyperaceae,Carex paleacea Schreb. ex Wahlenb.,Chaffy Sedge,1m,Cladonia maxima (Asah.) Ahti,Red,36
+378,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Brassicaceae,Raphanus L.,Radish,2m,Carex gracillima Schwein.,Orange,6
+379,Autunno,CSS/img_flora/flora8.jpg,Arbusto,Violaceae,Viola oahuensis Forbes,Oahu Violet,3m,Lindera benzoin (L.) Blume,Blue,49
+380,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Campanulaceae,Platycodon grandiflorus (Jacq.) A. DC.,Balloon-flower,3m,Indigofera miniata Ortega,Blue,48
+381,Inverno,CSS/img_flora/flora7.jpg,Arbusto,Asteraceae,Palafoxia arida B.L. Turner & Morris var. arida,Desert Palafox,4m,Bryum algovicum Sendtn. ex Müll. Hal.,Fuscia,16
+382,Estate,CSS/img_flora/flora8.jpg,Arbusto,Stereocaulaceae,Stereocaulon depreaultii Delise ex Nyl.,Depreault's Snow Lichen,3m,Symphyotrichum patens (Aiton) G.L. Nesom var. patens,Orange,5
+383,Primavera,CSS/img_flora/flora9.jpg,Arbusto,Gentianaceae,Gentianella auriculata (Pall.) J.M. Gillett,Eared Dwarf Gentian,4m,Erigeron watsonii (A. Gray) Cronquist,Maroon,8
+384,Inverno,CSS/img_flora/flora10.jpg,Albero,Graphidaceae,Medusulina Müll. Arg.,Medusulina Lichen,1m,Buddleja sessiliflora Kunth,Purple,32
+385,Autunno,CSS/img_flora/flora5.jpg,Albero,Roccellaceae,Roccellina Darbish.,Roccellina Lichen,3m,Psychotria mauiensis Fosberg,Puce,42
+386,Autunno,CSS/img_flora/flora6.jpg,Albero,Boraginaceae,Pectocarya recurvata I.M. Johnst.,Curvenut Combseed,3m,Malaxis bayardii Fernald,Aquamarine,39
+387,Autunno,CSS/img_flora/flora4.jpg,Arbusto,Lycopodiaceae,Lycopodium venustulum Gaudich. var. venustulum,Hairtip Clubmoss,4m,Cissus nodosa Blume,Khaki,1
+388,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Asteraceae,Euthamia graminifolia (L.) Nutt. var. graminifolia,Flat-top Goldentop,2m,Amelanchier humilis Wiegand,Aquamarine,14
+389,Primavera,CSS/img_flora/flora10.jpg,Pianta erbacea,Fabaceae,Senna artemisioides (Gaudich. ex DC.) Randell ssp. ×sturtii (R. Br.) Randell,Dense Cassia,4m,Eriogonum crosbyae Reveal,Indigo,12
+390,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Crassulaceae,Dudleya cymosa (Lem.) Britton & Rose ssp. agourensis K.M. Nakai,Canyon Liveforever,2m,Tragopogon pratensis L.,Khaki,23
+391,Estate,CSS/img_flora/flora1.jpg,Albero,Sapindaceae,Exothea paniculata (Juss.) Radlk.,Butterbough,4m,Lotus hamatus Greene,Orange,23
+392,Inverno,CSS/img_flora/flora9.jpg,Albero,Scrophulariaceae,Synthyris borealis Pennell,Northern Kittentails,1m,Bupleurum americanum J.M. Coult. & Rose,Goldenrod,27
+393,Estate,CSS/img_flora/flora8.jpg,Albero,Parmeliaceae,Parmotrema dilatatum (Vain.) Hale,Parmotrema Lichen,5m,Bambusa longifolia (Fourn.) McClure,Blue,39
+394,Inverno,CSS/img_flora/flora4.jpg,Arbusto,Apiaceae,Perideridia leptocarpa T.I. Chuang & Constance,Narrowseed Yampah,2m,Thelypteris augescens (Link) Munz & I.M. Johnst.,Teal,1
+395,Inverno,CSS/img_flora/flora3.jpg,Arbusto,Zingiberaceae,Alpinia officinarum Hance,Lesser Galangal,5m,Fissidens clebschii Steere,Maroon,47
+396,Inverno,CSS/img_flora/flora4.jpg,Arbusto,Graphidaceae,Graphina cypressi Müll. Arg.,Cypress Graphina Lichen,5m,Bituminaria bituminosa (L.) Stirt.,Teal,29
+397,Autunno,CSS/img_flora/flora9.jpg,Albero,Limnocharitaceae,Hydrocleys nymphoides (Humb. & Bonpl. ex Willd.) Buchenau,Waterpoppy,5m,Peperomia rhombea Ruiz & Pav.,Violet,49
+398,Primavera,CSS/img_flora/flora10.jpg,Pianta erbacea,Acanthaceae,Thunbergia Retz.,Thunbergia,1m,Androsace septentrionalis L. ssp. subumbellata (A. Nelson) G.T. Robbins,Turquoise,26
+399,Primavera,CSS/img_flora/flora9.jpg,Pianta erbacea,Brunelliaceae,Brunellia comocladiifolia Humb. & Bonpl.,West Indian Sumac,1m,Korthalsella complanata (v. Tiegh.) Engl.,Indigo,45
+400,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Cactaceae,Thelocactus bicolor (Galeotti ex N.E. Pfeiffer) Britton & Rose,Glory Of Texas,4m,Kalmiopsis leachiana (L.F. Hend.) Rehder,Violet,41
+401,Autunno,CSS/img_flora/flora6.jpg,Pianta erbacea,Verbenaceae,Stachytarpheta ×intercedens Danser,Porterweed,2m,Braya glabella Richardson,Indigo,15
+402,Estate,CSS/img_flora/flora5.jpg,Arbusto,Chenopodiaceae,Corispermum hookeri Mosyakin var. pseudodeclinatum Mosyakin,Hooker Bugseed,4m,Gomphrena nealleyi J.M. Coult. & Fisher,Fuscia,43
+403,Inverno,CSS/img_flora/flora5.jpg,Albero,Polygonaceae,Polygonum cespitosum Blume var. longisetum (Bruijn) A.N. Steward,Oriental Lady's Thumb,3m,Hymenocallis henryae Traub,Indigo,39
+404,Autunno,CSS/img_flora/flora10.jpg,Albero,Capparaceae,Atamisquea Miers ex Hook. & Arn.,Atamisquea,5m,Acacia baileyana F. Muell.,Turquoise,37
+405,Primavera,CSS/img_flora/flora3.jpg,Albero,Cyperaceae,Carex pumila Thunb.,Dwarf Sedge,2m,Heterodermia erinacea (Ach.) W.A. Weber,Crimson,36
+406,Inverno,CSS/img_flora/flora5.jpg,Arbusto,Polemoniaceae,Navarretia setiloba Coville,Paiute Mountain Pincushionplant,5m,Cardamine macrocarpa Brandegee,Purple,45
+407,Inverno,CSS/img_flora/flora10.jpg,Arbusto,Poaceae,Dichanthelium pedicellatum (Vasey) Gould,Cedar Rosette Grass,3m,Malacothamnus foliosus (S. Watson) Kearney,Purple,22
+408,Autunno,CSS/img_flora/flora9.jpg,Arbusto,Juncaceae,Juncus leiospermus F.J. Herm. var. ahartii Ertter,Ahart's Dwarf Rush,1m,Prosartes hookeri Torr.,Blue,8
+409,Autunno,CSS/img_flora/flora10.jpg,Albero,Lycopodiaceae,Lycopodium obscurum L.,Rare Clubmoss,3m,Calliandra haematocephala Hassk.,Mauv,19
+410,Estate,CSS/img_flora/flora6.jpg,Arbusto,Asclepiadaceae,Matelea woodsonii Shinners,Woodson's Milkvine,1m,Salix pedicellaris Pursh,Mauv,36
+411,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Apiaceae,Zizia trifoliata (Michx.) Fernald,Meadow Alexanders,5m,Cirsium repandum Michx.,Red,2
+412,Autunno,CSS/img_flora/flora9.jpg,Albero,Asteraceae,Senecio multidentatus Sch. Bip. ex Hemsl.,Huachuca Mountain Ragwort,4m,Brickellia brachyphylla (A. Gray) A. Gray,Aquamarine,35
+413,Estate,CSS/img_flora/flora4.jpg,Pianta erbacea,Acarosporaceae,Acarospora sinopica (Wahlenb.) Körb.,Cracked Lichen,3m,Opuntia tomentosa Salm-Dyck,Crimson,48
+414,Inverno,CSS/img_flora/flora4.jpg,Albero,Flacourtiaceae,Laetia Loefl. ex L.,Laetia,4m,Anemone parviflora Michx. var. grandiflora Ulbr.,Fuscia,50
+415,Inverno,CSS/img_flora/flora1.jpg,Albero,Stereocaulaceae,Stereocaulon arcticum Lynge,Arctic Snow Lichen,3m,Melaleuca acuminata F. Muell.,Aquamarine,31
+416,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Fontinalaceae,Fontinalis antipyretica Hedw. var. oregonensis Renauld & Cardot,Oregon Fontinalis Moss,5m,Paronychia echinulata Chater,Turquoise,7
+417,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Graphidaceae,Graphis rufula (Trevis.) Mont.,Script Lichen,4m,Eriogonum cernuum Nutt. var. cernuum,Crimson,26
+418,Inverno,CSS/img_flora/flora2.jpg,Albero,Brassicaceae,Rorippa sarmentosa (G. Forst. ex DC.) J.F. Macbr.,Longrunner,2m,Chrysanthemum L.,Maroon,9
+419,Inverno,CSS/img_flora/flora5.jpg,Pianta erbacea,Cuscutaceae,Cuscuta attenuata Waterf.,Tapertip Dodder,2m,Astragalus douglasii (Torr. & A. Gray) A. Gray var. parishii (A. Gray) M.E. Jones,Aquamarine,50
+420,Autunno,CSS/img_flora/flora8.jpg,Arbusto,Eriocaulaceae,Eriocaulon decangulare L. var. latifolium Chapm.,Tenangle Pipewort,2m,Cryptantha micrantha (Torr.) I.M. Johnst. var. lepida (A. Gray) I.M. Johnst.,Fuscia,35
+421,Primavera,CSS/img_flora/flora10.jpg,Albero,Ranunculaceae,Ranunculus longirostris Godr.,Longbeak Buttercup,5m,Dasynotus I.M. Johnst.,Teal,22
+422,Autunno,CSS/img_flora/flora7.jpg,Arbusto,Euphorbiaceae,Croton ovalifolius Vahl,Yerba,4m,Erysimum capitatum (Douglas ex Hook.) Greene var. bealianum (Jeps.) G. Rossb.,Puce,49
+423,Estate,CSS/img_flora/flora1.jpg,Arbusto,Asteraceae,Eucephalus ledophyllus (A. Gray) Greene var. covillei (Greene) G.L. Nesom,Cascade Aster,3m,Myrosma L. f.,Green,35
+424,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Amaranthaceae,Charpentiera obovata Gaudich.,Broadleaf Papala,4m,Triteleiopsis palmeri (S. Watson) Hoover,Green,28
+425,Primavera,CSS/img_flora/flora7.jpg,Albero,Onagraceae,Ludwigia polycarpa Short & Peter,Manyfruit Primrose-willow,4m,Liatris bracteata Gaiser,Red,42
+426,Inverno,CSS/img_flora/flora2.jpg,Albero,Cuscutaceae,Cuscuta obtusiflora Kunth var. glandulosa Engelm.,Peruvian Dodder,1m,Psychilis macconnelliae Sauleda,Puce,47
+427,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Scrophulariaceae,Seymeria pectinata Pursh,Piedmont Blacksenna,5m,Caltha leptosepala DC. ssp. howellii (Huth) P.G. Sm.,Crimson,18
+428,Autunno,CSS/img_flora/flora5.jpg,Arbusto,Myrtaceae,Eucalyptus cordata Labill.,Silver-dollar Eucalyptus,3m,Dichanthelium strigosum (Muhl. ex Elliott) Freckmann var. strigosum,Goldenrod,30
+429,Primavera,CSS/img_flora/flora3.jpg,Pianta erbacea,Saxifragaceae,Lithophragma tenellum Nutt.,Slender Woodland-star,4m,Eriogonum wetherillii Eastw.,Puce,42
+430,Estate,CSS/img_flora/flora1.jpg,Albero,Poaceae,Oplismenus compositus (L.) P. Beauv.,Running Mountaingrass,1m,Ephebe ocellata Henssen,Pink,8
+431,Inverno,CSS/img_flora/flora1.jpg,Arbusto,Fabaceae,Lonchocarpus glaucifolius Urb.,Geno,3m,Peltigera britannica (Gyel.) Holt.-Hartw. & Tonsb.,Turquoise,48
+432,Autunno,CSS/img_flora/flora8.jpg,Albero,Pedaliaceae,Harpagophytum procumbens (Burch.) DC. ex Meisn.,Devil's-claw,5m,Steinia Körb.,Orange,18
+433,Autunno,CSS/img_flora/flora1.jpg,Albero,Fagaceae,Quercus arkansana Sarg.,Arkansas Oak,4m,Xanthocephalum gymnospermoides (A. Gray) Benth. & Hook. f.,Purple,25
+434,Primavera,CSS/img_flora/flora7.jpg,Arbusto,Boraginaceae,Plagiobothrys canescens Benth. var. catalinensis (A. Gray) Jeps.,Catalina Popcornflower,2m,Carduus L.,Turquoise,4
+435,Primavera,CSS/img_flora/flora3.jpg,Albero,Nyctaginaceae,Mirabilis pudica Barneby var. pudica,Bashful Four O'clock,2m,Silphium reverchonii Bush,Teal,1
+436,Estate,CSS/img_flora/flora2.jpg,Albero,Acanthaceae,Dyschoriste Nees,Snakeherb,4m,Salix ×rubens Schrank (pro sp.),Yellow,41
+437,Estate,CSS/img_flora/flora6.jpg,Pianta erbacea,Asteraceae,Stevia rebaudiana (Bertoni) Bertoni,Candyleaf,2m,Salix ×doniana Sm.,Aquamarine,26
+438,Primavera,CSS/img_flora/flora8.jpg,Pianta erbacea,Asteraceae,Erigeron utahensis A. Gray,Utah Fleabane,4m,Cladonia pyxidata (L.) Hoffm.,Orange,18
+439,Estate,CSS/img_flora/flora4.jpg,Arbusto,Graphidaceae,Graphis insidiosa (C. Knight & Mitt.) Hook. f.,Script Lichen,5m,Senecio flaccidus Less.,Crimson,19
+440,Autunno,CSS/img_flora/flora9.jpg,Pianta erbacea,Fabaceae,Acacia senegal (L.) Willd.,Gum Arabic,4m,Sedum oreganum Nutt.,Goldenrod,22
+441,Inverno,CSS/img_flora/flora9.jpg,Albero,Salicaceae,Salix alba L.,White Willow,3m,Sphagnum macrophyllum Brid. var. burinense Maass,Pink,1
+442,Inverno,CSS/img_flora/flora2.jpg,Pianta erbacea,Asteraceae,Holocarpha obconica (J.C. Clausen & D.D. Keck) D.D. Keck,San Joaquin Tarweed,5m,Cheirodendron platyphyllum (Hook. & Arn.) Seem. ssp. kauaiense (Krajina) Lowry,Red,23
+443,Estate,CSS/img_flora/flora4.jpg,Arbusto,Pinaceae,Pinus oocarpa Schiede ex Schltdl.,Ocote Chino,2m,Prosthechea cochleata (L.) W.E. Higgins var. triandra (Ames) W.E. Higgins,Khaki,12
+444,Estate,CSS/img_flora/flora5.jpg,Pianta erbacea,Brassicaceae,Lesquerella filiformis Rollins,Limestoneglade Bladderpod,3m,Chamaecrista nictitans (L.) Moench ssp. patellaria (DC. ex Collad.) Irwin & Barneby,Aquamarine,18
+445,Estate,CSS/img_flora/flora6.jpg,Pianta erbacea,Caryophyllaceae,Drymaria cordata (L.) Willd. ex Schult.,Whitesnow,1m,Calicium corynellum (Ach.) Ach.,Maroon,33
+446,Estate,CSS/img_flora/flora10.jpg,Albero,Asteraceae,Aphanostephus ramosissimus DC. var. humilis (Benth.) B.L. Turner & Birdsong,Plains Dozedaisy,1m,Draba spectabilis Greene var. spectabilis,Turquoise,41
+447,Autunno,CSS/img_flora/flora2.jpg,Pianta erbacea,Asteraceae,Erigeron aphanactis (A. Gray) Greene var. congestus (Greene) Cronquist,Rayless Shaggy Fleabane,1m,Arabis fernaldiana Rollins var. stylosa (S. Watson) Rollins,Green,3
+448,Autunno,CSS/img_flora/flora3.jpg,Pianta erbacea,Asteraceae,Arnica chamissonis Less. ssp. foliosa (Nutt.) Maguire,Chamisso Arnica,3m,Ceanothus papillosus Torr. & A. Gray,Blue,36
+449,Inverno,CSS/img_flora/flora3.jpg,Pianta erbacea,Fabaceae,Chamaecrista calycioides (DC. ex Collad.) Greene,Woodland Sensitive Pea,5m,Astragalus tweedyi Canby,Goldenrod,13
+450,Primavera,CSS/img_flora/flora3.jpg,Arbusto,Uncertain Ascomycota Family,Illosporium carneum Fr.,Illosporium Lichen,2m,Oenothera xylocarpa Coville,Mauv,6
+451,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Fabaceae,Lotus stipularis (Benth.) Greene var. stipularis,Balsam Bird's-foot Trefoil,1m,Joinvillea ascendens Gaudich. ex Brongn. & Gris,Pink,48
+452,Inverno,CSS/img_flora/flora4.jpg,Albero,Asteraceae,Chloracantha G.L. Nesom,Chloracantha,1m,Lecidea amabilis de Lesd.,Yellow,35
+453,Inverno,CSS/img_flora/flora5.jpg,Albero,Liliaceae,Crinum zeylanicum (L.) L.,Ceylon Swamplily,5m,Carex adusta Boott,Green,20
+454,Estate,CSS/img_flora/flora6.jpg,Arbusto,Lamiaceae,Perovskia Kar.,Perovskia,4m,Polystachya concreta (Jacq.) Garay & H.R. Sweet,Mauv,21
+455,Autunno,CSS/img_flora/flora5.jpg,Pianta erbacea,Fabaceae,Amorpha laevigata Nutt.,Smooth False Indigo,4m,Viola pedatifida G. Don,Yellow,37
+456,Autunno,CSS/img_flora/flora7.jpg,Albero,Verrucariaceae,Verrucaria subglaucina de Lesd.,Wart Lichen,3m,Vaccinium vitis-idaea L. ssp. minus (Lodd.) Hultén,Violet,37
+457,Inverno,CSS/img_flora/flora9.jpg,Arbusto,Liliaceae,Alstroemeria haemantha Ruiz & Pav.,Purple-spot Parrot-lily,5m,Micranthemum glomeratum (Chapm.) Shinners,Khaki,32
+458,Estate,CSS/img_flora/flora4.jpg,Albero,Rutaceae,Ptelea trifoliata L. ssp. angustifolia (Benth.) V. Bailey,Common Hoptree,3m,Mansoa hymenacea (DC.) A.H. Gentry,Maroon,48
+459,Estate,CSS/img_flora/flora7.jpg,Albero,Lamiaceae,Stachys officinalis (L.) Trevis.,Common Hedgenettle,4m,Crotalaria lanceolata E. Mey.,Aquamarine,30
+460,Inverno,CSS/img_flora/flora5.jpg,Albero,Polygonaceae,Polygonella myriophylla (Small) Horton,Small's Jointweed,5m,Xanthoparmelia idahoensis Hale,Teal,37
+461,Estate,CSS/img_flora/flora10.jpg,Pianta erbacea,Cyperaceae,Carex muehlenbergii Schkuhr ex Willd. var. muehlenbergii,Muhlenberg's Sedge,3m,Viola ×subaffinis House,Fuscia,44
+462,Autunno,CSS/img_flora/flora9.jpg,Albero,Oleaceae,Chionanthus compactus Sw.,Bridgotree,2m,Epidendrum rigidum Jacq.,Green,18
+463,Estate,CSS/img_flora/flora9.jpg,Albero,Caliciaceae,Calicium lenticulare Ach.,Spike Lichen,2m,Amphipappus fremontii Torr. & A. Gray ex A. Gray,Aquamarine,42
+464,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Myoporaceae,Myoporum sandwicense (A. DC.) A. Gray,Naio,2m,Corydalis pauciflora (Stephan) Pers.,Fuscia,13
+465,Estate,CSS/img_flora/flora2.jpg,Arbusto,Ericaceae,Arctostaphylos nevadensis A. Gray,Pinemat Manzanita,1m,Peccania texana (Tuck.) Wetmore,Red,21
+466,Inverno,CSS/img_flora/flora8.jpg,Albero,Combretaceae,Lumnitzera Wild.,Black Mangrove,1m,Xyris calcicola E.L. Bridges & Orzell,Crimson,5
+467,Primavera,CSS/img_flora/flora8.jpg,Arbusto,Smilacaceae,Smilax coriacea Spreng.,Everglades Greenbrier,2m,Verbesina encelioides (Cav.) Benth. & Hook. f. ex A. Gray ssp. encelioides,Violet,45
+468,Autunno,CSS/img_flora/flora2.jpg,Albero,Polygonaceae,Eriogonum molestum S. Watson,Pineland Buckwheat,3m,Clematis versicolor Small ex Rydb.,Goldenrod,50
+469,Inverno,CSS/img_flora/flora2.jpg,Albero,Violaceae,Viola vanroyenii H. St. John,Van Royen Pohe Hiwa,5m,Oreoxis alpina (A. Gray) J.M. Coult. & Rose ssp. alpina,Green,32
+470,Autunno,CSS/img_flora/flora7.jpg,Arbusto,Fabaceae,Astragalus calycosus Torr. ex S. Watson var. scaposus (A. Gray) M.E. Jones,Torrey's Milkvetch,2m,Gaillardia flava Rydb.,Green,33
+471,Autunno,CSS/img_flora/flora5.jpg,Albero,Asteraceae,Microseris sylvatica (Benth.) Sch. Bip.,Sylvan Scorzonella,5m,Eriogonum hoffmannii S. Stokes var. robustius S. Stokes,Red,35
+472,Primavera,CSS/img_flora/flora8.jpg,Arbusto,Teloschistaceae,Xanthoria fallax (Hepp) Arnold,Orange Wall Lichen,4m,Camissonia confertiflora (P.H. Raven) P.H. Raven,Pink,35
+473,Primavera,CSS/img_flora/flora4.jpg,Arbusto,Physciaceae,Rinodina metaboliza Vain.,Rinodina Lichen,3m,Arundinaria amabilis McClure,Purple,5
+474,Estate,CSS/img_flora/flora1.jpg,Pianta erbacea,Arthopyreniaceae,Arthopyrenia malaccitula (Nyl.) Zahlbr.,Shell Lichen,2m,Lemna minor L.,Puce,19
+475,Estate,CSS/img_flora/flora1.jpg,Arbusto,Parmeliaceae,Platismatia stenophylla (Tuck.) W.L. Culb. & C.F. Culb.,Ragged Lichen,2m,Thinopyrum ponticum (Podp.) Z.-W. Liu & R.-C. Wang,Indigo,34
+476,Estate,CSS/img_flora/flora2.jpg,Arbusto,Grossulariaceae,Ribes menziesii Pursh var. hystrix (Eastw.) Jeps.,Canyon Gooseberry,4m,Mikania fragilis Urb.,Maroon,6
+477,Autunno,CSS/img_flora/flora4.jpg,Pianta erbacea,Asteraceae,Zinnia anomala A. Gray,Shortray Zinnia,5m,Alpinia mutica Roxb.,Yellow,24
+478,Autunno,CSS/img_flora/flora10.jpg,Albero,Fabaceae,Schleinitzia Warb.,Strand Tangantangan,5m,Solanum khasianum C.B. Clarke,Yellow,12
+479,Primavera,CSS/img_flora/flora7.jpg,Albero,Teloschistaceae,Caloplaca albovariegata (de Lesd.) Wetmore,Variegated Orange Lichen,3m,Verbena lasiostachys Link,Fuscia,30
+480,Autunno,CSS/img_flora/flora3.jpg,Arbusto,Bacidiaceae,Lecania hassei (Zahlbr.) W. Noble,Hasse's Lecania Lichen,3m,Amorpha L.,Goldenrod,36
+481,Primavera,CSS/img_flora/flora6.jpg,Pianta erbacea,Orobanchaceae,Orobanche valida Jeps. ssp. howellii Heckard & T.S. Collins,Howell's Broomrape,5m,Castilleja flava S. Watson var. rustica (Piper) N.H. Holmgren,Mauv,11
+482,Autunno,CSS/img_flora/flora10.jpg,Arbusto,Droseraceae,Drosera capillaris Poir.,Pink Sundew,2m,Erythronium klamathense Applegate,Indigo,38
+483,Primavera,CSS/img_flora/flora1.jpg,Arbusto,Fabaceae,Lotus argyraeus (Greene) Greene var. notitius Isely,Canyon Bird's-foot Trefoil,2m,Cratoneuron (Sull.) Spruce,Violet,5
+484,Inverno,CSS/img_flora/flora1.jpg,Pianta erbacea,Fabaceae,Vicia grandiflora Scop.,Large Yellow Vetch,3m,Quercus chrysolepis Liebm. var. nana (Jeps.) Jeps.,Blue,43
+485,Autunno,CSS/img_flora/flora5.jpg,Albero,Asteraceae,Symphyotrichum urophyllum (Lindl.) G.L. Nesom,White Arrowleaf Aster,5m,Physcia adscendens (Fr.) H. Olivier,Goldenrod,50
+486,Primavera,CSS/img_flora/flora10.jpg,Albero,Myrsinaceae,Myrsine fosbergii Hosaka,Koolau Range Colicwood,3m,Cassia javanica L. var. indochinensis Gagnep.,Turquoise,46
+487,Inverno,CSS/img_flora/flora6.jpg,Pianta erbacea,Portulacaceae,Claytonia exigua Torr. & A. Gray ssp. glauca (Torr. & A. Gray) John M. Mill. & K.L. Chambers,Serpentine Springbeauty,5m,Gluta L.,Maroon,18
+488,Estate,CSS/img_flora/flora10.jpg,Albero,Boraginaceae,Nonea versicolor (Stev.) Sweet,Monkswort,5m,Setaria viridis (L.) P. Beauv. var. major (Gaudin) Pospichal,Khaki,6
+489,Autunno,CSS/img_flora/flora5.jpg,Pianta erbacea,Cyperaceae,Bulbostylis stenophylla (Elliott) C.B. Clarke,Sandy Field Hairsedge,3m,Boschniakia rossica (Cham. & Schltdl.) Fedtsch.,Puce,26
+490,Inverno,CSS/img_flora/flora5.jpg,Albero,Crassulaceae,Dudleya pulverulenta (Nutt.) Britton & Rose,Chalk Dudleya,4m,Hypnum cupressiforme Hedw. var. lacunosum Brid.,Fuscia,3
+491,Autunno,CSS/img_flora/flora7.jpg,Albero,Asteraceae,Symphyotrichum lateriflorum (L.) Á. Löve & D. Löve var. angustifolium (Wiegand) G.L. Nesom,Calico Aster,4m,Umbilicaria Hoffm.,Khaki,30
+492,Inverno,CSS/img_flora/flora6.jpg,Albero,Pteridaceae,Cheilanthes intertexta (Maxon) Maxon,Coastal Lipfern,3m,Multiclavula mucida (Fr.) R. Petersen,Red,21
+493,Primavera,CSS/img_flora/flora1.jpg,Pianta erbacea,Psoraceae,Psora californica Timdal,California Fishscale Lichen,1m,Lecanora iowensis Fink,Aquamarine,33
+494,Primavera,CSS/img_flora/flora9.jpg,Albero,Micareaceae,Micarea hedlundii Coppins,Hedlund's Dot Lichen,1m,Lobelia appendiculata A. DC. var. gattingeri (A. Gray) McVaugh,Teal,49
+495,Estate,CSS/img_flora/flora4.jpg,Albero,Asteraceae,Solidago sempervirens L. var. sempervirens,Seaside Goldenrod,5m,Araucaria columnaris (G. Forst.) Hook.,Khaki,46
+496,Autunno,CSS/img_flora/flora9.jpg,Arbusto,Fabaceae,Vicia hirsuta (L.) Gray,Tiny Vetch,3m,Ipomopsis arizonica (Greene) Wherry,Puce,31
+497,Inverno,CSS/img_flora/flora10.jpg,Albero,Viscaceae,Phoradendron libocedri (Engelm.) Howell,Incense Cedar Mistletoe,1m,Varicellaria Nyl.,Indigo,45
+498,Estate,CSS/img_flora/flora9.jpg,Arbusto,Nymphaeaceae,Nymphaea odorata Aiton,American White Waterlily,2m,Penstemon davidsonii Greene var. praeteritus Cronquist,Mauv,9
+499,Estate,CSS/img_flora/flora3.jpg,Albero,Hymenophyllaceae,Trichomanes javanicum Blume,Bristle Fern,3m,Ipomoea tenuiloba Torr.,Blue,34
+500,Inverno,CSS/img_flora/flora9.jpg,Arbusto,Viscaceae,Arceuthobium abietinum (Engelm.) Hawksw. & Wiens,Fir Dwarf Mistletoe,4m,Tabebuia haemantha (Bertol. ex Spreng.) DC.,Khaki,46
