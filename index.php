@@ -128,9 +128,11 @@
       async>
     </script>
 
+    <!-- titolo e searchbox -->
+    <!-- ------------------ -->
   <div class="rowimg">
    <div class="columnbtn">
-      <h2 class="titolo2" style="float:left;">Flora</h2>
+      <h2 class="titolo2" style="float:left;">Tabella Parchi:</h2>
    </div>
 
    <div class="columnbtn">
