@@ -128,7 +128,23 @@
       async>
     </script>
 
-  <h2 class="titolo">Tabella dei Parchi:</h2>
+  <div class="rowimg">
+   <div class="columnbtn">
+      <h2 class="titolo2" style="float:left;">Flora</h2>
+   </div>
+
+   <div class="columnbtn">
+      <div class="bottone">
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+        </div>
+      </div>
+   </div>
+</div>
+
   <table id="tableData" class="table table-bordered table-striped">
     <thead>
         <tr>
