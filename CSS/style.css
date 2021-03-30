@@ -639,6 +639,22 @@ body {
     font-size: 16px;
 }
 
+.paging-nav,
+#tableData3 {
+    width: 90%;
+    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.paging-nav,
+#tableData4 {
+    width: 90%;
+    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
 
 /*-----------------------*/
 
@@ -724,6 +740,7 @@ body {
     border-radius: 5px;
     border: 2px solid #bbb;
     padding: 10px;
+    font-size: 18px;
 }
 
 .overlay {
@@ -737,22 +754,42 @@ body {
     border-radius: 10px;
 }
 
+.overlay-tab {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #807b7bd7;
+}
+
 .container-img {
     position: relative;
     width: 50%;
     left: 25%;
 }
 
-.container-img-home{
+.container-img-home {
     position: relative;
 }
+
 .container-img:hover .overlay {
+    opacity: 1;
+}
+
+.container-img-tab {
+    position: relative;
+    width: 192px;
+}
+
+.container-img-tab:hover .overlay-tab {
     opacity: 1;
 }
 
 .text {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     position: absolute;
     top: 50%;
     left: 50%;
