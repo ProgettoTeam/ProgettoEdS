@@ -92,7 +92,7 @@
         <img src="<?php echo $row['path_immagine'] ?>" alt="ParcoGrande1" class="ParcoGrande">
       </div>
       <div class="flip-box-back">
-        <h2>Gigashots</h2>
+        <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
         <a href=# style:"padding-top: 80px">Visita</a>
       </div>
@@ -111,7 +111,7 @@
         <img src="<?php echo $row['path_immagine'] ?>" alt="ParcoGrande2" class="ParcoGrande">
       </div>
       <div class="flip-box-back">
-        <h2>Wikivu</h2>
+        <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
         <a href=#>Visita</a>
       </div>
@@ -165,7 +165,7 @@
           ?>
             <tr>
               <td>
-                <a href=#>
+                <a href='PHP/Public/parco.php'>
                   <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
                   <p id="overlay_home">Visita</p>
                 </a>

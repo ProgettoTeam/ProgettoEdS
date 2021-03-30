@@ -32,6 +32,12 @@
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.459), 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+#imgMappa {
+    width: 280px;
+    height: auto;
+    float: left;
+}
+
 td {
     font-size: 15px !important;
 }
@@ -850,4 +856,9 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+div.gm-style-iw-d {
+    width: 636px;
+    height: 210px;
 }
