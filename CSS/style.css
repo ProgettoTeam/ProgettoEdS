@@ -743,6 +743,9 @@ body {
     left: 25%;
 }
 
+.container-img-home{
+    position: relative;
+}
 .container-img:hover .overlay {
     opacity: 1;
 }
