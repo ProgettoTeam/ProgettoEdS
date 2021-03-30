@@ -165,10 +165,16 @@
           ?>
             <tr>
               <td>
-                <a href='PHP/Public/parco.php'>
-                  <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
-                  <p id="overlay_home">Visita</p>
-                </a>
+                <div class="container-img-home" id="containerimghome">
+
+                  <a href='PHP/Public/parco.php'>
+                    <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella" class="imgparco"></img>
+                    <div class="overlay" id="overlay">
+                    <div class="text">Visita il Parco</div>
+                    </div>
+                  </a>
+                
+                </div>
               </td>
               <td><?php echo $row['Nome']?></td>
               <td><?php echo $row['Luogo']?></td>
