@@ -9,12 +9,12 @@
 <body>
 <?php 
    $IdParco = $_GET["IdParco"];
-   $conn = mysqli_connect("localhost", "parco", "", "parco");
+   include '../DBconnection.php';
    $query = "SELECT * FROM parco WHERE IdParco=$IdParco";
    $result = mysqli_query($conn, $query);
-   $parco = mysqli_fetch_array($result)
+   $parco = mysqli_fetch_array($result);
+   include '../navbar.php';
 ?>
-<?php include '../navbar.php'?>
 
 <h1 class="titolo"><?php echo $parco[1] ?></h1>
 <div class="container-img">

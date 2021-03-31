@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "parco", "", "parco");
+include '../DBconnection.php';
 $responsabili = fopen("../../CSV/Responsabili.csv", "r");
 
 while(($column = fgetcsv($responsabili, 300, ",")) !== false)
