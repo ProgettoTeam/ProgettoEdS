@@ -1,35 +1,43 @@
 // Initialize and add the map
 function initMap() {
     // The location of Italy
-    const Italy = { lat: 42.50, lng: 12.50 };
-    const Italy_2 = { lat: 43.50, lng: 11.50 };
+    const Italy = { lat: 42.503, lng: 12.504 };
 
     // The map, centered at Italy
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
-      center: Italy,
+        zoom: 4,
+        center: Italy,
+    });
+
+    let parchi = JSON.parse(document.getElementById('all_parchi').innerHTML);
+
+    let infoWindow = new google.maps.InfoWindow();
+
+    Array.prototype.forEach.call(parchi, function(parco) {
+        const marker = new google.maps.Marker({
+            position: new google.maps.LatLng(parco[3], parco[4]),
+            map: map
+        });
+
+        google.maps.event.addListener(marker, "click", function() {
+            infoWindow.close();
+            infoWindow.setContent("<div position:absolute><img id='imgMappa' src='" + parco[6] + "'></div> <div style='padding-top: 40px'><b style='padding-left: 5%'>" + parco[1] + "</b></br></br><p style='margin-left: 50%'>" + parco[5] + "</br></br></br><a href='PHP/Public/parco.php'>Visita</a></p></div>");
+            infoWindow.open(map, marker);
+        });
     });
     // The marker, positioned at Italy
-    const marker = new google.maps.Marker({
-      position: Italy,
-      map: map,
-    });
-    const marker2 = new google.maps.Marker({
-      position: Italy_2,
-      map: map,
-    });
-  }
+}
 
 
 
-  //------------------------------
-  //------------------------------
-  //Table and pagination
-  //------------------------------
-  //------------------------------
+//------------------------------
+//------------------------------
+//Table and pagination
+//------------------------------
+//------------------------------
 
-  
-  (function($) {
+
+(function($) {
     $(function() {
         $.widget("zpd.paging", {
             options: {
@@ -48,29 +56,26 @@ function initMap() {
             },
             _getNavBar: function() {
                 var rows = this.options.rows;
-                var nav = $('<div>', {class: 'paging-nav'});
+                var nav = $('<div>', { class: 'paging-nav' });
                 for (var i = 0; i < Math.ceil(rows.length / this.options.limit); i++) {
                     this._on($('<a>', {
                         href: '#',
                         text: (i + 1),
                         "data-page": (i)
-                    }).appendTo(nav),
-                            {click: "pageClickHandler"});
+                    }).appendTo(nav), { click: "pageClickHandler" });
                 }
                 //create previous link
                 this._on($('<a>', {
                     href: '#',
                     text: '<<',
                     "data-direction": -1
-                }).prependTo(nav),
-                        {click: "pageStepHandler"});
+                }).prependTo(nav), { click: "pageStepHandler" });
                 //create next link
                 this._on($('<a>', {
                     href: '#',
                     text: '>>',
                     "data-direction": +1
-                }).appendTo(nav),
-                        {click: "pageStepHandler"});
+                }).appendTo(nav), { click: "pageStepHandler" });
                 return nav;
             },
             showPage: function(pageNum) {
@@ -106,5 +111,3 @@ function initMap() {
         });
     });
 })(jQuery);
-
- 
