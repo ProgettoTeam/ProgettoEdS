@@ -9,8 +9,8 @@
 
 
     <link rel="stylesheet" href="../../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JS/index.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/index.js"></script>
 
     
   
@@ -22,4 +22,5 @@
     <!-- jQuery UI -->
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
