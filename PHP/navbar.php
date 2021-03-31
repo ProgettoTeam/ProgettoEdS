@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <img src="../CSS/logo-flora-fauna.png" class="logo">
+      <img src="CSS/logo-flora-fauna.png" class="logo">
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
