@@ -11,7 +11,7 @@
 
 <h1 class="titolo">Nome del Parco</h1>
 <div class="container-img" id="containerimg">
-   <img src="../../CSS/foto-motivazionale-5.jpeg" class="imgparco"> </img>
+   <img src="../../CSS/img_parchi/parco7.jpg" class="imgparco"> </img>
    <div class="overlay" id="overlay">
       <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu leo ultricies, sollicitudin sapien tincidunt, viverra metus.</div>
       </div>
