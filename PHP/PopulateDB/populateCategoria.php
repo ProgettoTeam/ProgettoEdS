@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "parco", "", "parco");
+include '../DBconnection.php';
 $categorie = fopen("../../CSV/Categorie_fauna.csv", "r");
 
 while(($column = fgetcsv($categorie, 30, ",")) !== false)
@@ -8,5 +8,5 @@ while(($column = fgetcsv($categorie, 30, ",")) !== false)
     $result = mysqli_query($conn, $InsertCategoria);
 }
 fclose($categorie);
-mysqli_close($conn);
+include '../DBclose.php';
 ?>
