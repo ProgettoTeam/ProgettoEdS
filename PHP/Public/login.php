@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../../CSS/style.css">
 
         <?php include ("../librerie.php")?>
-		
+
         </head>
 	<body style="background-color: #1d814a;-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;box-sizing: border-box;font-family:Roboto;"> 
