@@ -1,12 +1,27 @@
 <?php
-$conn = mysqli_connect("localhost", "parco", "", "parco");
+include '../DBconnection.php';
 $responsabili = fopen("../../CSV/Responsabili.csv", "r");
 
 while(($column = fgetcsv($responsabili, 300, ",")) !== false)
 {
-    $InsertResponsabile = "insert into responsabile(IdResponsabile,Nome,Cognome,Email,Password,fk_IdAmministratore, fk_IdParco) values('$column[0]','$column[1]', '$column[2]', '$column[3]', '$column[4]', '$column[5]', '$column[6]')";
+    $password = md5($column[4]);
+    echo $column[0];
+    echo '////////';
+    echo $column[1];
+    echo '////////';
+    echo $column[2];
+    echo '////////';
+    echo $column[3];
+    echo '////////';
+    echo $password;
+    echo '////////';
+    echo $column[5];
+    echo '////////';
+    echo $column[6];
+    echo '///////////////////////////////';
+    $InsertResponsabile = "insert into responsabile(IdResponsabile,Nome,Cognome,Email,Password,fk_IdAmministratore, fk_IdParco) values('$column[0]','$column[1]', '$column[2]', '$column[3]', '$password', '$column[5]', '$column[6]')";
     $result = mysqli_query($conn, $InsertResponsabile);
 }
 fclose($responsabili);
-mysqli_close($conn);
+include '../DBclose.php';
 ?>
