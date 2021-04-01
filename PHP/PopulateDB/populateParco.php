@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "parco", "", "parco");
+include '../DBconnection.php';
 $parchi = fopen("../../CSV/Parchi.csv", "r");
 
 while(($column = fgetcsv($parchi, 220, ",")) !== false)
@@ -8,5 +8,5 @@ while(($column = fgetcsv($parchi, 220, ",")) !== false)
     $result = mysqli_query($conn, $InsertParco);
 }
 fclose($parchi);
-mysqli_close($conn);
+include '../DBclose.php';
 ?>
