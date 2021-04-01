@@ -9,7 +9,6 @@
 
 
     <link rel="stylesheet" href="../../CSS/style.css">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="../CSS/style.css">
     
     <script src="JS/index.js"></script>
