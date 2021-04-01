@@ -94,7 +94,7 @@
       <div class="flip-box-back">
         <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
-        <a href=# style:"padding-top: 80px">Visita</a>
+        <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>' style:"padding-top: 80px">Visita</a>
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@
       <div class="flip-box-back">
         <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
-        <a href=#>Visita</a>
+        <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>Visita</a>
       </div>
     </div>
   </div>
@@ -182,6 +182,7 @@
             </tr>
           <?php
           }
+          include 'PHP/DBclose.php';
         ?>
     </tbody>
   </table>
