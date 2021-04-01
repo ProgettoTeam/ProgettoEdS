@@ -31,11 +31,11 @@
 
         public function _construct()
         {
-            $conn = mysqli_connect("localhost", "root", "1234", "parco");
+            include 'DBconnection.php';
         }
 
         public function getParchi() {
-            $conn = mysqli_connect("localhost", "root", "1234", "parco");
+            include 'DBconnection.php';
             $sql = "SELECT * FROM parco";
             $result = mysqli_query($conn, $sql);
             $row = mysqli_fetch_all($result);
