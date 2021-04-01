@@ -23,7 +23,8 @@
 
 
 <body>
-  <?php include 'PHP/navbar.php'?>
+  <?php include 'PHP/navbar.php';
+  include 'PHP/DBconnection.php'; ?>
   <div class="body-container">
     
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -83,10 +84,9 @@
       <div class="flip-box">
         <div class="flip-box-inner">
         <?php
-          $conn = mysqli_connect("localhost", "root", "1234", "parco");
           $query_parco1 = "SELECT * FROM parco WHERE Nome='Methocarbamol'";
           $result = mysqli_query($conn, $query_parco1);
-          $row = mysqli_fetch_array($result)
+          $row = mysqli_fetch_array($result);
         ?>
       <div class="flip-box-front">
         <img src="<?php echo $row['path_immagine'] ?>" alt="ParcoGrande1" class="ParcoGrande">
@@ -165,11 +165,11 @@
           ?>
             <tr>
               <td>
-                <div class="container-img-home" id="containerimghome">
+                <div class="container-img-tab" id="containerimghome">
 
-                  <a href='PHP/Public/parco.php'>
-                    <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella" class="imgparco"></img>
-                    <div class="overlay" id="overlay">
+                  <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
+                    <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
+                    <div class="overlay-tab">
                     <div class="text">Visita il Parco</div>
                     </div>
                   </a>
