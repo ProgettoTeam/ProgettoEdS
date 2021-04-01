@@ -4,15 +4,12 @@
 		<meta charset="utf-8">
 		<title>Login</title>
 
-        <link rel="stylesheet" href="../../CSS/style.css">
-
         <?php include ("../librerie.php")?>
-
         </head>
 	<body style="background-color: #1d814a;-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;box-sizing: border-box;font-family:Roboto;"> 
 		<div class="login">
-			<h1>Login</h1>
+			<img src="../../CSS/logo-flora-fauna.png" class="logologin">
 			<form action="authenticate.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
