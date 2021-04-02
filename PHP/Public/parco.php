@@ -242,8 +242,7 @@
             <td><?php echo $arbusto['Stagione_fioritura'] ?></td>
          </tr>
          <?php
-      }
-      include '../DBclose.php'; 
+      } 
       ?>
    </tbody>
 </table>
