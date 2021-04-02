@@ -358,7 +358,7 @@ body {
     font-size: 35px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
     .carousel-caption h3 {
         font-size: 16px !important;
     }
@@ -623,31 +623,38 @@ body {
     font-weight: bold;
 }
 
-.paging-nav, #tableData {
+.paging-nav,
+#tableData {
     width: 90%;
     margin: 0px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
-.paging-nav, #tableData2 {
+.paging-nav,
+#tableData2 {
     width: 90%;
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
-.paging-nav, #tableData3 {
+
+.paging-nav,
+#tableData3 {
     width: 90%;
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
-.paging-nav, #tableData4 {
+
+.paging-nav,
+#tableData4 {
     width: 90%;
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+
 
 /*-----------------------*/
 
@@ -733,6 +740,7 @@ body {
     border-radius: 5px;
     border: 2px solid #bbb;
     padding: 10px;
+    font-size: 18px;
 }
 
 .overlay {
@@ -746,22 +754,42 @@ body {
     border-radius: 10px;
 }
 
+.overlay-tab {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #807b7bd7;
+}
+
 .container-img {
     position: relative;
     width: 50%;
     left: 25%;
 }
 
-.container-img-home{
+.container-img-home {
     position: relative;
 }
+
 .container-img:hover .overlay {
+    opacity: 1;
+}
+
+.container-img-tab {
+    position: relative;
+    width: 192px;
+}
+
+.container-img-tab:hover .overlay-tab {
     opacity: 1;
 }
 
 .text {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -875,15 +903,23 @@ div.gm-style-iw-d {
     height: 210px;
 }
 
+/*--------LOGIN----------*/
 
 
+/*-----------------------*/
 
 
-/*----------------------*/
-/*----------------------*/
-/*-------LOGIN----------*/
-/*----------------------*/
-/*----------------------*/
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
 
 .login {
     width: 400px;
@@ -919,12 +955,11 @@ div.gm-style-iw-d {
     border: 1px solid #dee0e4;
     margin-bottom: 20px;
     padding: 0 15px;
-    margin-top: 0 !important;
 }
 .login form input[type="submit"] {
     width: 100%;
     padding: 15px;
-   margin-top: 20px;
+    margin-top: 20px;
     background-color: #1d814a;
     border-radius: 0;
     cursor: pointer;
@@ -933,14 +968,13 @@ div.gm-style-iw-d {
     transition: background-color 0.2s;
 }
 .login form input[type="submit"]:hover {
-  background-color: #1d814a;
+  background-color: #196e3f;
     transition: background-color 0.2s;
-    border-radius: 0 !important;
 }
 
 .logologin {
-    margin-left: 41.5%;
     margin-top: 10px;
+    margin-left: 41.5%;
     width: 70px;
     height: 70px;
     border-radius: 10px;
