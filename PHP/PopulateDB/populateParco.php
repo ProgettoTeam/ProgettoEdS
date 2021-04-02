@@ -8,5 +8,5 @@ while(($column = fgetcsv($parchi, 220, ",")) !== false)
     $result = mysqli_query($conn, $InsertParco);
 }
 fclose($parchi);
-include '../DBclose.php';
+mysqli_close($conn);
 ?>
