@@ -8,5 +8,5 @@ while(($column = fgetcsv($fauna, 500, ",")) !== false)
     $result = mysqli_query($conn, $InsertFauna);
 }
 fclose($fauna);
-include '../DBclose.php';
+mysqli_close($conn);
 ?>
