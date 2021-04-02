@@ -19,10 +19,7 @@
             <h6>About</h6>
             <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
           </div>
-          <!--
-		  <div class="col-xs-6 col-md-2 left">
-		  </div>
--->
+         
           <div class="col-xs-6 col-md-4 left">
             <h6>Quick Links</h6>
             <ul class="footer-links list-unstyled quick-links">
@@ -54,5 +51,3 @@
 </footer>
 
 
-<!--
-</html>-->
