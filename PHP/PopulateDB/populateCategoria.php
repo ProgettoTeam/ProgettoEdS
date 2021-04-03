@@ -8,5 +8,5 @@ while(($column = fgetcsv($categorie, 30, ",")) !== false)
     $result = mysqli_query($conn, $InsertCategoria);
 }
 fclose($categorie);
-mysqli_close($conn);
+include '../DBclose.php';
 ?>

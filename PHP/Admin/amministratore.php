@@ -10,7 +10,10 @@
     <title>Amministratore</title>
 </head>
 <body>
- <?php include ("../navbar.php")?>
+ <?php 
+ include ("../navbar.php");
+ include '../DBconnection.php'; 
+ ?>
 
 <h1 class="titolo">Pagina Amministratore</h1>
 
@@ -30,87 +33,46 @@
 
 <table id="tableData" class="table table-bordered table-striped">
    <thead>
-      <tr>
-         <th>id</th>
-         <th>first name</th>
-         <th>surname</th>
-         <th>number</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>1</td>
-         <td>Frank</td>
-         <td>Shoulder</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>2</td>
-         <td>John</td>
-         <td>Jameson</td>
-         <td>4564</td>
-      </tr>
-      <tr>
-         <td>3</td>
-         <td>Philip</td>
-         <td>Jenkins</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>4</td>
-         <td>Maria</td>
-         <td>Carlston</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>5</td>
-         <td>Julia</td>
-         <td>Tampelton</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>6</td>
-         <td>Jane</td>
-         <td>Conor</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>7</td>
-         <td>Susan</td>
-         <td>Crane</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>8</td>
-         <td>Lucas</td>
-         <td>Fenric</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>8</td>
-         <td>Mark</td>
-         <td>Fenric</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>9</td>
-         <td>Hilde</td>
-         <td>Mayer</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>10</td>
-         <td>John</td>
-         <td>Tron</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>11</td>
-         <td>Hans</td>
-         <td>Stark</td>
-         <td>4564</td>
-      </tr>
-   </tbody>
+        <tr>
+          <th>Parco</th>
+          <th>Nome</th>
+          <th>Luogo</th>
+          <th>Latitudine</th>
+          <th>Longitudine</th>
+          <th>Descrizione</th>
+          <th>Amministratore</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+          $query_parco = "SELECT * FROM parco";
+          $result_parco = mysqli_query($conn, $query_parco);
+          while($row = mysqli_fetch_array($result_parco))
+          { 
+          ?>
+            <tr>
+              <td>
+                    <img src=" ../../<?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
+              </td>
+              <td><?php echo $row['Nome']?></td>
+              <td><?php echo $row['Luogo']?></td>
+              <td><?php echo $row['Latitudine']?></td>
+              <td><?php echo $row['Longitudine']?></td>
+              <td><?php echo $row['Descrizione']?></td>
+              <td>
+              <?php 
+                  $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
+                  $result_amm = mysqli_query($conn, $query_amm);
+                  $row_amm = mysqli_fetch_array($result_amm);
+                  echo $row_amm['Cognome'];
+               ?>
+              </td>
+            </tr>
+          <?php
+          }
+          include '../DBclose.php';
+        ?>
+    </tbody>
 </table>
 
 <!--------------->
@@ -134,100 +96,63 @@
 </div>
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
-      <tr>
-         <th>id</th>
-         <th>first name</th>
-         <th>surname</th>
-         <th>number</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>1</td>
-         <td>Frank</td>
-         <td>Shoulder</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>2</td>
-         <td>John</td>
-         <td>Jameson</td>
-         <td>4564</td>
-      </tr>
-      <tr>
-         <td>3</td>
-         <td>Philip</td>
-         <td>Jenkins</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>4</td>
-         <td>Maria</td>
-         <td>Carlston</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>5</td>
-         <td>Julia</td>
-         <td>Tampelton</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>6</td>
-         <td>Jane</td>
-         <td>Conor</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>7</td>
-         <td>Susan</td>
-         <td>Crane</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>8</td>
-         <td>Lucas</td>
-         <td>Fenric</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>8</td>
-         <td>Mark</td>
-         <td>Fenric</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>9</td>
-         <td>Hilde</td>
-         <td>Mayer</td>
-         <td>4456</td>
-      </tr>
-      <tr>
-         <td>10</td>
-         <td>John</td>
-         <td>Tron</td>
-         <td>1246</td>
-      </tr>
-      <tr>
-         <td>11</td>
-         <td>Hans</td>
-         <td>Stark</td>
-         <td>4564</td>
-      </tr>
-   </tbody>
+        <tr>
+          <th>Nome</th>
+          <th>Cognome</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Amministratore</th>
+          <th>Parco assegnato</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+         include '../DBconnection.php'; 
+          $query_responsabile = "SELECT * FROM responsabile";
+          $result_responsabile = mysqli_query($conn, $query_responsabile);
+          while($row = mysqli_fetch_array($result_responsabile))
+          { 
+          ?>
+            <tr>
+              <td><?php echo $row['Nome']?></td>
+              <td><?php echo $row['Cognome']?></td>
+              <td><?php echo $row['Email']?></td>
+              <td><?php echo $row['Password']?></td>
+              <td>
+               <?php 
+                  $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
+                  $result_amm = mysqli_query($conn, $query_amm);
+                  $row_amm = mysqli_fetch_array($result_amm);
+                  echo $row_amm['Cognome'];
+               ?>
+              </td>
+              <td>
+               <?php 
+                  $query_par = "SELECT * FROM parco WHERE IdParco =" . $row['fk_IdParco'];
+                  $result_par = mysqli_query($conn, $query_par);
+                  $row_par = mysqli_fetch_array($result_par);
+                  echo $row_par['Nome'];
+               ?>
+              </td>
+            </tr>
+          <?php
+          }
+          include '../DBclose.php';
+        ?>
+    </tbody>
 </table>
 
 <script type="text/javascript" src="../../JS/index.js"></script> 
 <script type="text/javascript">
             $(document).ready(function() {
-                $('#tableData').paging({limit:7});
+                $('#tableData').paging({limit:5});
             });
 </script>
 
 <script type="text/javascript" src="../../JS/index.js"></script> 
 <script type="text/javascript">
             $(document).ready(function() {
-                $('#tableData2').paging({limit:7});
+                $('#tableData2').paging({limit:13});
             });
 </script>
 
