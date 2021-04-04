@@ -15,5 +15,5 @@ while(($column = fgetcsv($flora, 500, ",")) !== false)
     $result = mysqli_query($conn, $InsertFlora);
 }
 fclose($flora);
-mysqli_close($conn);
+include '../DBclose.php';
 ?>
