@@ -26,7 +26,7 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Help</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="PHP/Public/login.php">Login</a></li>
             </ul>
           </div>
         </div>
