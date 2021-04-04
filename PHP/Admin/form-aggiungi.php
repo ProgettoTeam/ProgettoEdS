@@ -33,8 +33,17 @@
         </tr>
     </thead>
     <tbody>
-        <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo1"></td>
-        <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo2"></td>
+        <td>
+          <div class="container-img-tab" id="containerimghome">
+            <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
+              <img src="../../CSS/img_fauna/fenicottero.jpg" id="img_tabella"></img>
+              <div class="overlay-tab">
+                <div class="text">Aggiungi immagine</div>
+              </div>
+            </a>
+          </div>
+        </td>
+        <td style="margin-top:45%"><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo2"></td>
         <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo3"></td>
         <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo4"></td>
     </tbody>
