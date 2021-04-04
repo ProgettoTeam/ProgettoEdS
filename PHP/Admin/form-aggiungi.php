@@ -12,12 +12,44 @@
 <?php include ("../navbar.php")?>
 
 <div class="container-form-modifica">
+  <div style="float:right;"> 
+    <label for="cars">Righe</label>
+    <select name="cars" id="cars" class="combobox">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
   <form action="/pagina_che_gestisce.php">
-    <label for="Campo2-name">Campo1</label>
-    <input type="text" id="campo1" name="Campo1-name" placeholder="Introduci campo1">
+  <table id="table" class="table table-bordered table-striped">
+    <thead>
+        <tr>
+          <th>Campo1</th>
+          <th>Campo2</th>
+          <th>Campo3</th>
+          <th>Campo4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <td>
+          <div class="container-img-tab" id="containerimghome">
+            <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
+              <img src="../../CSS/img_fauna/fenicottero.jpg" id="img_tabella"></img>
+              <div class="overlay-tab">
+                <div class="text">Modifica immagine</div>
+              </div>
+            </a>
+          </div>
+        </td>
+        <td style="margin-top:45%"><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo2"></td>
+        <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo3"></td>
+        <td><input type="text" id="campoN" name="CampoN-name" placeholder="Introduci campo4"></td>
+    </tbody>
 
-    <label for="Campo2-name">Campo2</label>
-    <input type="text" id="campo2" name="Campo2-name" placeholder="Introduci campo1">
+  </table>
+
 
     <!-- se vuoi creare altri campi copia questi elementi 
     
