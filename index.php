@@ -23,8 +23,10 @@
 
 
 <body>
-  <?php include 'PHP/navbar.php';
-  include 'PHP/DBconnection.php'; ?>
+  <?php 
+  include 'PHP/navbar.php';
+  include 'PHP/DBconnection.php'; 
+  ?>
   <div class="body-container">
     
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -84,7 +86,7 @@
       <div class="flip-box">
         <div class="flip-box-inner">
         <?php
-          $query_parco1 = "SELECT * FROM parco WHERE Nome='Methocarbamol'";
+          $query_parco1 = "SELECT * FROM parco WHERE Nome='Glycerin'";
           $result = mysqli_query($conn, $query_parco1);
           $row = mysqli_fetch_array($result);
         ?>
@@ -104,7 +106,7 @@
     <div class="flip-box-inner">
       <div class="flip-box-front">
         <?php
-          $query_parco2 = "SELECT * FROM parco WHERE Nome='Neomycin Sulfate'";
+          $query_parco2 = "SELECT * FROM parco WHERE Nome='Xyntha'";
           $result = mysqli_query($conn, $query_parco2);
           $row = mysqli_fetch_array($result)
         ?>
