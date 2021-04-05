@@ -24,7 +24,7 @@
 
    <div class="columnbtn">
       <div class="bottone">
-         <a href="form-aggiungi.php" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>
@@ -88,7 +88,7 @@
 
    <div class="columnbtn">
       <div class="bottone">
-         <a href="form-aggiungi.php" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=responsabile" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>

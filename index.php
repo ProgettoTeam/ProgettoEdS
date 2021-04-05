@@ -137,16 +137,10 @@
       <h2 class="titolo2" style="float:left;">Tabella Parchi:</h2>
    </div>
 
-   <div class="columnbtn">
-      <div class="bottone">
-            <div class="search-container">
-                <form>
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-        </div>
-      </div>
-   </div>
+   <?php 
+    $tabella = 'parco';
+    include 'PHP/Public/Searchbar.php';
+   ?>
 </div>
 
   <table id="tableData" class="table table-bordered table-striped">
@@ -161,28 +155,33 @@
     <tbody>
         <?php
           $query_all = "SELECT * FROM parco";
-          $result = mysqli_query($conn, $query_all);
-          while($row = mysqli_fetch_array($result))
-          { 
-          ?>
-            <tr>
-              <td>
-                <div class="container-img-tab" id="containerimghome">
-
-                  <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
-                    <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
-                    <div class="overlay-tab">
-                    <div class="text">Visita il Parco</div>
-                    </div>
-                  </a>
-                
-                </div>
-              </td>
-              <td><?php echo $row['Nome']?></td>
-              <td><?php echo $row['Luogo']?></td>
-              <td><?php echo $row['Descrizione']?></td>
-            </tr>
-          <?php
+          if(isset($_POST["submit_parco"])){
+            $nomeParco = mysqli_real_escape_string($conn, $_POST['search']);
+            $query_all = "SELECT * FROM parco WHERE Nome LIKE '$nomeParco'";
+          }
+          if($result = mysqli_query($conn, $query_all)) {
+            while($row = mysqli_fetch_array($result))
+            { 
+            ?>
+              <tr>
+                <td>
+                  <div class="container-img-tab" id="containerimghome">
+  
+                    <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
+                      <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
+                      <div class="overlay-tab">
+                      <div class="text">Visita il Parco</div>
+                      </div>
+                    </a>
+                  
+                  </div>
+                </td>
+                <td><?php echo $row['Nome']?></td>
+                <td><?php echo $row['Luogo']?></td>
+                <td><?php echo $row['Descrizione']?></td>
+              </tr>
+            <?php
+            }
           }
           include 'PHP/DBclose.php';
         ?>

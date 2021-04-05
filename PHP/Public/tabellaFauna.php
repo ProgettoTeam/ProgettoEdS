@@ -3,16 +3,10 @@
       <h2 class="titolo2" style="float:left;">Fauna</h2>
    </div>
 
-   <div class="columnbtn">
-      <div class="bottone">
-            <div class="search-container">
-                <form>
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-        </div>
-      </div>
-   </div>
+   <?php 
+   $tabella = 'fauna';
+   include 'Searchbar.php' 
+   ?>
 </div>
 
 <table id="tableData" class="table table-bordered table-striped">
@@ -27,22 +21,27 @@
    <tbody>
    <?php
       $query_fauna = "SELECT * FROM fauna WHERE fk_IdParco = '$parco[0]'";
-      $result = mysqli_query($conn, $query_fauna);
-      while($fauna = mysqli_fetch_array($result))
-      { 
-         $query_categoria = "SELECT * FROM categoria WHERE IdCategoria = " . $fauna['fk_IdCategoria'];
-         $result_categoria = mysqli_query($conn, $query_categoria);
-         $categoria = mysqli_fetch_array($result_categoria);
-         ?>
-         <tr>
-            <td>
-               <img src=" ../../<?php echo $fauna['path_immagine'] ?>" id="img_tabella"></img>
-            </td>
-            <td><?php echo $categoria['Specie']?></td>
-            <td><?php echo $categoria['OrdineAppartenenza']?></td> 
-            <td><?php echo $fauna['Sesso'] ?></td>
-         </tr>
-         <?php
+      if(isset($_POST["submit_fauna"])){
+         $specieAnimale = mysqli_real_escape_string($conn, $_POST['search']);
+         $query_fauna = "SELECT * FROM fauna INNER JOIN categoria ON (fk_IdCategoria = IdCategoria) WHERE categoria.Specie LIKE '$specieAnimale' AND fauna.fk_IdParco = '$parco[0]'";
+      }
+      if($result = mysqli_query($conn, $query_fauna)) {
+         while($fauna = mysqli_fetch_array($result))
+         { 
+            $query_categoria = "SELECT * FROM categoria WHERE IdCategoria = " . $fauna['fk_IdCategoria'];
+            $result_categoria = mysqli_query($conn, $query_categoria);
+            $categoria = mysqli_fetch_array($result_categoria);
+            ?>
+            <tr>
+               <td>
+                  <img src=" ../../<?php echo $fauna['path_immagine'] ?>" id="img_tabella"></img>
+               </td>
+               <td><?php echo $categoria['Specie']?></td>
+               <td><?php echo $categoria['OrdineAppartenenza']?></td> 
+               <td><?php echo $fauna['Sesso'] ?></td>
+            </tr>
+            <?php
+         } 
       } 
       ?>
    </tbody>
