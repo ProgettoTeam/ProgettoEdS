@@ -18,17 +18,22 @@
 <h1 class="titolo">Pagina Amministratore</h1>
 
 <div class="rowimg">
-   <div class="columnbtn">
+   <div class="column">
       <h2 class="titolo2">Parchi</h2>
    </div>
 
-   <div class="columnbtn">
+   <div class="column">
       <div class="bottone">
-         <a href="#" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>
    </div>
+
+   
+      <?php 
+      $tabella='parco'; 
+      include("../Public/Searchbar.php");  ?>
 </div>
 
 <table id="tableData" class="table table-bordered table-striped">
@@ -82,17 +87,21 @@
 <!--------------->
 
 <div class="rowimg">
-   <div class="columnbtn">
+   <div class="column">
       <h2 class="titolo2">Responsabili</h2>
    </div>
-
-   <div class="columnbtn">
+   <div class="column">
       <div class="bottone">
-         <a href="#" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>
    </div>
+   
+   <?php 
+      $tabella='responsabili'; 
+      include("../Public/Searchbar.php");  ?>
+
 </div>
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
