@@ -16,17 +16,17 @@
    include '../navbar.php';
 ?>
 
-<h1 class="titolo"><?php echo $parco[1] ?></h1>
+<h1 class="titolo"><?php echo $parco[2] ?></h1>
 <div class="container-img">
-   <img src="../../<?php echo $parco[6] ?>" class="imgparco"> </img>
+   <img src="../../<?php echo $parco[1] ?>" class="imgparco"> </img>
    <div class="overlay">
-      <div class="text"><?php echo $parco[5] ?></div>
+      <div class="text"><?php echo $parco[6] ?></div>
       </div>
 </div>
 
 
 <h2 class="titolo" style="padding-bottom:0% !important;">Luogo</h2>
-<p class="paragrafo"> <?php echo $parco[2] ?></p>
+<p class="paragrafo"> <?php echo $parco[3] ?></p>
 
 <!--------------->
 <!--------------->
@@ -34,20 +34,11 @@
 <!--------------->
 <!--------------->
 
-<?php include  'tabellaFauna.php'?>
-
-
-<!--------------->
-<!--------------->
-<!-- TABELLA FLORA -->
-<!--------------->
-<!--------------->
-
-<?php include  'tabellaFlora.php'?>
-
-
-<!-- jquery -->
-
-<?php include '../footer.php'?>
+<?php 
+include  'tabellaFauna.php';
+include  'tabellaFlora.php';
+include '../DBclose.php';
+include '../footer.php'
+?>
 </body>
 </html>
