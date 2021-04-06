@@ -464,7 +464,20 @@ body {
     .columnimg {
         width: 100%;
     }
+    .column{
+        /*float: right;*/
+        width: 100%;
+        
+    }
 }
+
+.column{
+    float: left;
+    width: 33.33%;
+    
+}
+
+
 
 
 /*-----------------------*/
