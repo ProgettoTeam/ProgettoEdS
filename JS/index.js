@@ -1,4 +1,9 @@
+//------------------------------
+//------------------------------
 // Initialize and add the map
+//------------------------------
+//------------------------------
+
 function initMap() {
     // The location of Italy
     const Italy = { lat: 42.503, lng: 12.504 };
@@ -15,17 +20,29 @@ function initMap() {
 
     Array.prototype.forEach.call(parchi, function(parco) {
         const marker = new google.maps.Marker({
-            position: new google.maps.LatLng(parco[3], parco[4]),
+            position: new google.maps.LatLng(parco[4], parco[5]),
             map: map
         });
 
         google.maps.event.addListener(marker, "click", function() {
             infoWindow.close();
-            infoWindow.setContent("<div position:absolute><img id='imgMappa' src='" + parco[6] + "'></div> <div style='padding-top: 40px'><b style='padding-left: 5%'>" + parco[1] + "</b></br></br><p style='margin-left: 50%'>" + parco[5] + "</br></br></br><a href='PHP/Public/parco.php?IdParco=" + parco[0] + "'>Visita</a></p></div>");
+            infoWindow.setContent("<div position:absolute><img id='imgMappa' src='" + parco[1] + "'></div> <div style='padding-top: 40px'><b style='padding-left: 5%'>" + parco[2] + "</b></br></br><p style='margin-left: 50%'>" + parco[6] + "</br></br></br><a href='PHP/Public/parco.php?IdParco=" + parco[0] + "'>Visita</a></p></div>");
             infoWindow.open(map, marker);
         });
     });
     // The marker, positioned at Italy
+}
+
+
+//------------------------------
+//------------------------------
+//Combobox
+//------------------------------
+//------------------------------
+
+
+function Combobox(numRighe) {
+    console.log(numRighe);
 }
 
 
