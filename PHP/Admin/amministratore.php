@@ -18,62 +18,25 @@
 <h1 class="titolo">Pagina Amministratore</h1>
 
 <div class="rowimg">
-   <div class="columnbtn">
+   <div class="column">
       <h2 class="titolo2">Parchi</h2>
    </div>
 
-   <div class="columnbtn">
+   <div class="column">
       <div class="bottone">
-         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=parco&value=1" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>
    </div>
+
+   
+      <?php 
+      $tabella='parco'; 
+      include("../Public/Searchbar.php");  ?>
 </div>
 
-<table id="tableData" class="table table-bordered table-striped">
-   <thead>
-        <tr>
-          <th>Parco</th>
-          <th>Nome</th>
-          <th>Luogo</th>
-          <th>Latitudine</th>
-          <th>Longitudine</th>
-          <th>Descrizione</th>
-          <th>Amministratore</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php
-          $query_parco = "SELECT * FROM parco";
-          $result_parco = mysqli_query($conn, $query_parco);
-          while($row = mysqli_fetch_array($result_parco))
-          { 
-          ?>
-            <tr>
-              <td>
-                    <img src=" ../../<?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
-              </td>
-              <td><?php echo $row['Nome']?></td>
-              <td><?php echo $row['Luogo']?></td>
-              <td><?php echo $row['Latitudine']?></td>
-              <td><?php echo $row['Longitudine']?></td>
-              <td><?php echo $row['Descrizione']?></td>
-              <td>
-              <?php 
-                  $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
-                  $result_amm = mysqli_query($conn, $query_amm);
-                  $row_amm = mysqli_fetch_array($result_amm);
-                  echo $row_amm['Cognome'];
-               ?>
-              </td>
-            </tr>
-          <?php
-          }
-          include '../DBclose.php';
-        ?>
-    </tbody>
-</table>
+<?php include '../Public/tabellaParchi.php'; ?>
 
 <!--------------->
 <!--------------->
@@ -82,17 +45,21 @@
 <!--------------->
 
 <div class="rowimg">
-   <div class="columnbtn">
+   <div class="column">
       <h2 class="titolo2">Responsabili</h2>
    </div>
-
-   <div class="columnbtn">
+   <div class="column">
       <div class="bottone">
-         <a href="form-aggiungi.php?tabella=responsabile" class="btn btn-success btn-lg">
+         <a href="form-aggiungi.php?tabella=responsabile&value=1" class="btn btn-success btn-lg">
             <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
          </a>
       </div>
    </div>
+   
+   <?php 
+      $tabella='responsabile'; 
+      include("../Public/Searchbar.php");  ?>
+
 </div>
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
@@ -100,7 +67,6 @@
           <th>Nome</th>
           <th>Cognome</th>
           <th>Email</th>
-          <th>Password</th>
           <th>Amministratore</th>
           <th>Parco assegnato</th>
         </tr>
@@ -109,6 +75,10 @@
         <?php
          include '../DBconnection.php'; 
           $query_responsabile = "SELECT * FROM responsabile";
+          if(isset($_POST["submit_responsabile"])){
+            $cognomeResponsabile = mysqli_real_escape_string($conn, $_POST['search']);
+            $query_responsabile = "SELECT * FROM responsabile WHERE Cognome LIKE '$cognomeResponsabile'";
+         }
           $result_responsabile = mysqli_query($conn, $query_responsabile);
           while($row = mysqli_fetch_array($result_responsabile))
           { 
@@ -117,7 +87,6 @@
               <td><?php echo $row['Nome']?></td>
               <td><?php echo $row['Cognome']?></td>
               <td><?php echo $row['Email']?></td>
-              <td><?php echo $row['Password']?></td>
               <td>
                <?php 
                   $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];

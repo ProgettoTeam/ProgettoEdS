@@ -1,4 +1,4 @@
-<div class="columnbtn">
+<div class="column">
     <div class="bottone">
         <div class="search-container">
             <form action="<?php basename($_SERVER['PHP_SELF']) ?>" method="POST">
@@ -27,6 +27,11 @@
                     ?>
                         <input type="text" placeholder="Classificazione" name="search">
                         <button type="submit" name="submit_pianteErbacee"><i class="fa fa-search"></i></button>
+                    <?php
+                } else if($tabella == 'responsabile') {
+                    ?>
+                        <input type="text" placeholder="Cognome" name="search">
+                        <button type="submit" name="submit_responsabile"><i class="fa fa-search"></i></button>
                     <?php
                 }
             ?>

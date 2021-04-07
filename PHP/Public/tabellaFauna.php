@@ -1,8 +1,28 @@
 <div class="rowimg">
-   <div class="columnbtn">
+   <div class="column">
       <h2 class="titolo2" style="float:left;">Fauna</h2>
    </div>
 
+   <div class="column">
+      <div class="bottone">
+      <?php
+         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
+         ?>
+            <a href="../Admin/form-aggiungi.php?tabella=fauna&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         } else {
+         ?>
+            <a href="form-aggiungi.php?tabella=fauna&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         }
+      ?>
+      </div>
+   </div>
+   
    <?php 
    $tabella = 'fauna';
    include 'Searchbar.php' 

@@ -40,10 +40,12 @@ function initMap() {
 //------------------------------
 //------------------------------
 
-
-function Combobox(numRighe) {
-    console.log(numRighe);
+function Combobox(value) {
+    let combobox = document.getElementById("cars");
+    console.log(combobox.options[combobox.selectedIndex].value);
+    combobox.options[combobox.selectedIndex].value = value;
 }
+
 
 
 

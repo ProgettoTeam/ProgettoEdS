@@ -13,16 +13,26 @@
 include ("../navbar.php");
 include '../DBconnection.php';
 $tabella = $_GET["tabella"];
+if($tabella == 'flora') {
+  $tipo = $_GET["tipo"];
+  $link = '&tipo=' . $tipo;
+  ?>
+    <h1 style="padding-left: 45%; padding-top: 11px">Aggiungi <?php echo $tipo ?></h1>
+  <?php
+} else {
+  ?>
+    <h1 style="padding-left: 45%; padding-top: 11px">Aggiungi <?php echo $tabella ?></h1>
+  <?php
+}
+$value = $_GET["value"];
 ?>
 
-<h1 style="padding-left: 45%; padding-top: 11px">Aggiungi <?php echo $tabella ?></h1>
-
 <div class="container-form-modifica">
-
+    
   <!-- COMBOBOX -->
-  <div style="float:right; padding-top: 80px"> 
+  <div style="float:right; padding-top: 80px; margin-right:100px;"> 
     <label for="cars">Righe</label>
-    <select name="cars" id="cars" class="combobox" onclick="Combobox(value)">
+    <select name="cars" id="cars" class="combobox" onchange="window.location.href='form-aggiungi.php?tabella=<?php echo $tabella ?><?php if($tabella == 'flora'){ echo $link; } ?>&value=' + this.options[this.selectedIndex].value">
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
@@ -31,7 +41,7 @@ $tabella = $_GET["tabella"];
     </select>
   </div>
   <!--------------------------------->
-
+  
   <!-- AGGIUNTA RIGHE -->
   <form action="login.php" method="POST">
     <table id="table" class="table table-bordered table-striped">
@@ -44,15 +54,61 @@ $tabella = $_GET["tabella"];
             $fieldinfo = mysqli_fetch_fields($result);
             $cont = 0;
             foreach ($fieldinfo as $val) {
-              if($cont > 1) {
-                $col = $val->name;
-                ?> 
-                  <th> <?php echo $col ?></th>
-                <?php
-              } else if($cont == 1) {
-                ?>
-                  <th> Immagine </th>
-                <?php
+              if($tabella == 'flora') {
+                if($tipo == 'albero') {
+                  if($cont > 3 && $cont != 8 && $cont != 9 && $cont != 10 && $cont != 11) {
+                    $col = $val->name;
+                    ?> 
+                      <th> <?php echo $col ?></th>
+                    <?php
+                  } else if($cont == 1) {
+                    ?>
+                      <th> Immagine </th>
+                    <?php
+                  }
+                } else if($tipo == 'arbusto') {
+                  if($cont > 3 && $cont != 6 && $cont != 7 && $cont != 10 && $cont != 11) {
+                    $col = $val->name;
+                    ?> 
+                      <th> <?php echo $col ?></th>
+                    <?php
+                  } else if($cont == 1) {
+                    ?>
+                      <th> Immagine </th>
+                    <?php
+                  }
+                } else if($tipo == 'piantaErbacea') {
+                  if($cont > 3 && $cont != 6 && $cont != 7 && $cont != 8 && $cont != 9) {
+                    $col = $val->name;
+                    ?> 
+                      <th> <?php echo $col ?></th>
+                    <?php
+                  } else if($cont == 1) {
+                    ?>
+                      <th> Immagine </th>
+                    <?php
+                  }
+                }
+              } else {
+                if($tabella == 'responsabile') {
+                  if($cont > 0) {
+                    $col = $val->name;
+                    ?> 
+                      <th> <?php echo $col ?></th>
+                    <?php
+                  }
+                } else {
+                  if($cont > 1) {
+                    $col = $val->name;
+                    ?> 
+                      <th> <?php echo $col ?></th>
+                    <?php
+                  } else if($cont == 1 && $tabella != 'responsabile') {
+                    ?>
+                      <th> Immagine </th>
+                    <?php
+                  }
+                }
               }
               $cont++;
             }
@@ -60,32 +116,67 @@ $tabella = $_GET["tabella"];
           ?>
         </tr>
       </thead>
-      <tbody>
-          <?php
-            $cont = 0;
-            foreach ($fieldinfo as $val) {
-              if($cont > 1) {
-                $col = $val->name;
-                ?> 
-                  <td><input type="text" class="campoN" name="CampoN-name" placeholder="Introduci campo <?php echo $cont ?>"></td>
-                <?php
-              } else if($cont == 1) {
-                ?>    
-                  <td>
-                    <div class="container-img-tab" id="containerimghome">
-                      <img src="../../CSS/bianco.jpg" id="img_tabella"></img>
-                      <div class="overlay-tab">
-                        <div class="text">Inserisci immagine</div>
-                      </div>
-                    </div>
-                  </td>
-                <?php
+      <?php
+      for($i = 0; $i < $value; $i++) {
+      ?>
+        <tbody>
+            <?php
+              $cont = 0;
+              foreach ($fieldinfo as $val) {
+                if($tabella == 'flora') {
+                  if($cont <= 5 && $cont != 0) {
+                    $col = $val->name;
+                    ?> 
+                      <td><input type="text" class="campoN" name="CampoN-name" placeholder="Introduci campo <?php echo $cont ?>"></td>
+                    <?php
+                  } else if($cont == 0) {
+                    ?>    
+                      <td>
+                        <div class="container-img-tab" id="containerimghome">
+                          <img src="../../CSS/bianco.jpg" id="img_tabella"></img>
+                          <div class="overlay-tab">
+                            <div class="text">Inserisci immagine</div>
+                          </div>
+                        </div>
+                      </td>
+                    <?php
+                  }
+                } else {
+                  if($tabella == 'responsabile') {
+                    if($cont > 0) {
+                      $col = $val->name;
+                      ?> 
+                        <td><input type="text" class="campoN" name="CampoN-name" placeholder="Introduci campo <?php echo $cont ?>"></td>
+                      <?php
+                    }
+                  } else {
+                    if($cont > 1) {
+                      $col = $val->name;
+                      ?> 
+                        <td><input type="text" class="campoN" name="CampoN-name" placeholder="Introduci campo <?php echo $cont ?>"></td>
+                      <?php
+                    } else if($cont == 1 && $tabella != 'responsabile') {
+                      ?>    
+                        <td>
+                          <div class="container-img-tab" id="containerimghome">
+                            <img src="../../CSS/bianco.jpg" id="img_tabella"></img>
+                            <div class="overlay-tab">
+                              <div class="text">Inserisci immagine</div>
+                            </div>
+                          </div>
+                        </td>
+                      <?php
+                    }
+                  }
+                }
+                $cont++;
               }
-              $cont++;
-            }
-          ?>
-      </tbody>
-    </table>
+            ?>
+        </tbody>
+        <?php
+      }
+      ?>
+      </table>
 
 
     <!-- se vuoi creare altri campi copia questi elementi 
@@ -116,8 +207,12 @@ $tabella = $_GET["tabella"];
 
 <?php 
 include '../DBclose.php';
-include ("../footer.php");
+include "../footer.php";
 ?>
+
+<script>
+    $('.combobox option[value="<?=$value?>"]').prop('selected', true);
+</script>
 
 </body>
 </html>
