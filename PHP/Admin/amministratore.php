@@ -1,3 +1,6 @@
+<?php
+include ('../DAL.php'); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +14,7 @@
 </head>
 <body>
  <?php 
- include ("../navbar.php");
- include '../DBconnection.php'; 
+   include ("../navbar.php");
  ?>
 
 <h1 class="titolo">Pagina Amministratore</h1>
@@ -73,9 +75,9 @@
     </thead>
     <tbody>
         <?php
-         include '../DBconnection.php'; 
-          $query_responsabile = "SELECT * FROM responsabile";
-          if(isset($_POST["submit_responsabile"])){
+         include ('../DBconnection.php'); 
+         $query_responsabile = "SELECT * FROM responsabile";
+         if(isset($_POST["submit_responsabile"])){
             $cognomeResponsabile = mysqli_real_escape_string($conn, $_POST['search']);
             $query_responsabile = "SELECT * FROM responsabile WHERE Cognome LIKE '$cognomeResponsabile'";
          }

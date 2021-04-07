@@ -38,6 +38,22 @@
     float: left;
 }
 
+.username {
+    font-family: Roboto !important;
+    color: white;
+    font-size: 20px;
+}
+
+.fas.fa-crown {
+    color: yellow;
+    font-size: 18px !important;
+}
+
+.fas.fa-user-tie {
+    color: white;
+    font-size: 18px !important;
+}
+
 td {
     font-size: 15px !important;
 }

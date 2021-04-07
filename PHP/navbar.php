@@ -29,18 +29,12 @@
       ?>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Help</a></li>
+        <?php include 'amministratore-responsabile.php'; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      <?php
-      if(basename($_SERVER['PHP_SELF']) == 'index.php') {
-      ?>
-        <li><a href="PHP/Public/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      <?php
-      } else {
-      ?>
-        <li><a href="../Public/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      <?php
-      }
+      <?php 
+        $navbar = 1;
+        include ('SessionLogin.php') 
       ?>
       </ul>
     </div>

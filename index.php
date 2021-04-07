@@ -1,3 +1,6 @@
+<?php
+include ('PHP/DAL.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

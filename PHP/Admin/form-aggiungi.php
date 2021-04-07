@@ -1,3 +1,6 @@
+<?php
+include ('../DAL.php'); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +33,7 @@ $value = $_GET["value"];
 <div class="container-form-modifica">
     
   <!-- COMBOBOX -->
-  <div style="float:right; padding-top: 80px; margin-right:100px;"> 
+  <div style="float:right; padding-top: 90px; margin-right:100px;"> 
     <label for="cars">Righe</label>
     <select name="cars" id="cars" class="combobox" onchange="window.location.href='form-aggiungi.php?tabella=<?php echo $tabella ?><?php if($tabella == 'flora'){ echo $link; } ?>&value=' + this.options[this.selectedIndex].value">
       <option value="1">1</option>

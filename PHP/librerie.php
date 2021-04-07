@@ -5,6 +5,7 @@
     
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29dd549171.js" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="../../CSS/style.css">
