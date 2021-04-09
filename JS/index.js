@@ -20,7 +20,7 @@ function initMap() {
 
     Array.prototype.forEach.call(parchi, function(parco) {
         const marker = new google.maps.Marker({
-            position: new google.maps.LatLng(parco[4], parco[5]),
+            position: new google.maps.LatLng(parco[3], parco[4]),
             map: map
         });
 
@@ -40,10 +40,12 @@ function initMap() {
 //------------------------------
 //------------------------------
 
-
-function Combobox(numRighe) {
-    console.log(numRighe);
+function Combobox(value) {
+    let combobox = document.getElementById("cars");
+    console.log(combobox.options[combobox.selectedIndex].value);
+    combobox.options[combobox.selectedIndex].value = value;
 }
+
 
 
 
