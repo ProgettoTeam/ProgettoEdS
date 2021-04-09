@@ -11,9 +11,21 @@
    </div>
    <div class="column">
       <div class="bottone">
-         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
-            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-         </a>
+      <?php
+         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
+         ?>
+            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=albero&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         } else {
+         ?>
+            <a href="form-aggiungi.php?tabella=flora&tipo=albero&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         }
+      ?>
       </div>
    </div>
    
@@ -72,9 +84,21 @@
 
    <div class="column">
       <div class="bottone">
-         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
-            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-         </a>
+      <?php
+         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
+         ?>
+            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=arbusto&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         } else {
+         ?>
+            <a href="form-aggiungi.php?tabella=flora&tipo=arbusto&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         }
+      ?>
       </div>
    </div>
    
@@ -132,9 +156,21 @@
    </div>
    <div class="column">
       <div class="bottone">
-         <a href="form-aggiungi.php?tabella=parco" class="btn btn-success btn-lg">
-            <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-         </a>
+      <?php
+         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
+         ?>
+            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=piantaErbacea&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         } else {
+         ?>
+            <a href="form-aggiungi.php?tabella=flora&tipo=piantaErbacea&value=1" class="btn btn-success btn-lg">
+               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+            </a>
+         <?php
+         }
+      ?>
       </div>
    </div>
    
