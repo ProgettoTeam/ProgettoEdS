@@ -59,4 +59,21 @@ if(isset($_POST['login'])){
         }
     }
 }
+
+//logout
+if(isset($_GET['logout'])){
+    if($_GET["user"] == 'amministratore') {
+        unset($_SESSION['IdAmministratore']);
+    } else {
+        unset($_SESSION['IdResponsabile']);
+        unset($_SESSION['fk_IdAmministratore']);
+        unset($_SESSION['fk_IdParco']);
+    }
+    unset($_SESSION['Nome']);
+    unset($_SESSION['Cognome']);
+    unset($_SESSION['Email']);
+    unset($_SESSION['Password']);
+    session_destroy();
+    header('location: index.php');
+}
 ?>
