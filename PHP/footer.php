@@ -23,10 +23,20 @@
           <div class="col-xs-6 col-md-4 left">
             <h6>Quick Links</h6>
             <ul class="footer-links list-unstyled quick-links">
-              <li><a href="#">Home</a></li>
+            <?php
+              if(basename($_SERVER['PHP_SELF']) != 'index.php') {
+              ?>
+                <li><a href="../../index.php">Home</a></li>
+              <?php
+              }
+              ?>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Help</a></li>
-              <li><a href="PHP/Public/login.php">Login</a></li>
+              <?php 
+                include 'amministratore-responsabile.php'; 
+                $navbar = 0;
+                include ('SessionLogin.php') 
+              ?>
             </ul>
           </div>
         </div>
