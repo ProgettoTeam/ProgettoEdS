@@ -28,7 +28,7 @@
                         <input type="text" placeholder="Classificazione" name="search">
                         <button type="submit" name="submit_pianteErbacee"><i class="fa fa-search"></i></button>
                     <?php
-                } else if($tabella == 'responsabili') {
+                } else if($tabella == 'responsabile') {
                     ?>
                         <input type="text" placeholder="Cognome" name="search">
                         <button type="submit" name="submit_responsabile"><i class="fa fa-search"></i></button>
