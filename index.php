@@ -1,3 +1,6 @@
+<?php
+include ('PHP/DAL.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +26,7 @@
 
 
 <body>
+<div class="bgimg">
   <?php 
   include 'PHP/navbar.php';
   include 'PHP/DBconnection.php'; 
@@ -144,50 +148,7 @@
    ?>
 </div>
 
-  <table id="tableData" class="table table-bordered table-striped">
-    <thead>
-        <tr>
-          <th>Parco</th>
-          <th>Nome</th>
-          <th>Luogo</th>
-          <th>Descrizione</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php
-          $query_all = "SELECT * FROM parco";
-          if(isset($_POST["submit_parco"])){
-            $nomeParco = mysqli_real_escape_string($conn, $_POST['search']);
-            $query_all = "SELECT * FROM parco WHERE Nome LIKE '$nomeParco'";
-          }
-          if($result = mysqli_query($conn, $query_all)) {
-            while($row = mysqli_fetch_array($result))
-            { 
-            ?>
-              <tr>
-                <td>
-                  <div class="container-img-tab" id="containerimghome">
-  
-                    <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
-                      <img src=" <?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
-                      <div class="overlay-tab">
-                      <div class="text">Visita il Parco</div>
-                      </div>
-                    </a>
-                  
-                  </div>
-                </td>
-                <td><?php echo $row['Nome']?></td>
-                <td><?php echo $row['Luogo']?></td>
-                <td><?php echo $row['Descrizione']?></td>
-              </tr>
-            <?php
-            }
-          }
-          include 'PHP/DBclose.php';
-        ?>
-    </tbody>
-  </table>
+<?php include 'PHP/Public/tabellaParchi.php'; ?>
 
   <script type="text/javascript" src="JS/index.js"></script> 
   <script type="text/javascript">
@@ -197,7 +158,7 @@
   </script>
 
     <?php include 'PHP/footer.php'?>
-
+    </div>
 </body>
 
 
