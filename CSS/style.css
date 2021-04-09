@@ -1,3 +1,10 @@
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("background/background-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 /*-- NAVBAR --*/
 
 
@@ -38,8 +45,36 @@
     float: left;
 }
 
+.username {
+    font-family: Roboto !important;
+    color: white;
+    font-size: 20px;
+}
+
+.fas.fa-crown {
+    color: yellow;
+    font-size: 18px !important;
+}
+
+.fas.fa-user-tie {
+    color: white;
+    font-size: 18px !important;
+}
+
 td {
     font-size: 15px !important;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    color: red;
+    text-align: left;
+}
+
+#dropdownMenuButton {
+    color: white;
 }
 
 #all_parchi {
@@ -132,6 +167,7 @@ td {
     color: #000000;
     bottom: 0 !important;
     font-family: Roboto !important;
+    width: 100%;
 }
 
 .site-footer hr {
@@ -437,8 +473,6 @@ body {
     padding-right: 10px;
     padding-bottom: 20px;
     height: 300px;
-    /* Should be removed. Only for demonstration */
-    background-color: #f1f1f1;
 }
 
 .columnbtn {
@@ -447,7 +481,6 @@ body {
     padding-top: 10px;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: #f1f1f1;
     height: 123px;
 }
 
@@ -458,26 +491,23 @@ body {
     content: "";
     display: table;
     clear: both;
+    background-color: none;
 }
 
 @media screen and (max-width: 950px) {
     .columnimg {
         width: 100%;
     }
-    .column{
+    .column {
         /*float: right;*/
         width: 100%;
-        
     }
 }
 
-.column{
+.column {
     float: left;
     width: 33.33%;
-    
 }
-
-
 
 
 /*-----------------------*/
@@ -516,6 +546,8 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border:2px whitesmoke solid;
+    border-radius: 5px;
 }
 
 
@@ -614,6 +646,9 @@ body {
 
 
 /*-----------------------*/
+.table{
+    background-color: white;
+}
 
 .paging-nav {
     text-align: center;
@@ -649,7 +684,7 @@ body {
     width: 90%;
     margin: 10px auto;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 .paging-nav,
@@ -668,6 +703,14 @@ body {
     font-size: 16px;
 }
 
+
+@media screen and (max-width: 950px) {
+    th, td{
+        width: 20px;
+        font-size: 10px;
+    }
+    
+}
 
 /*-----------------------*/
 
@@ -765,6 +808,10 @@ body {
     transition: .5s ease;
     background-color: #807b7bd7;
     border-radius: 10px;
+}
+
+.overlay-tab:hover {
+    cursor: pointer;
 }
 
 .overlay-tab {
@@ -917,6 +964,7 @@ div.gm-style-iw-d {
     height: 210px;
 }
 
+
 /*-----FORM-AGGIUNGI-----*/
 
 
@@ -934,30 +982,17 @@ div.gm-style-iw-d {
 
 /*-----------------------*/
 
-#tableAggiungi{
+#tableAggiungi {
     width: 90%;
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
-.combobox{
+.combobox {
     width: 75px;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------LOGIN----------*/
@@ -977,13 +1012,13 @@ div.gm-style-iw-d {
 
 /*-----------------------*/
 
-
 .login {
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
 }
+
 .login h1 {
     text-align: center;
     color: #5b6574;
@@ -991,12 +1026,14 @@ div.gm-style-iw-d {
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #dee0e4;
 }
+
 .login form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;
 }
+
 .login form label {
     display: flex;
     justify-content: center;
@@ -1006,13 +1043,16 @@ div.gm-style-iw-d {
     background-color: #1d814a;
     color: #ffffff;
 }
-.login form input[type="password"], .login form input[type="text"] {
+
+.login form input[type="password"],
+.login form input[type="text"] {
     width: 310px;
     height: 50px;
     border: 1px solid #dee0e4;
     margin-bottom: 20px;
     padding: 0 15px;
 }
+
 .login form input[type="submit"] {
     width: 100%;
     padding: 15px;
@@ -1024,8 +1064,9 @@ div.gm-style-iw-d {
     color: #ffffff;
     transition: background-color 0.2s;
 }
+
 .login form input[type="submit"]:hover {
-  background-color: #196e3f;
+    background-color: #196e3f;
     transition: background-color 0.2s;
 }
 
