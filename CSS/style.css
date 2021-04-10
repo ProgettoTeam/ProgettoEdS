@@ -1190,7 +1190,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1200,7 +1200,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1218,4 +1218,96 @@ div.gm-style-iw-d {
 
 .image-aboutus-para {
     color: #fff;
+}
+
+
+/*----------HELP-------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+.container-contact {
+    background: #FFFFFF;
+    width: 900px;
+    height: 650px;
+    margin: 5% auto;
+    position: relative;
+}
+
+.container-contact .map {
+    width: 45%;
+    float: left;
+}
+
+.container-contact .contact-form {
+    width: 53%;
+    margin-left: 2%;
+    float: left;
+}
+
+.container-contact .contact-form .title {
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #242424;
+    margin: 5% 8%;
+}
+
+.container-contact .contact-form .subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 4% 5% 8%;
+}
+
+.container-contact .contact-form input,
+.container-contact .contact-form textarea {
+    width: 330px;
+    padding: 3%;
+    margin: 2% 8%;
+    color: rgb(15, 226, 15);
+    border: 1px solid #B7B7B7;
+}
+
+.container-contact .contact-form input::placeholder,
+.container-contact .contact-form textarea::placeholder {
+    color: rgb(39, 173, 39);
+}
+
+.container-contact .contact-form .btn-send {
+    background: rgb(11, 235, 11);
+    width: 180px;
+    height: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 2% 8%;
+    border: none;
+}
+
+.image-help-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-help/help1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.image-help-sm-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-help/help1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
