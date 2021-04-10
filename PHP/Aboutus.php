@@ -39,32 +39,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 class="strong h1-aboutus" >Who we are and<br>what we do</h1>
-                    <p class="lead p-aboutus">This is the world's leading portal for<br>easy and quick </p>
+                    <h1 class="strong h1-aboutus" >NOI!<br>LA NOSTRA PAGINA!</h1>
+
                 </div>
                 <div class="col-md-6">
-                    <p class="p-aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
-                    <p class="p-aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet. Nulla convallis egestas rhoncus.</p>
-                </div>
+                    <h2 class="p-aboutus">Siamo un gruppo di 3 studenti della 5H dell'ISII Marconi appassionati di informatica!</h2>
+                    <h2 class="p-aboutus"> Questo sito è stato creato per mettere in evidenza i meravigliosi parchi naturali del nostro paese! Dando anche la possibilità all'utente di trovare le informazioni principali su di essi.</h2>   </div>
             </div>
         </div>
     </div>
     <div class="container team-sektion paddingTB60">
         <div class="row">
             <div class="site-heading text-center">
-                <h3 class="h3-aboutus">Our Team</h3>
-                <p class="p-aboutus">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim </p>
-                <div class="border"></div>
+                <h3 class="h3-aboutus">IL NOSTRO TEAM</h3>
+                <p class="p-aboutus">Questi siamo no! <div class="border"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="../CSS/teo.jpg">
+                    <img src="../CSS/img-aboutus/teo.jpg">
                     <div class="team-content">
                         <h3 class="h3-aboutus">Toader Mirza</h3>
                         <div class="border-team"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+                        <p> Toader Mirza resposabile della parte grafica del sito e assistente principale di Tommaso Tosca</p>
                         <div class="social-icons">
                             <a class="a-aboutus" href="https://www.facebook.com/teomirza.mirza"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a class="a-aboutus" href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
@@ -76,11 +74,11 @@
             </div>
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="../CSS/zuza.jpg">
+                    <img src="../CSS/img-aboutus/zuza.jpg">
                     <div class="team-content">
                         <h3 class="h3-aboutus" >Zuzanna Kacka</h3>
                         <div class="border-team"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+                        <p>Resposabile della documentazione del sito e creazione delle pagine Help e About Us </p>
                         <div class="social-icons">
                             <a class="a-aboutus"  href="https://www.facebook.com/zuzanna.kacka"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a class="a-aboutus" href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
@@ -92,11 +90,11 @@
             </div>
             <div class="col-md-4 team-box">
                 <div class="team-img thumbnail">
-                    <img src="../CSS/tosca .jpg">
+                    <img src="../CSS/img-aboutus/tosca .jpg">
                     <div class="team-content">
                         <h3 class="h3-aboutus" >Tommaso Tosca</h3>
                         <div class="border-team"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+                        <p>Project Manager e responsabile della parte interattiva delle singole pagine.</p>
                         <div class="social-icons">
                             <a class="a-aboutus"  href="https://it-it.facebook.com/tommaso.tosca"><i id="social-fb" class="fa fa-facebook-square fa-3x social i-aboutus"></i></a>
                             <a class="a-aboutus"  href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social i-aboutus"></i></a>
