@@ -1,3 +1,11 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("background/background-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
 /*-- NAVBAR --*/
 
 
@@ -26,6 +34,10 @@
     margin-bottom: 0;
 }
 
+.correct {
+    color: green;
+}
+
 #img_tabella {
     width: 192px;
     height: 128px;
@@ -36,6 +48,14 @@
     width: 280px;
     height: auto;
     float: left;
+}
+
+#addRow {
+    margin-left: 1600px;
+}
+
+#cars {
+    width: 50px;
 }
 
 .username {
@@ -353,10 +373,6 @@ footer ul.quick-links li:hover a i {
 
 
 /*-----------------------*/
-
-body {
-    background-color: #f1f1f1;
-}
 
 .body-container-card {
     text-align: center;
@@ -1060,4 +1076,254 @@ div.gm-style-iw-d {
     vertical-align: middle;
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.459), 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/*----------ABOUT US-------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+.cta-padding35 {
+    padding: 35px 0 35px;
+    background-color: #b40028;
+    color: #fff;
+}
+
+.capital {
+    text-transform: uppercase;
+}
+
+.i-aboutus {
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.h1-aboutus {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+.h2-aboutus {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+.h3-aboutus {
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+
+.h4-aboutus {
+    font-size: 19px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+
+.p-aboutus {
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+}
+
+.a-aboutus {
+    color: #494949;
+}
+
+.a-aboutus:hover {
+    color: #465cff;
+}
+
+
+/* Buttons */
+
+.site-btn {
+    font-size: 14px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: 1px solid #b40028;
+    min-width: 200px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #b40028;
+    background-color: transparent;
+    transition: all .25s ease-in-out;
+    margin: 10px 0px 10px 0px;
+}
+
+.site-btn:hover {
+    background: #b40028;
+    border: 1px solid #fff;
+    font-weight: 700px;
+}
+
+
+/* Site Heading */
+
+.site-heading h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.border {
+    background: #e1e1e1;
+    height: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.paddingTB60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.image-aboutus-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lg-text {
+    font-size: 52px;
+    font-weight: 600;
+    text-transform: none;
+    color: #fff;
+}
+
+.image-aboutus-para {
+    color: #fff;
+}
+
+
+/*----------HELP-------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+.container-contact {
+    background: #FFFFFF;
+    width: 900px;
+    height: 650px;
+    margin: 5% auto;
+    position: relative;
+}
+
+.container-contact .map {
+    width: 45%;
+    float: left;
+}
+
+.container-contact .contact-form {
+    width: 53%;
+    margin-left: 2%;
+    float: left;
+}
+
+.container-contact .contact-form .title {
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #242424;
+    margin: 5% 8%;
+}
+
+.container-contact .contact-form .subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 4% 5% 8%;
+}
+
+.container-contact .contact-form input,
+.container-contact .contact-form textarea {
+    width: 330px;
+    padding: 3%;
+    margin: 2% 8%;
+    color: rgb(15, 226, 15);
+    border: 1px solid #B7B7B7;
+}
+
+.container-contact .contact-form input::placeholder,
+.container-contact .contact-form textarea::placeholder {
+    color: rgb(39, 173, 39);
+}
+
+.container-contact .contact-form .btn-send {
+    background: rgb(11, 235, 11);
+    width: 180px;
+    height: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 2% 8%;
+    border: none;
+}
+
+.image-help-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.image-help-sm-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
