@@ -1,4 +1,4 @@
-<div class="column">
+
     <div class="bottone">
         <div class="search-container">
             <form action="<?php basename($_SERVER['PHP_SELF']) ?>" method="POST">
@@ -38,4 +38,3 @@
             </form>
         </div>
     </div>
-</div>

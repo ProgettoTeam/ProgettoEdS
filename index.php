@@ -26,7 +26,6 @@ include ('PHP/DAL.php');
 
 
 <body>
-<div class="bgimg">
   <?php 
   include 'PHP/navbar.php';
   include 'PHP/DBconnection.php'; 
@@ -141,11 +140,12 @@ include ('PHP/DAL.php');
    <div class="columnbtn">
       <h2 class="titolo2" style="float:left;">Tabella Parchi:</h2>
    </div>
-
-   <?php 
-    $tabella = 'parco';
-    include 'PHP/Public/Searchbar.php';
-   ?>
+   <div class="columnbtn">
+      <?php 
+        $tabella = 'parco';
+        include 'PHP/Public/Searchbar.php';
+      ?>
+   </div>
 </div>
 
 <?php include 'PHP/Public/tabellaParchi.php'; ?>
@@ -158,7 +158,7 @@ include ('PHP/DAL.php');
   </script>
 
     <?php include 'PHP/footer.php'?>
-    </div>
+
 </body>
 
 

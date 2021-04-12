@@ -3,30 +3,25 @@
       <h2 class="titolo2" style="float:left;">Fauna</h2>
    </div>
 
-   <div class="column">
-      <div class="bottone">
-      <?php
-         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
+   <?php
+      if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
          ?>
-            <a href="../Admin/form-aggiungi.php?tabella=fauna&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
+         <div class="column">
+            <div class="bottone">
+               <a href="../Admin/form-aggiungi.php?tabella=fauna&value=1" class="btn btn-success btn-lg">
+                  <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+               </a>
+            </div>
+         </div>
          <?php
-         } else {
-         ?>
-            <a href="form-aggiungi.php?tabella=fauna&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
+      }
+      ?>
+      <div calss="column"> 
          <?php
-         }
+         $tabella = 'fauna';
+         include 'Searchbar.php';
       ?>
       </div>
-   </div>
-   
-   <?php 
-   $tabella = 'fauna';
-   include 'Searchbar.php' 
-   ?>
 </div>
 
 <table id="tableData" class="table table-bordered table-striped">
@@ -59,6 +54,12 @@
                <td><?php echo $categoria['Specie']?></td>
                <td><?php echo $categoria['OrdineAppartenenza']?></td> 
                <td><?php echo $fauna['Sesso'] ?></td>
+               <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
+               </td>
+               <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg elimina">Elimina</a>
+               </td>
             </tr>
             <?php
          } 

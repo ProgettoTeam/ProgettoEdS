@@ -26,9 +26,27 @@
           <li><a href="../../index.php">Home</a></li>
         <?php
         }
+
+        if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+          <li><a href="PHP/Public/Aboutus.php">About Us</a></li>
+        <?php
+        } else if(basename($_SERVER['PHP_SELF']) != 'Aboutus.php'){
+          ?>
+          <li><a href="../Public/Aboutus.php">About Us</a></li>
+        <?php
+        }
+
+        if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+          ?>
+            <li><a href="PHP/Public/Help.php">Help</a></li>
+          <?php
+          } else if(basename($_SERVER['PHP_SELF']) != 'Help.php'){
+            ?>
+            <li><a href="../Public/Help.php">Help</a></li>
+          <?php
+          }
       ?>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Help</a></li>
         <?php include 'amministratore-responsabile.php'; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
