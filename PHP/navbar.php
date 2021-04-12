@@ -6,16 +6,54 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <img src="../CSS/logo-flora-fauna.png" class="logo">
+      <?php
+      if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+      ?>
+        <img src="CSS/logo-flora-fauna.png" class="logo">
+      <?php
+      } else {
+      ?>
+        <img src="../../CSS/logo-flora-fauna.png" class="logo">
+      <?php
+      }
+      ?>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Help</a></li>
+      <?php
+        if(basename($_SERVER['PHP_SELF']) != 'index.php') {
+        ?>
+          <li><a href="../../index.php">Home</a></li>
+        <?php
+        }
+
+        if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+          <li><a href="PHP/Public/Aboutus.php">About Us</a></li>
+        <?php
+        } else if(basename($_SERVER['PHP_SELF']) != 'Aboutus.php'){
+          ?>
+          <li><a href="../Public/Aboutus.php">About Us</a></li>
+        <?php
+        }
+
+        if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+          ?>
+            <li><a href="PHP/Public/Help.php">Help</a></li>
+          <?php
+          } else if(basename($_SERVER['PHP_SELF']) != 'Help.php'){
+            ?>
+            <li><a href="../Public/Help.php">Help</a></li>
+          <?php
+          }
+      ?>
+        <?php include 'amministratore-responsabile.php'; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <?php 
+        $navbar = 1;
+        include ('SessionLogin.php') 
+      ?>
       </ul>
     </div>
   </div>

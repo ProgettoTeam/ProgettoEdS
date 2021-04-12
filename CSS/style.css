@@ -1,3 +1,11 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("background/background-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
 /*-- NAVBAR --*/
 
 
@@ -160,6 +168,7 @@ td {
     color: #000000;
     bottom: 0 !important;
     font-family: Roboto !important;
+    width: 100%;
 }
 
 .site-footer hr {
@@ -465,8 +474,6 @@ body {
     padding-right: 10px;
     padding-bottom: 20px;
     height: 300px;
-    /* Should be removed. Only for demonstration */
-    background-color: #f1f1f1;
 }
 
 .columnbtn {
@@ -475,7 +482,6 @@ body {
     padding-top: 10px;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: #f1f1f1;
     height: 123px;
 }
 
@@ -486,6 +492,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    background-color: none;
 }
 
 @media screen and (max-width: 950px) {
@@ -540,6 +547,8 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border: 2px whitesmoke solid;
+    border-radius: 5px;
 }
 
 
@@ -639,6 +648,10 @@ body {
 
 /*-----------------------*/
 
+.table {
+    background-color: white;
+}
+
 .paging-nav {
     text-align: center;
     padding-top: 5px;
@@ -666,6 +679,7 @@ body {
     margin: 0px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -674,6 +688,7 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -682,6 +697,7 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -690,6 +706,15 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    th,
+    td {
+        width: 20px;
+        font-size: 10px;
+    }
 }
 
 
@@ -749,6 +774,11 @@ body {
 .btn {
     background-color: #1d814a;
     border-color: #1d814a;
+}
+
+.elimina {
+    background-color: red !important;
+    border-color: red !important;
 }
 
 
@@ -936,7 +966,6 @@ input[type=submit]:hover {
 
 .container-form-modifica {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
 }
 
@@ -1190,7 +1219,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1200,7 +1229,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1290,10 +1319,12 @@ div.gm-style-iw-d {
     font-weight: 700;
     margin: 2% 8%;
     border: none;
+    margin-top: 300px;
+    float: center;
 }
 
 .image-help-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1303,7 +1334,7 @@ div.gm-style-iw-d {
 }
 
 .image-help-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img-help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

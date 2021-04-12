@@ -1,0 +1,514 @@
+1,0,Male,Endosc destruc anus les,CSS/img_fauna/zebra.jpg,12,27
+2,1,Female,Excision of shoulder NEC,CSS/img_fauna/scimmia.jpg,15,49
+3,1,Female,Cath base invasv ep test,CSS/img_fauna/orso.jpg,7,34
+4,1,Female,Head & neck endarter NEC,CSS/img_fauna/pappagallo.jpg,26,38
+5,0,Female,Abdominal wall biopsy,CSS/img_fauna/koala.jpg,28,7
+6,0,Female,Applic ext fix-humerus,CSS/img_fauna/zebra.jpg,21,19
+7,0,Male,Percutan aspiration gb,CSS/img_fauna/fenicottero.jpg,19,10
+8,1,Male,Keratoprosthesis,CSS/img_fauna/koala.jpg,25,35
+9,0,Male,Vein inject-scleros agnt,CSS/img_fauna/ippopotamo.jpg,24,43
+10,1,Female,Suture of vessel NOS,CSS/img_fauna/koala.jpg,26,47
+11,1,Female,Local excis sm bowel NEC,CSS/img_fauna/fenicottero.jpg,23,29
+12,0,Female,Testicular repair NEC,CSS/img_fauna/scimmia.jpg,25,48
+13,1,Female,Ocular thermography,CSS/img_fauna/tigre.jpg,26,2
+14,1,Male,Pterygium excision NEC,CSS/img_fauna/ippopotamo.jpg,27,12
+15,0,Female,Omental repair NEC,CSS/img_fauna/zebra.jpg,27,14
+16,1,Female,Auto bone mt w purging,CSS/img_fauna/leone.jpg,11,37
+17,0,Female,Salivary repair NEC,CSS/img_fauna/pappagallo.jpg,1,12
+18,1,Male,Remove imp dev-metat/tar,CSS/img_fauna/pappagallo.jpg,29,29
+19,1,Male,Wound irrigation NEC,CSS/img_fauna/koala.jpg,2,40
+20,1,Male,Renal scan/isotope funct,CSS/img_fauna/pappagallo.jpg,21,21
+21,1,Female,Tendon advancement,CSS/img_fauna/fenicottero.jpg,22,27
+22,1,Female,Intrcran vent shunt/anas,CSS/img_fauna/scimmia.jpg,7,40
+23,0,Male,Assisted pool exercise,CSS/img_fauna/panda.jpg,15,15
+24,1,Male,Endocar cushion rep NEC,CSS/img_fauna/panda.jpg,13,36
+25,0,Male,Inject/infuse NEC,CSS/img_fauna/ippopotamo.jpg,9,29
+26,0,Male,Intravas msmt periph art,CSS/img_fauna/leone.jpg,17,10
+27,0,Female,Cholecystectomy,CSS/img_fauna/leone.jpg,2,5
+28,1,Male,Ureth stricture release,CSS/img_fauna/orso.jpg,10,28
+29,1,Female,Corneal incision,CSS/img_fauna/fenicottero.jpg,25,24
+30,1,Female,"Omt with hi-vel,lo-ampli",CSS/img_fauna/panda.jpg,16,13
+31,0,Female,Ankle structure division,CSS/img_fauna/fenicottero.jpg,27,41
+32,0,Male,Pharyngeal dilation,CSS/img_fauna/zebra.jpg,19,40
+33,0,Female,D & C NEC,CSS/img_fauna/zebra.jpg,23,24
+34,0,Male,Remove tracheostomy tube,CSS/img_fauna/tigre.jpg,7,30
+35,0,Male,Oth totl shouldr replace,CSS/img_fauna/pappagallo.jpg,20,35
+36,0,Male,High gastric bypass,CSS/img_fauna/tigre.jpg,11,50
+37,1,Male,Toxicology-op wound,CSS/img_fauna/orso.jpg,5,11
+38,1,Female,Cl osteoplasty mand rami,CSS/img_fauna/koala.jpg,16,2
+39,0,Female,Renal injection NEC,CSS/img_fauna/zebra.jpg,13,5
+40,1,Female,Thoracic tomography NEC,CSS/img_fauna/leone.jpg,16,24
+41,1,Male,Ureteroscopy,CSS/img_fauna/koala.jpg,29,39
+42,0,Male,Destruc uter support NEC,CSS/img_fauna/pappagallo.jpg,9,23
+43,0,Male,Goniotomy,CSS/img_fauna/orso.jpg,18,6
+44,0,Male,Goniopuncture,CSS/img_fauna/fenicottero.jpg,26,35
+45,0,Female,Remov gastrostomy tube,CSS/img_fauna/panda.jpg,12,27
+46,1,Female,Carporadial fusion,CSS/img_fauna/fenicottero.jpg,19,25
+47,0,Female,Transplant spermat cord,CSS/img_fauna/koala.jpg,3,9
+48,0,Male,Eyebal/orbit dx proc NEC,CSS/img_fauna/scimmia.jpg,9,46
+49,0,Female,Open ureteral biopsy,CSS/img_fauna/scimmia.jpg,20,49
+50,1,Male,Lap umbilical hernia NEC,CSS/img_fauna/fenicottero.jpg,23,21
+51,0,Female,Ankle structure division,CSS/img_fauna/tigre.jpg,11,32
+52,0,Female,Breast xerography,CSS/img_fauna/koala.jpg,29,26
+53,1,Female,Brain/skull contrst xray,CSS/img_fauna/pappagallo.jpg,24,43
+54,1,Female,Destruc hepatic les NEC,CSS/img_fauna/koala.jpg,21,45
+55,1,Female,Cde for calculus remov,CSS/img_fauna/scimmia.jpg,8,44
+56,1,Female,Remove both fallop tubes,CSS/img_fauna/panda.jpg,30,42
+57,1,Male,Clipping of aneurysm,CSS/img_fauna/koala.jpg,22,5
+58,1,Male,Thorac sm bowel interpos,CSS/img_fauna/pappagallo.jpg,1,49
+59,0,Female,Op red-int fix metac/car,CSS/img_fauna/scimmia.jpg,8,23
+60,1,Female,Cyclophotocoagulation,CSS/img_fauna/ippopotamo.jpg,20,37
+61,1,Female,Wedge osteotomy NOS,CSS/img_fauna/tigre.jpg,29,50
+62,1,Male,Implt/repl carddefib tot,CSS/img_fauna/pappagallo.jpg,10,18
+63,0,Male,Psychia commitment eval,CSS/img_fauna/scimmia.jpg,24,25
+64,0,Male,Infundibulectomy,CSS/img_fauna/koala.jpg,29,8
+65,0,Male,Oth arthrotomy-hand/fngr,CSS/img_fauna/pappagallo.jpg,11,7
+66,0,Female,Replace bladder stimulat,CSS/img_fauna/ippopotamo.jpg,8,29
+67,1,Female,Opn/oth rep mtrl vlv-tis,CSS/img_fauna/zebra.jpg,19,46
+68,1,Male,Salivary repair NEC,CSS/img_fauna/leone.jpg,17,48
+69,0,Male,Behavior therapy,CSS/img_fauna/orso.jpg,15,40
+70,1,Male,C & s NEC,CSS/img_fauna/zebra.jpg,30,25
+71,0,Male,Perc ather extracran vsl,CSS/img_fauna/tigre.jpg,21,18
+72,0,Female,"Hip surface, metal/metal",CSS/img_fauna/koala.jpg,4,10
+73,1,Male,Hip synovectomy,CSS/img_fauna/tigre.jpg,5,45
+74,1,Female,Varicose v lig-strip NOS,CSS/img_fauna/zebra.jpg,10,3
+75,0,Female,Bone scan,CSS/img_fauna/ippopotamo.jpg,18,30
+76,0,Female,Skull flap formation,CSS/img_fauna/orso.jpg,2,17
+77,0,Male,Opn ind ing hern-gft NEC,CSS/img_fauna/leone.jpg,25,33
+78,1,Female,Salpingo-salpingostomy,CSS/img_fauna/scimmia.jpg,22,5
+79,1,Male,Fit below knee prosthes,CSS/img_fauna/pappagallo.jpg,3,12
+80,1,Male,Metatar/tar wedg osteot,CSS/img_fauna/fenicottero.jpg,7,31
+81,0,Female,Disarticulation of elbow,CSS/img_fauna/scimmia.jpg,10,16
+82,0,Male,GI ostomy irrigation,CSS/img_fauna/leone.jpg,6,16
+83,1,Male,Trnsplnt live rel donor,CSS/img_fauna/orso.jpg,19,10
+84,0,Male,Endotracheal bronchogram,CSS/img_fauna/leone.jpg,14,34
+85,1,Male,Opn mitral valvuloplasty,CSS/img_fauna/tigre.jpg,17,27
+86,0,Female,Parasitology-female gen,CSS/img_fauna/zebra.jpg,25,20
+87,1,Female,Allo hem stem ct w purg,CSS/img_fauna/scimmia.jpg,25,23
+88,1,Female,Ankle structure division,CSS/img_fauna/pappagallo.jpg,9,41
+89,1,Female,Incis to remov tonsil FB,CSS/img_fauna/panda.jpg,22,34
+90,1,Female,Extracorpor hepat Assis,CSS/img_fauna/scimmia.jpg,17,28
+91,1,Male,Endosc destruc esoph les,CSS/img_fauna/zebra.jpg,12,4
+92,1,Male,Skl xray-shoulder/up arm,CSS/img_fauna/zebra.jpg,28,20
+93,1,Female,"Repl pacem w 1-cham, non",CSS/img_fauna/fenicottero.jpg,2,24
+94,0,Male,Other destru pancrea les,CSS/img_fauna/scimmia.jpg,19,48
+95,0,Female,Hand & finger arthroscop,CSS/img_fauna/ippopotamo.jpg,26,29
+96,1,Male,"Repl joint of foot, toe",CSS/img_fauna/panda.jpg,28,35
+97,1,Male,Nonmechan resuscitation,CSS/img_fauna/tigre.jpg,12,37
+98,1,Female,Insert/repl oth neurost,CSS/img_fauna/scimmia.jpg,27,8
+99,0,Male,Destruct duoden les NEC,CSS/img_fauna/ippopotamo.jpg,4,5
+100,0,Female,Family therapy,CSS/img_fauna/fenicottero.jpg,24,28
+101,1,Male,Sm bowel stoma closure,CSS/img_fauna/zebra.jpg,1,38
+102,0,Female,Infus drotrecogin alfa,CSS/img_fauna/panda.jpg,22,31
+103,0,Male,Culture NEC,CSS/img_fauna/scimmia.jpg,15,47
+104,0,Male,Partial glossectomy,CSS/img_fauna/pappagallo.jpg,21,24
+105,0,Male,Tot abd colectmy NEC/NOS,CSS/img_fauna/panda.jpg,27,41
+106,0,Male,Removal FB spinal canal,CSS/img_fauna/orso.jpg,15,39
+107,1,Female,Repair gb laceration,CSS/img_fauna/koala.jpg,28,36
+108,1,Female,Unil femor hrn rep-grft,CSS/img_fauna/koala.jpg,22,50
+109,1,Male,Open reduc-elbow disloc,CSS/img_fauna/orso.jpg,13,19
+110,1,Male,Radius & ulna sequestrec,CSS/img_fauna/zebra.jpg,14,50
+111,1,Female,Endo insrt bronc def/sub,CSS/img_fauna/tigre.jpg,12,2
+112,0,Male,Inj therap subst periton,CSS/img_fauna/leone.jpg,28,34
+113,0,Male,Micro exam-eye NEC,CSS/img_fauna/scimmia.jpg,4,20
+114,1,Female,Dilation of rectum,CSS/img_fauna/zebra.jpg,6,11
+115,1,Female,Aneurysm repair NEC,CSS/img_fauna/pappagallo.jpg,13,50
+116,0,Female,Intestinal fixation NOS,CSS/img_fauna/zebra.jpg,29,18
+117,0,Female,Toxicology-lower urinary,CSS/img_fauna/leone.jpg,23,36
+118,1,Female,Incision of aorta,CSS/img_fauna/panda.jpg,14,16
+119,1,Male,Skel xray-elbow/forearm,CSS/img_fauna/koala.jpg,7,35
+120,1,Female,Revise sm bowel anastom,CSS/img_fauna/fenicottero.jpg,24,47
+121,1,Female,Pericardiectomy,CSS/img_fauna/scimmia.jpg,12,2
+122,1,Male,Repair ob laceration NEC,CSS/img_fauna/pappagallo.jpg,28,38
+123,1,Female,Eyelid repair NEC,CSS/img_fauna/leone.jpg,10,39
+124,1,Female,Lap rev gast restri proc,CSS/img_fauna/scimmia.jpg,5,8
+125,1,Female,Gingivoplasty,CSS/img_fauna/orso.jpg,28,15
+126,0,Female,Excise inguinal node,CSS/img_fauna/panda.jpg,7,30
+127,1,Male,Loc exc bony palate les,CSS/img_fauna/leone.jpg,26,4
+128,1,Male,Pancreatic anastomosis,CSS/img_fauna/tigre.jpg,1,26
+129,1,Female,Remove ureteral ligature,CSS/img_fauna/koala.jpg,8,45
+130,0,Female,Inject antidote,CSS/img_fauna/panda.jpg,3,11
+131,1,Male,Total hepatectomy,CSS/img_fauna/fenicottero.jpg,5,45
+132,0,Female,Ophth counsel & instruct,CSS/img_fauna/ippopotamo.jpg,8,14
+133,0,Male,Micro exam-ent/laryn NEC,CSS/img_fauna/orso.jpg,15,1
+134,0,Male,Inject/inf thrombo agent,CSS/img_fauna/pappagallo.jpg,27,40
+135,0,Female,Ins/repl single pul gen,CSS/img_fauna/tigre.jpg,16,13
+136,0,Male,Larygnoscopy/tracheoscop,CSS/img_fauna/leone.jpg,29,13
+137,0,Male,Open bx saliv gland/duct,CSS/img_fauna/leone.jpg,7,44
+138,1,Female,Excision of pilonid cyst,CSS/img_fauna/panda.jpg,11,20
+139,0,Female,Skel xray-upper limb NOS,CSS/img_fauna/koala.jpg,23,41
+140,0,Female,Comprehensive eye exam,CSS/img_fauna/scimmia.jpg,20,19
+141,1,Female,Repair of spleen,CSS/img_fauna/orso.jpg,6,44
+142,0,Female,Opn rt hemicolectomy NEC,CSS/img_fauna/orso.jpg,16,25
+143,1,Female,Insert bone stim-femur,CSS/img_fauna/pappagallo.jpg,8,33
+144,0,Male,Alcoholism counselling,CSS/img_fauna/orso.jpg,28,37
+145,0,Female,Intest stoma revis NOS,CSS/img_fauna/zebra.jpg,13,48
+146,0,Female,Forcib correct defor NEC,CSS/img_fauna/orso.jpg,28,11
+147,0,Female,Measles vaccination,CSS/img_fauna/fenicottero.jpg,15,48
+148,1,Female,"Omt with lo-vel,hi-ampli",CSS/img_fauna/leone.jpg,4,17
+149,0,Male,Extended ophthal work-up,CSS/img_fauna/koala.jpg,4,43
+150,0,Male,Cl red-int fix tib/fibu,CSS/img_fauna/koala.jpg,7,45
+151,1,Male,Electro-oculogram,CSS/img_fauna/scimmia.jpg,27,20
+152,0,Female,Tendon sheath explorat,CSS/img_fauna/zebra.jpg,1,12
+153,1,Female,Remov gastrostomy tube,CSS/img_fauna/tigre.jpg,23,12
+154,0,Male,Common duct exploration,CSS/img_fauna/tigre.jpg,28,33
+155,1,Male,Tetanus antitoxin admini,CSS/img_fauna/pappagallo.jpg,1,8
+156,0,Female,Sympath nerve division,CSS/img_fauna/panda.jpg,10,5
+157,1,Female,Pros rep endocar cushion,CSS/img_fauna/scimmia.jpg,15,12
+158,1,Female,Diagnostic imaging NOS,CSS/img_fauna/koala.jpg,30,7
+159,1,Female,Other fusion of foot,CSS/img_fauna/scimmia.jpg,12,16
+160,0,Male,Percu endosc jejunostomy,CSS/img_fauna/orso.jpg,24,27
+161,0,Male,Prostatectomy NEC,CSS/img_fauna/pappagallo.jpg,30,2
+162,0,Male,Chest cage bone biopsy,CSS/img_fauna/fenicottero.jpg,17,50
+163,1,Female,Allo hem stem ct w/o pur,CSS/img_fauna/orso.jpg,24,1
+164,0,Male,Narcoanalysis,CSS/img_fauna/orso.jpg,27,50
+165,0,Female,Pterygium excision NEC,CSS/img_fauna/zebra.jpg,26,3
+166,0,Female,Unspec op-bone inj NEC,CSS/img_fauna/fenicottero.jpg,30,14
+167,1,Male,Orthotic device fitting,CSS/img_fauna/fenicottero.jpg,21,29
+168,1,Female,Thyrogloss duct excision,CSS/img_fauna/panda.jpg,29,10
+169,1,Male,Psychiatr somatother NEC,CSS/img_fauna/koala.jpg,16,5
+170,0,Male,Penile repair NEC,CSS/img_fauna/fenicottero.jpg,6,28
+171,1,Male,High forceps op NEC,CSS/img_fauna/tigre.jpg,14,33
+172,1,Male,Foot & toe joint biopsy,CSS/img_fauna/scimmia.jpg,24,45
+173,0,Male,Gastric repair NEC,CSS/img_fauna/ippopotamo.jpg,26,4
+174,1,Male,Perc ather intracran vsl,CSS/img_fauna/leone.jpg,9,3
+175,1,Male,Removal head/neck FB,CSS/img_fauna/orso.jpg,3,19
+176,0,Female,Eyelid repair NEC,CSS/img_fauna/koala.jpg,29,39
+177,1,Female,Anal biopsy,CSS/img_fauna/orso.jpg,28,8
+178,1,Female,"LITT lesn liver,guidance",CSS/img_fauna/panda.jpg,24,5
+179,0,Male,Irrigation of nasal pass,CSS/img_fauna/pappagallo.jpg,14,31
+180,0,Male,Opn thorc diaph hern NEC,CSS/img_fauna/orso.jpg,26,11
+181,0,Female,Release of chordee,CSS/img_fauna/zebra.jpg,9,13
+182,1,Male,Remov imp dev-radius/uln,CSS/img_fauna/pappagallo.jpg,5,47
+183,1,Female,Partial salpingectom NEC,CSS/img_fauna/scimmia.jpg,19,30
+184,0,Male,Ant segment dx proc NEC,CSS/img_fauna/tigre.jpg,18,1
+185,0,Female,Rubella vaccination,CSS/img_fauna/scimmia.jpg,19,20
+186,1,Female,C & s-lower GI,CSS/img_fauna/zebra.jpg,2,33
+187,0,Male,Insert/replace EVD,CSS/img_fauna/fenicottero.jpg,4,27
+188,1,Male,Local gastr excision NEC,CSS/img_fauna/tigre.jpg,4,37
+189,1,Female,Insert colonic stent NEC,CSS/img_fauna/pappagallo.jpg,2,15
+190,1,Female,Replace bladder stimulat,CSS/img_fauna/ippopotamo.jpg,6,10
+191,0,Male,Stern esophagoesophagost,CSS/img_fauna/scimmia.jpg,11,9
+192,0,Male,Paracerv uterine denerv,CSS/img_fauna/fenicottero.jpg,14,40
+193,0,Female,Spermatic cord/vas biops,CSS/img_fauna/ippopotamo.jpg,22,1
+194,0,Male,Peritoneal incision,CSS/img_fauna/fenicottero.jpg,24,16
+195,1,Male,Reopen thyroid field wnd,CSS/img_fauna/orso.jpg,10,36
+196,0,Female,Surg tooth extract NEC,CSS/img_fauna/tigre.jpg,21,39
+197,1,Male,Mobilization of spine,CSS/img_fauna/koala.jpg,3,2
+198,0,Female,Wound catheter irrigat,CSS/img_fauna/koala.jpg,27,4
+199,0,Male,Opn fx red w int fix NEC,CSS/img_fauna/panda.jpg,18,43
+200,1,Female,Tibia/fibula div NEC,CSS/img_fauna/koala.jpg,11,29
+201,1,Male,Tibia/fibula div NEC,CSS/img_fauna/orso.jpg,29,18
+202,0,Male,Uterine repair NEC,CSS/img_fauna/tigre.jpg,13,24
+203,1,Female,Tympanic injection,CSS/img_fauna/orso.jpg,24,16
+204,1,Male,Clos thoracic fistul NEC,CSS/img_fauna/leone.jpg,14,16
+205,1,Female,Impedance phlebogram,CSS/img_fauna/leone.jpg,2,36
+206,0,Female,Continent ileostomy,CSS/img_fauna/koala.jpg,4,25
+207,0,Male,Patellar stabilization,CSS/img_fauna/orso.jpg,28,5
+208,0,Male,Esophageal manometry,CSS/img_fauna/fenicottero.jpg,3,35
+209,1,Male,Totl reconst breast NEC,CSS/img_fauna/pappagallo.jpg,26,2
+210,1,Male,Correction fetal defect,CSS/img_fauna/tigre.jpg,27,30
+211,0,Male,Intracran ves resec-repl,CSS/img_fauna/orso.jpg,22,28
+212,1,Male,Fitting of hearing aid,CSS/img_fauna/koala.jpg,4,39
+213,0,Female,Limb shorten proc NEC,CSS/img_fauna/scimmia.jpg,12,39
+214,0,Male,Mobilization of spine,CSS/img_fauna/fenicottero.jpg,22,2
+215,0,Male,Other repair of ankle,CSS/img_fauna/leone.jpg,1,22
+216,1,Female,Anal cerclage,CSS/img_fauna/pappagallo.jpg,25,16
+217,1,Male,Close rectal fist NEC,CSS/img_fauna/koala.jpg,22,18
+218,1,Female,Interposit op uterin lig,CSS/img_fauna/zebra.jpg,28,22
+219,0,Female,Retropubic prostatectomy,CSS/img_fauna/orso.jpg,24,6
+220,0,Male,Respiratory measure NEC,CSS/img_fauna/pappagallo.jpg,3,16
+221,1,Female,Soft tissue incision NEC,CSS/img_fauna/tigre.jpg,29,26
+222,1,Female,Whirlpool treatment,CSS/img_fauna/zebra.jpg,7,11
+223,1,Female,Exc chest cage bone les,CSS/img_fauna/tigre.jpg,14,3
+224,1,Female,Exploratory thoracotomy,CSS/img_fauna/koala.jpg,25,46
+225,0,Female,Amputat through malleoli,CSS/img_fauna/koala.jpg,3,15
+226,0,Male,Open liver biopsy,CSS/img_fauna/orso.jpg,19,41
+227,1,Female,Micro exam-femal gen NEC,CSS/img_fauna/panda.jpg,6,41
+228,0,Female,Endosc inser nasopan tub,CSS/img_fauna/tigre.jpg,13,42
+229,0,Male,Oth chest cage ostectomy,CSS/img_fauna/leone.jpg,18,25
+230,1,Female,Cervical spine x-ray NEC,CSS/img_fauna/ippopotamo.jpg,5,25
+231,1,Male,Surg collaps of lung NEC,CSS/img_fauna/pappagallo.jpg,28,4
+232,0,Male,Open biopsy soft tissue,CSS/img_fauna/pappagallo.jpg,13,31
+233,0,Male,Closed valvotomy NOS,CSS/img_fauna/ippopotamo.jpg,23,49
+234,0,Male,Other isotope function,CSS/img_fauna/koala.jpg,24,12
+235,0,Male,Other nasal sinus ops,CSS/img_fauna/ippopotamo.jpg,16,41
+236,0,Female,Manual removal-placenta,CSS/img_fauna/tigre.jpg,12,18
+237,1,Male,GI ostomy irrigation,CSS/img_fauna/pappagallo.jpg,11,17
+238,1,Female,Lung repair NEC,CSS/img_fauna/koala.jpg,3,12
+239,1,Female,Sm bowel stoma closure,CSS/img_fauna/panda.jpg,7,32
+240,0,Female,Ins/repl single pul gen,CSS/img_fauna/tigre.jpg,28,30
+241,1,Male,Implant mechanic kidney,CSS/img_fauna/pappagallo.jpg,20,32
+242,1,Female,Lo limb sft tis xray NEC,CSS/img_fauna/panda.jpg,19,9
+243,1,Male,Physical therapy NEC,CSS/img_fauna/fenicottero.jpg,4,39
+244,1,Male,Corneal tattooing,CSS/img_fauna/panda.jpg,17,47
+245,0,Male,Ligate gastric varices,CSS/img_fauna/pappagallo.jpg,2,48
+246,0,Male,Pineal biopsy,CSS/img_fauna/tigre.jpg,26,25
+247,1,Male,Oth seg lung resect NOS,CSS/img_fauna/zebra.jpg,12,47
+248,0,Male,Sphenoidectomy,CSS/img_fauna/leone.jpg,10,20
+249,1,Male,Repair staphylom w graft,CSS/img_fauna/koala.jpg,16,13
+250,0,Male,Destruct joint les NEC,CSS/img_fauna/orso.jpg,17,4
+251,1,Female,Hyperthermia ca therapy,CSS/img_fauna/pappagallo.jpg,20,22
+252,1,Male,Sperm collection,CSS/img_fauna/koala.jpg,6,29
+253,0,Female,Bilateral breast implant,CSS/img_fauna/leone.jpg,8,26
+254,1,Male,Endovas impln grft aorta,CSS/img_fauna/scimmia.jpg,1,49
+255,0,Female,Replace small bowel tube,CSS/img_fauna/zebra.jpg,6,41
+256,0,Male,Endo insrt bronc def/sub,CSS/img_fauna/orso.jpg,3,7
+257,0,Male,Bartholin gland marsup,CSS/img_fauna/leone.jpg,27,32
+258,1,Male,Exc les sft tiss hnd NEC,CSS/img_fauna/zebra.jpg,1,4
+259,1,Female,Surg tooth extract NEC,CSS/img_fauna/orso.jpg,13,50
+260,1,Male,Permanent ileostomy NEC,CSS/img_fauna/pappagallo.jpg,19,11
+261,1,Male,Exc of dental les of jaw,CSS/img_fauna/koala.jpg,19,37
+262,0,Female,Bronchial dilation,CSS/img_fauna/koala.jpg,22,18
+263,1,Male,Hemorrhoid ligation,CSS/img_fauna/tigre.jpg,10,25
+264,0,Female,Cl fx reduc-metacar/car,CSS/img_fauna/tigre.jpg,3,11
+265,0,Male,Imp/rep schan coch pros,CSS/img_fauna/leone.jpg,15,42
+266,0,Male,Drug detoxification,CSS/img_fauna/panda.jpg,14,33
+267,0,Male,Spine tract w skull dev,CSS/img_fauna/panda.jpg,22,4
+268,1,Female,Lg bowel stoma closure,CSS/img_fauna/orso.jpg,24,13
+269,0,Female,Chest cage bone biopsy,CSS/img_fauna/panda.jpg,21,38
+270,1,Male,Radical vulvectomy,CSS/img_fauna/ippopotamo.jpg,20,39
+271,0,Male,Pancreatic dx proc NEC,CSS/img_fauna/koala.jpg,10,43
+272,1,Female,Bact smear-lower urinary,CSS/img_fauna/panda.jpg,21,8
+273,0,Female,Manual reduction hernia,CSS/img_fauna/leone.jpg,14,39
+274,0,Male,Arth/pros rem wo re-foot,CSS/img_fauna/tigre.jpg,4,46
+275,1,Male,Carotid pulse tracing,CSS/img_fauna/ippopotamo.jpg,28,37
+276,0,Male,Ext fat for grft/banking,CSS/img_fauna/tigre.jpg,21,4
+277,1,Male,Rep scler staphyloma NEC,CSS/img_fauna/ippopotamo.jpg,14,4
+278,1,Female,Fetal pulse oximetry,CSS/img_fauna/panda.jpg,29,2
+279,1,Female,Venous puncture NEC,CSS/img_fauna/pappagallo.jpg,11,16
+280,0,Male,Reopen craniotomy site,CSS/img_fauna/tigre.jpg,18,4
+281,0,Female,Forcib correct defor NEC,CSS/img_fauna/panda.jpg,7,46
+282,0,Female,Elbow joint biopsy,CSS/img_fauna/tigre.jpg,17,40
+283,1,Female,Vesic fistula repair NEC,CSS/img_fauna/panda.jpg,12,4
+284,0,Female,Revis exenter cavity NEC,CSS/img_fauna/zebra.jpg,20,40
+285,1,Male,Oth tu destr pros - rt,CSS/img_fauna/tigre.jpg,26,47
+286,1,Male,Metatarsophalangeal fus,CSS/img_fauna/ippopotamo.jpg,9,42
+287,0,Female,Intraop gastric manipul,CSS/img_fauna/scimmia.jpg,26,17
+288,1,Female,Con inv mec ven-unsp dur,CSS/img_fauna/zebra.jpg,18,3
+289,1,Male,Lid reconstr w graft NEC,CSS/img_fauna/koala.jpg,1,32
+290,0,Female,Post sphincterotomy,CSS/img_fauna/koala.jpg,16,4
+291,1,Female,Head/neck ves resec-repl,CSS/img_fauna/zebra.jpg,21,11
+292,0,Female,Bilat adrenal explorat,CSS/img_fauna/pappagallo.jpg,15,25
+293,1,Male,Hypogloss-facial anastom,CSS/img_fauna/zebra.jpg,28,40
+294,1,Female,Lap umbil hernia-graft,CSS/img_fauna/scimmia.jpg,4,20
+295,1,Male,CAS w CT/CTA,CSS/img_fauna/orso.jpg,10,29
+296,0,Male,Ocular prosthetics,CSS/img_fauna/scimmia.jpg,8,6
+297,1,Female,Lower GI series,CSS/img_fauna/scimmia.jpg,3,17
+298,0,Female,Urinary system op NEC,CSS/img_fauna/pappagallo.jpg,29,2
+299,0,Male,Ex cereb meningeal les,CSS/img_fauna/panda.jpg,12,2
+300,0,Female,Aspiration bursa of hand,CSS/img_fauna/koala.jpg,17,10
+301,0,Male,Reopen thoracotomy site,CSS/img_fauna/tigre.jpg,16,4
+302,0,Male,Revision of lead,CSS/img_fauna/koala.jpg,28,3
+303,1,Male,Resect ext seg sm bowel,CSS/img_fauna/orso.jpg,10,41
+304,1,Male,Music therapy,CSS/img_fauna/fenicottero.jpg,19,25
+305,1,Male,Stern sm bowel interpos,CSS/img_fauna/ippopotamo.jpg,19,11
+306,0,Female,Dental operation NEC,CSS/img_fauna/tigre.jpg,1,47
+307,1,Female,Repl cardiodefib genratr,CSS/img_fauna/tigre.jpg,15,44
+308,0,Female,Excision acoustc neuroma,CSS/img_fauna/leone.jpg,28,38
+309,0,Female,Ex chest cage bone-gft,CSS/img_fauna/panda.jpg,18,30
+310,1,Male,Other soft tissue excis,CSS/img_fauna/fenicottero.jpg,13,49
+311,1,Male,Urin incontin repair NEC,CSS/img_fauna/koala.jpg,30,50
+312,1,Male,Lower limb amputat NOS,CSS/img_fauna/ippopotamo.jpg,12,7
+313,0,Female,Local sm bowel perfusion,CSS/img_fauna/tigre.jpg,12,32
+314,1,Female,Percutan hrt assist syst,CSS/img_fauna/fenicottero.jpg,20,8
+315,0,Male,Abd vessel resect/anast,CSS/img_fauna/fenicottero.jpg,29,35
+316,0,Female,Pharyngeal dx proc NEC,CSS/img_fauna/tigre.jpg,23,26
+317,0,Female,Contrast phlebogram NOS,CSS/img_fauna/tigre.jpg,21,34
+318,1,Male,Vaccination NEC,CSS/img_fauna/koala.jpg,24,25
+319,0,Male,Perianal biopsy,CSS/img_fauna/panda.jpg,27,3
+320,0,Male,Triad knee repair,CSS/img_fauna/fenicottero.jpg,16,48
+321,1,Female,Rev/repl epiretinal pros,CSS/img_fauna/zebra.jpg,19,11
+322,0,Male,Open rep umbil hern NEC,CSS/img_fauna/koala.jpg,24,9
+323,0,Male,Culture-upper GI,CSS/img_fauna/leone.jpg,12,22
+324,1,Male,Patellar sequestrectomy,CSS/img_fauna/pappagallo.jpg,30,49
+325,0,Female,Mediastinoscopy,CSS/img_fauna/leone.jpg,16,34
+326,1,Male,Ovarian wedge resection,CSS/img_fauna/ippopotamo.jpg,16,43
+327,0,Male,Intracereb cth-burr hole,CSS/img_fauna/scimmia.jpg,17,21
+328,1,Male,Debrid opn fx-radius/uln,CSS/img_fauna/tigre.jpg,15,36
+329,1,Female,Lung laceration closure,CSS/img_fauna/scimmia.jpg,13,34
+330,1,Female,Parastern hernia repair,CSS/img_fauna/scimmia.jpg,25,12
+331,0,Female,Periurethral incision,CSS/img_fauna/scimmia.jpg,2,38
+332,1,Male,Intracereb cth-burr hole,CSS/img_fauna/koala.jpg,2,24
+333,1,Male,Replace nephrostomy tube,CSS/img_fauna/tigre.jpg,9,11
+334,1,Male,Lid marg lac rx-part th,CSS/img_fauna/zebra.jpg,24,43
+335,0,Female,Ultrason fragment-stone,CSS/img_fauna/leone.jpg,3,6
+336,1,Male,Quadricepsplasty,CSS/img_fauna/zebra.jpg,22,28
+337,0,Male,Total hip replacement,CSS/img_fauna/scimmia.jpg,8,27
+338,0,Female,Culture-upper GI,CSS/img_fauna/tigre.jpg,7,25
+339,0,Male,Other appendectomy,CSS/img_fauna/panda.jpg,16,43
+340,1,Female,Division of penile adhes,CSS/img_fauna/zebra.jpg,12,3
+341,0,Male,Opn pull-thru res rectum,CSS/img_fauna/scimmia.jpg,12,34
+342,0,Male,Intra-abd sm bowel manip,CSS/img_fauna/panda.jpg,30,22
+343,1,Male,Toxicology-lymph system,CSS/img_fauna/ippopotamo.jpg,20,3
+344,1,Male,CV cath plcmt w guidance,CSS/img_fauna/pappagallo.jpg,19,21
+345,1,Male,Vaginoscopy,CSS/img_fauna/ippopotamo.jpg,9,40
+346,0,Female,Drsl/drslumb fus ant/ant,CSS/img_fauna/zebra.jpg,2,9
+347,0,Male,Perc extrac com duc calc,CSS/img_fauna/leone.jpg,21,13
+348,1,Female,PlEuroperitoneal shunt,CSS/img_fauna/panda.jpg,28,20
+349,1,Female,"LITT lesn brain,guidance",CSS/img_fauna/tigre.jpg,21,12
+350,1,Female,Orthotic evaluation,CSS/img_fauna/fenicottero.jpg,6,10
+351,0,Female,Facial bone/jnt op NEC,CSS/img_fauna/zebra.jpg,18,35
+352,1,Male,Adrenal lesion excision,CSS/img_fauna/fenicottero.jpg,27,3
+353,0,Male,Fetal pulse oximetry,CSS/img_fauna/panda.jpg,20,46
+354,1,Male,Lap radical vaginal hyst,CSS/img_fauna/koala.jpg,1,30
+355,0,Male,Other patellar incision,CSS/img_fauna/tigre.jpg,19,21
+356,0,Male,Comprehensive eye exam,CSS/img_fauna/fenicottero.jpg,18,4
+357,0,Female,Testicular les destruct,CSS/img_fauna/fenicottero.jpg,23,35
+358,1,Female,Umbilical vein cath,CSS/img_fauna/pappagallo.jpg,17,14
+359,0,Female,Lower limb artery incis,CSS/img_fauna/leone.jpg,15,5
+360,0,Male,Lysis of hand adhesions,CSS/img_fauna/pappagallo.jpg,27,15
+361,0,Female,Choroid plexectomy,CSS/img_fauna/scimmia.jpg,27,37
+362,1,Male,Int/comb version w extr,CSS/img_fauna/panda.jpg,9,6
+363,1,Female,Repair ob lac corp uteri,CSS/img_fauna/leone.jpg,5,20
+364,1,Male,Control anal hemorrhage,CSS/img_fauna/pappagallo.jpg,19,19
+365,1,Female,Int inser lead in atrium,CSS/img_fauna/scimmia.jpg,10,10
+366,1,Male,Micro exam-integumen NEC,CSS/img_fauna/zebra.jpg,23,27
+367,0,Male,Negatve-contr cardiogram,CSS/img_fauna/ippopotamo.jpg,16,15
+368,0,Male,Chalazion excision,CSS/img_fauna/panda.jpg,24,27
+369,1,Male,Parasitology-bili/pancr,CSS/img_fauna/leone.jpg,5,23
+370,1,Female,Excis metacar/car-graft,CSS/img_fauna/orso.jpg,18,42
+371,1,Male,Biliary tube irrigation,CSS/img_fauna/koala.jpg,20,32
+372,1,Male,Surg induct labor NEC,CSS/img_fauna/fenicottero.jpg,29,23
+373,1,Female,Ventri shunt-uninary sys,CSS/img_fauna/orso.jpg,15,25
+374,1,Male,Mand orthognathic op NEC,CSS/img_fauna/pappagallo.jpg,30,8
+375,0,Male,Revise hip replacemt NOS,CSS/img_fauna/fenicottero.jpg,29,26
+376,1,Female,Drsl/dslmb fus post/post,CSS/img_fauna/koala.jpg,11,50
+377,1,Female,Insert spinal canal cath,CSS/img_fauna/zebra.jpg,20,11
+378,1,Male,Training in lead dog use,CSS/img_fauna/pappagallo.jpg,29,13
+379,1,Male,Endarterectomy of aorta,CSS/img_fauna/fenicottero.jpg,12,42
+380,0,Female,"Repl pacem 1-cham, rate",CSS/img_fauna/ippopotamo.jpg,20,31
+381,0,Female,Open reduc-metat/tars fx,CSS/img_fauna/leone.jpg,16,8
+382,0,Male,Total parathyroidectomy,CSS/img_fauna/koala.jpg,3,49
+383,1,Male,Rect/perirect dx op NEC,CSS/img_fauna/fenicottero.jpg,4,50
+384,0,Female,Cervical lymphangiogram,CSS/img_fauna/orso.jpg,3,6
+385,0,Male,Toxicology-upper GI,CSS/img_fauna/tigre.jpg,17,49
+386,1,Female,Control prostate hemorr,CSS/img_fauna/panda.jpg,5,6
+387,1,Male,Bone graft-radius/ulna,CSS/img_fauna/koala.jpg,24,42
+388,0,Male,Rep cystocel w grft/pros,CSS/img_fauna/leone.jpg,5,1
+389,1,Male,Radical maxillary antrot,CSS/img_fauna/panda.jpg,7,3
+390,1,Male,Lap abdperneal resc rec,CSS/img_fauna/pappagallo.jpg,17,46
+391,0,Male,Percut vertebral augment,CSS/img_fauna/ippopotamo.jpg,8,27
+392,0,Female,Oth lo vision aid dispen,CSS/img_fauna/tigre.jpg,27,1
+393,1,Female,Breast xerography,CSS/img_fauna/orso.jpg,15,25
+394,1,Male,Multiple sinus incision,CSS/img_fauna/leone.jpg,30,48
+395,1,Female,Ext fistulizat esoph NEC,CSS/img_fauna/koala.jpg,12,19
+396,0,Female,Culdoscopy,CSS/img_fauna/koala.jpg,26,24
+397,1,Male,Transfer of finger,CSS/img_fauna/panda.jpg,13,41
+398,1,Male,Gum or alveolar incision,CSS/img_fauna/fenicottero.jpg,13,45
+399,1,Male,Drug detoxification,CSS/img_fauna/pappagallo.jpg,17,17
+400,1,Male,Excis external ear NEC,CSS/img_fauna/ippopotamo.jpg,14,32
+401,0,Male,Free skin graft NEC,CSS/img_fauna/panda.jpg,22,43
+402,0,Female,Skel xray-upper limb NOS,CSS/img_fauna/pappagallo.jpg,4,4
+403,0,Female,Rev/repl epiretinal pros,CSS/img_fauna/scimmia.jpg,8,22
+404,0,Female,Bladder anastomosis NEC,CSS/img_fauna/orso.jpg,1,26
+405,0,Female,Insert pseudophakos NOS,CSS/img_fauna/tigre.jpg,18,1
+406,0,Male,Turbinate fracture,CSS/img_fauna/koala.jpg,15,30
+407,0,Female,Hemorrhoid ligation,CSS/img_fauna/fenicottero.jpg,17,21
+408,1,Male,Cul-de-sac biopsy,CSS/img_fauna/leone.jpg,18,14
+409,0,Male,Cell blk/pap-peritoneum,CSS/img_fauna/scimmia.jpg,17,1
+410,0,Male,Insrt prsr snsr w/o lead,CSS/img_fauna/leone.jpg,22,24
+411,0,Male,Eyelid operation NEC,CSS/img_fauna/panda.jpg,8,43
+412,0,Male,Upper limb lymphangiogrm,CSS/img_fauna/koala.jpg,8,24
+413,1,Female,Spine canal struc op NEC,CSS/img_fauna/leone.jpg,9,40
+414,1,Female,Nephrotomogram NEC,CSS/img_fauna/fenicottero.jpg,18,2
+415,1,Female,Alveoloplasty,CSS/img_fauna/zebra.jpg,3,1
+416,0,Female,CV cath plcmt w guidance,CSS/img_fauna/ippopotamo.jpg,7,26
+417,0,Male,Endosc destruc lung les,CSS/img_fauna/pappagallo.jpg,19,8
+418,0,Female,Nasal sept grft-epistax,CSS/img_fauna/leone.jpg,2,7
+419,1,Female,Part gast w jej transpos,CSS/img_fauna/orso.jpg,9,47
+420,0,Female,Open liver biopsy,CSS/img_fauna/tigre.jpg,23,29
+421,1,Male,Extracap lens extrac NEC,CSS/img_fauna/fenicottero.jpg,20,9
+422,1,Female,Cystourethroplasty,CSS/img_fauna/ippopotamo.jpg,21,14
+423,1,Male,Suture uterine lacerat,CSS/img_fauna/scimmia.jpg,10,1
+424,1,Male,Culture-lymph system,CSS/img_fauna/leone.jpg,25,17
+425,1,Male,Thomas' splint traction,CSS/img_fauna/koala.jpg,23,18
+426,0,Male,Lap dir ing hern-graft,CSS/img_fauna/ippopotamo.jpg,10,26
+427,0,Male,Partial mandibulectomy,CSS/img_fauna/leone.jpg,2,44
+428,1,Female,Periph nerv anastom NEC,CSS/img_fauna/zebra.jpg,27,23
+429,1,Male,Open mediastinal biopsy,CSS/img_fauna/fenicottero.jpg,9,9
+430,0,Male,Lap remove remain ovary,CSS/img_fauna/leone.jpg,17,18
+431,1,Female,Removal FB from leg,CSS/img_fauna/panda.jpg,15,2
+432,1,Female,Other craniectomy,CSS/img_fauna/panda.jpg,5,9
+433,0,Male,Lacrimal punctum probe,CSS/img_fauna/zebra.jpg,2,45
+434,1,Female,Fixed bridge insertion,CSS/img_fauna/panda.jpg,24,26
+435,0,Male,Prosthetic evaluation,CSS/img_fauna/ippopotamo.jpg,29,26
+436,1,Male,Lymph structure op NEC,CSS/img_fauna/pappagallo.jpg,26,18
+437,0,Male,Spinal refusion NOS,CSS/img_fauna/panda.jpg,23,2
+438,0,Female,Urethral biopsy,CSS/img_fauna/orso.jpg,12,6
+439,0,Female,Unilat fallop tube destr,CSS/img_fauna/fenicottero.jpg,23,14
+440,0,Female,Lac canaliculi incision,CSS/img_fauna/zebra.jpg,26,42
+441,0,Male,Uvula and soft palate bx,CSS/img_fauna/ippopotamo.jpg,6,46
+442,0,Female,Excision of anus,CSS/img_fauna/ippopotamo.jpg,11,35
+443,0,Male,Contr semin vesiculogram,CSS/img_fauna/pappagallo.jpg,8,37
+444,0,Male,Arm varicose v lig-strip,CSS/img_fauna/scimmia.jpg,15,48
+445,0,Female,Rev knee repl-tibia lin,CSS/img_fauna/orso.jpg,25,18
+446,1,Male,Chest wall biopsy,CSS/img_fauna/fenicottero.jpg,15,31
+447,1,Female,Other pneumonectomy NOS,CSS/img_fauna/fenicottero.jpg,1,10
+448,0,Male,Incis lymphatic structur,CSS/img_fauna/fenicottero.jpg,20,13
+449,0,Male,C.A.T. scan of thorax,CSS/img_fauna/koala.jpg,25,13
+450,0,Male,Pneumoencephalogram,CSS/img_fauna/leone.jpg,9,22
+451,0,Female,Portal contr phlebogram,CSS/img_fauna/orso.jpg,7,41
+452,0,Female,Irrigation of ear,CSS/img_fauna/panda.jpg,8,8
+453,0,Female,Remove head/neck sutures,CSS/img_fauna/leone.jpg,23,5
+454,0,Female,Excise lg intestine les,CSS/img_fauna/scimmia.jpg,5,1
+455,0,Female,C & s-integument,CSS/img_fauna/koala.jpg,12,18
+456,0,Male,Nasal lesion excis NOS,CSS/img_fauna/leone.jpg,12,43
+457,1,Male,Head/neck var v lig-str,CSS/img_fauna/orso.jpg,3,36
+458,0,Male,Botulism antitoxin admin,CSS/img_fauna/fenicottero.jpg,28,12
+459,1,Female,Substern thyroidect NOS,CSS/img_fauna/scimmia.jpg,1,35
+460,0,Male,Esophagectomy NOS,CSS/img_fauna/ippopotamo.jpg,4,1
+461,1,Female,Biliary tract op NEC,CSS/img_fauna/fenicottero.jpg,6,33
+462,1,Male,Cardiac biopsy,CSS/img_fauna/scimmia.jpg,2,35
+463,1,Female,Transpleura thoracoscopy,CSS/img_fauna/ippopotamo.jpg,12,5
+464,1,Female,Remov ant segmnt FB NOS,CSS/img_fauna/panda.jpg,27,12
+465,0,Male,Eye fluorescein angiogra,CSS/img_fauna/ippopotamo.jpg,16,33
+466,1,Male,Transposit hand tend NEC,CSS/img_fauna/ippopotamo.jpg,8,2
+467,1,Female,External ear incis NEC,CSS/img_fauna/orso.jpg,18,15
+468,1,Male,Attach pedicle to hand,CSS/img_fauna/pappagallo.jpg,15,5
+469,0,Female,Parasitology-ent/larynx,CSS/img_fauna/orso.jpg,19,43
+470,0,Male,App ext fix dev-monoplan,CSS/img_fauna/koala.jpg,29,4
+471,0,Male,Cystoscopy thru stoma,CSS/img_fauna/scimmia.jpg,21,45
+472,0,Female,Nephroureterectomy,CSS/img_fauna/tigre.jpg,2,28
+473,0,Female,Bone graft to chest cage,CSS/img_fauna/fenicottero.jpg,14,14
+474,1,Male,Fetal blood sample/bx,CSS/img_fauna/ippopotamo.jpg,24,9
+475,0,Male,Oth chest cage ostectomy,CSS/img_fauna/tigre.jpg,19,39
+476,1,Female,Tot mandibulec w reconst,CSS/img_fauna/scimmia.jpg,26,44
+477,1,Male,Thorac esophag anast NEC,CSS/img_fauna/tigre.jpg,4,6
+478,0,Male,Endosc sm bowel thru st,CSS/img_fauna/leone.jpg,17,16
+479,1,Male,Insert bone stimul NOS,CSS/img_fauna/pappagallo.jpg,1,20
+480,0,Male,Exchange transfusion,CSS/img_fauna/leone.jpg,19,36
+481,0,Male,Ureteral anastomosis NEC,CSS/img_fauna/zebra.jpg,28,8
+482,0,Female,Orchiopexy,CSS/img_fauna/ippopotamo.jpg,18,11
+483,0,Male,Open small bowel biopsy,CSS/img_fauna/orso.jpg,13,37
+484,0,Male,Cerebral thermography,CSS/img_fauna/scimmia.jpg,9,29
+485,0,Male,Uroflowmetry,CSS/img_fauna/koala.jpg,20,2
+486,1,Female,Corneal transplant NEC,CSS/img_fauna/tigre.jpg,7,8
+487,1,Male,Diathermy,CSS/img_fauna/leone.jpg,4,17
+488,1,Male,Therapeu plateltpheresis,CSS/img_fauna/panda.jpg,5,34
+489,1,Female,Anal incision NEC,CSS/img_fauna/leone.jpg,5,44
+490,0,Female,Facial rhytidectomy,CSS/img_fauna/ippopotamo.jpg,18,31
+491,0,Female,Bronchoscopy thru stoma,CSS/img_fauna/pappagallo.jpg,26,25
+492,1,Female,Neurolyt injec-symp nrv,CSS/img_fauna/ippopotamo.jpg,21,23
+493,1,Male,Resp tract intubat NEC,CSS/img_fauna/panda.jpg,25,8
+494,1,Male,Clo endosc bx pancre duc,CSS/img_fauna/fenicottero.jpg,20,9
+495,1,Male,Skin chemosurgery,CSS/img_fauna/koala.jpg,26,18
+496,0,Male,Cl reduct facial fx NEC,CSS/img_fauna/scimmia.jpg,30,5
+497,1,Female,Hair transplant,CSS/img_fauna/pappagallo.jpg,13,35
+498,1,Male,"Exc,destrct,exclus LAA",CSS/img_fauna/pappagallo.jpg,30,49
+499,1,Female,Other plastic ops fascia,CSS/img_fauna/fenicottero.jpg,4,13
+500,1,Female,Total pancreatectomy,CSS/img_fauna/tigre.jpg,17,12
+501,0,Male,Destruc uter support NEC,CSS/img_fauna/pappagallo.jpg,9,16
+502,0,Male,Goniotomy,CSS/img_fauna/orso.jpg,18,16
+503,0,Male,Goniopuncture,CSS/img_fauna/fenicottero.jpg,26,16
+504,0,Female,Remov gastrostomy tube,CSS/img_fauna/panda.jpg,12,16
+505,1,Female,Carporadial fusion,CSS/img_fauna/fenicottero.jpg,19,16
+506,0,Female,Transplant spermat cord,CSS/img_fauna/koala.jpg,3,16
+507,0,Male,Eyebal/orbit dx proc NEC,CSS/img_fauna/scimmia.jpg,9,16
+508,0,Female,Open ureteral biopsy,CSS/img_fauna/scimmia.jpg,20,16
+509,1,Male,Lap umbilical hernia NEC,CSS/img_fauna/fenicottero.jpg,23,16
+510,0,Female,Ankle structure division,CSS/img_fauna/tigre.jpg,11,16
+511,0,Female,Breast xerography,CSS/img_fauna/koala.jpg,29,16
+512,1,Female,Brain/skull contrst xray,CSS/img_fauna/pappagallo.jpg,24,16
+513,1,Female,Destruc hepatic les NEC,CSS/img_fauna/koala.jpg,21,16
+514,1,Female,Cde for calculus remov,CSS/img_fauna/scimmia.jpg,8,16
