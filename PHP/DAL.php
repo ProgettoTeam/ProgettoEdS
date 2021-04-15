@@ -216,20 +216,22 @@ if(isset($_POST['Aggiungi'])) {
             }
         } 
         $cont_err = 0;
-
-        /*if($tabella == 'responsabile') {
-            $query_insert_parco = "INSERT INTO $tabella(path_immagine, Nome, Luogo, Latitudine, Longitudine, Descrizione, fk_IdAmministratore) VALUES ()"
-        }*/
-        //$query_insert = "INSERT INTO $tabella (" . foreach ($fieldinfo as $sos) { echo($sos . ',')} . ") VALUES(" . foreach ($columns as $txb) { echo($txb . ',')} . ")";
-        //echo $query_insert;
-        //mysqli_query($conn, $query_insert);
     }
-    //header('location: form-aggiungi.php?tabella=' . $tabella . '&value=1');
 }
 
+//button annulla
 if(isset($_POST['Annulla'])) {
     $tabella = mysqli_real_escape_string($conn, $_POST['tabella']);
     header('location: form-aggiungi.php?tabella=' . $tabella . '&value=1');
+}
+
+//button elimina
+if(isset($_POST['elimina'])) {
+    $name_id = mysqli_real_escape_string($conn, $_POST['name_id']);
+    $value_id = mysqli_real_escape_string($conn, $_POST['value_id']);
+    $tabella = mysqli_real_escape_string($conn, $_POST['tabella']);
+    $query_delete = "DELETE FROM $tabella WHERE $name_id = $value_id";
+    $result_elimina = mysqli_query($conn, $query_delete);
 }
 
 //logout
