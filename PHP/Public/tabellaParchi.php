@@ -57,6 +57,12 @@
                   echo $row_amm['Cognome'];
                ?>
               </td>
+              <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
+               </td>
+               <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg elimina">Elimina</a>
+               </td>
             </tr>
           <?php
           }

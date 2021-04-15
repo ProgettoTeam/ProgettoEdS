@@ -9,30 +9,25 @@
    <div class="column">
       <h2 class="titolo2" style="float:left;">Alberi</h2>
    </div>
-   <div class="column">
-      <div class="bottone">
       <?php
-         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
-         ?>
-            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=albero&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
+         if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+            ?>
+            <div class="column">
+               <div class="bottone">
+               <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=albero&value=1" class="btn btn-success btn-lg">
+                  <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+               </a>
+            </div>
+         </div>
          <?php
-         } else {
+         } 
          ?>
-            <a href="form-aggiungi.php?tabella=flora&tipo=albero&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
+         <div calss="column"> 
          <?php
-         }
+         $tabella = 'alberi';
+         include 'Searchbar.php';
       ?>
       </div>
-   </div>
-   
-   <?php 
-      $tabella = 'alberi';
-      include 'Searchbar.php';
-   ?>
 </div>
 
 <table id="tableData2" class="table table-bordered table-striped">
@@ -62,6 +57,12 @@
                <td><?php echo $albero['GenereAlbero']?></td>
                <td><?php echo $albero['TipoFoglie']?></td> 
                <td><?php echo $albero['Stagione_fioritura'] ?></td>
+               <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
+               </td>
+               <td>
+                  <a href="#" class=" btn btn-success btn-lg elimina">Elimina</a>
+               </td>
             </tr>
             <?php
          } 
@@ -82,30 +83,21 @@
       <h2 class="titolo2" style="float:left;">Arbusti</h2>
    </div>
 
-   <div class="column">
-      <div class="bottone">
       <?php
-         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
-         ?>
-            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=arbusto&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
-         <?php
-         } else {
-         ?>
-            <a href="form-aggiungi.php?tabella=flora&tipo=arbusto&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
+         if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+            ?>
+            <div class="column">
+               <div class="bottone">
+               <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=arbusto&value=1" class="btn btn-success btn-lg">
+                  <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+               </a>
+            </div>
+         </div>
          <?php
          }
+         $tabella = 'arbusti';
+         include 'Searchbar.php' 
       ?>
-      </div>
-   </div>
-   
-   <?php 
-      $tabella = 'arbusti';
-      include 'Searchbar.php' 
-   ?>
 </div>
 
 <table id="tableData3" class="table table-bordered table-striped">
@@ -135,6 +127,12 @@
             <td><?php echo $arbusto['SpecieArbusto']?></td>
             <td><?php echo $arbusto['DimensioneArbusto']?></td> 
             <td><?php echo $arbusto['Stagione_fioritura'] ?></td>
+            <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
+               </td>
+               <td>
+                  <a href="#" class=" btn btn-success btn-lg elimina">Elimina</a>
+               </td>
          </tr>
          <?php
       } 
@@ -154,29 +152,20 @@
    <div class="column">
       <h2 class="titolo2" style="float:left;">Piante erbacee</h2>
    </div>
-   <div class="column">
-      <div class="bottone">
       <?php
-         if(basename($_SERVER['PHP_SELF']) == 'parco.php') {
-         ?>
-            <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=piantaErbacea&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
-         <?php
-         } else {
-         ?>
-            <a href="form-aggiungi.php?tabella=flora&tipo=piantaErbacea&value=1" class="btn btn-success btn-lg">
-               <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
-            </a>
-         <?php
+         if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+            ?>
+            <div class="column">
+               <div class="bottone">
+               <a href="../Admin/form-aggiungi.php?tabella=flora&tipo=piantaErbacea&value=1" class="btn btn-success btn-lg">
+                  <span class="glyphicon glyphicon-plus-sign"></span> Aggiungi 
+               </a>
+            </div>
+         </div>
+            <?php
          }
-      ?>
-      </div>
-   </div>
-   
-   <?php 
-      $tabella = 'piante erbacee';
-      include 'Searchbar.php';
+         $tabella = 'piante erbacee';
+         include 'Searchbar.php';
    ?>
 </div>
 
@@ -207,6 +196,12 @@
             <td><?php echo $piantaErbacea['ClassificazionePianteErbacee']?></td>
             <td><?php echo $piantaErbacea['ColorePianteErbacee']?></td> 
             <td><?php echo $piantaErbacea['Stagione_fioritura'] ?></td>
+            <td>
+                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
+               </td>
+               <td>
+                  <a href="#" class=" btn btn-success btn-lg elimina">Elimina</a>
+               </td>
          </tr>
          <?php
       } 
