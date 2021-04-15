@@ -10,6 +10,7 @@
 <?php 
    $IdParco = $_GET["IdParco"];
    include '../DBconnection.php';
+   include '../DAL.php';
    $query = "SELECT * FROM parco WHERE IdParco=$IdParco";
    $result = mysqli_query($conn, $query);
    $parco = mysqli_fetch_array($result);
