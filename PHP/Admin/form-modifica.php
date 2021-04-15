@@ -17,41 +17,39 @@ include ("../navbar.php");
 
 $tabella = $_GET["tabella"];
 $id = $_GET["id"];
+if($tabella == 'flora') {
+  $tipo = $_GET["tipo"];
+}
+
+$colmuns = array();
 
 $query_columns = "SELECT * FROM $tabella";
 $result_columns = mysqli_query($conn, $query_columns);
 $fieldinfo = mysqli_fetch_fields($result_columns);
-echo $fieldinfo[0];
+foreach ($fieldinfo as $val) {
+  $col = $val->name;
+  array_push($colmuns, $col);
+}
+
+$get_element = "SELECT * FROM $tabella WHERE $colmuns[0] = $id";
+$result = mysqli_query($conn, $get_element);
+$value = mysqli_fetch_array($result);
+
+if($tabella == 'flora') {
+  $link = '&tipo=' . $tipo;
+  ?>
+    <h1 style="padding-left: 45%; padding-top: 11px">Modifica <?php if($tabella == 'flora') { echo $tipo; } else { echo $tabella; }?> <?php echo $value[0]; ?></h1>
+  <?php
+} else {
+  ?>
+    <h1 style="padding-left: 45%; padding-top: 11px">Modifica <?php echo $tabella ?> <?php echo $value[0]; ?></h1>
+  <?php
+}
 ?>
 
 <div class="container-form-modifica">
   <form action="form-modifica.php">
-    <table id="table" class="table table-bordered table-striped">
-      <thead>
-          <tr>
-            <th>Campo1</th>
-            <th>Campo2</th>
-            <th>Campo3</th>
-            <th>Campo4</th>
-          </tr>
-      </thead>
-      <tbody>
-          <td>
-            <div class="container-img-tab" id="containerimghome">
-              <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>
-                <img src="../../CSS/img_fauna/fenicottero.jpg" id="img_tabella"></img>
-                <div class="overlay-tab">
-                  <div class="text">Modifica immagine</div>
-                </div>
-              </a>
-            </div>
-          </td>
-          <td><input type="text" id="campoN" name="CampoN-name" value=" <?php echo("#Introduci campoN")?>"></td>
-          <td><input type="text" id="campoN" name="CampoN-name" value=" <?php echo("#Introduci campoN")?>"></td>
-          <td><input type="text" id="campoN" name="CampoN-name" value=" <?php echo("#Introduci campoN")?>"></td>
-      </tbody>
-
-    </table>
+  <?php include '../form.php'; ?>
 
       <!-- se vuoi creare altri campi copia questi elementi 
       

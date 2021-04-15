@@ -24,7 +24,8 @@
          ?>
          <div calss="column"> 
          <?php
-         $tabella = 'alberi';
+         $tabella = 'flora';
+         $tipo = 'albero';
          include 'Searchbar.php';
       ?>
       </div>
@@ -96,7 +97,8 @@
          </div>
          <?php
          }
-         $tabella = 'arbusti';
+         $tabella = 'flora';
+         $tipo = 'arbusto';
          include 'Searchbar.php' 
       ?>
 </div>
@@ -167,7 +169,8 @@
          </div>
             <?php
          }
-         $tabella = 'piante erbacee';
+         $tabella = 'flora';
+         $tipo = 'piantaErbacea';
          include 'Searchbar.php';
    ?>
 </div>

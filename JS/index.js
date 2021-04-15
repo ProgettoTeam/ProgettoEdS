@@ -48,8 +48,6 @@ function Combobox(value) {
 }
 
 
-
-
 //------------------------------
 //------------------------------
 //Table and pagination

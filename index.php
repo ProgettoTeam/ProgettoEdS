@@ -11,7 +11,7 @@ include ('PHP/DAL.php');
     
     <!-- librerie importate -->
 
-    <?php  include("PHP/librerie.php");?>
+    <?php include 'PHP/librerie.php';?>
     
     <title>HomePage</title>
 </head>
