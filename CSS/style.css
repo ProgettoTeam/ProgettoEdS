@@ -34,10 +34,6 @@ body {
     margin-bottom: 0;
 }
 
-.correct {
-    color: green;
-}
-
 #img_tabella {
     width: 192px;
     height: 128px;
@@ -51,11 +47,23 @@ body {
 }
 
 #addRow {
-    margin-left: 1600px;
+    margin-left: 95%;
 }
 
 #cars {
-    width: 50px;
+    width: 60px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    color: red;
+    text-align: left;
+}
+
+.correct {
+    color: green !important;
 }
 
 .username {
@@ -76,14 +84,6 @@ body {
 
 td {
     font-size: 15px !important;
-}
-
-.error {
-    width: 92%;
-    margin: 0px auto;
-    padding: 10px;
-    color: red;
-    text-align: left;
 }
 
 #dropdownMenuButton {
@@ -180,6 +180,7 @@ td {
     color: #000000;
     bottom: 0 !important;
     font-family: Roboto !important;
+    width: 100%;
 }
 
 .site-footer hr {
@@ -374,6 +375,10 @@ footer ul.quick-links li:hover a i {
 
 /*-----------------------*/
 
+body {
+    background-color: #f1f1f1;
+}
+
 .body-container-card {
     text-align: center;
     margin-bottom: 100px;
@@ -481,8 +486,6 @@ footer ul.quick-links li:hover a i {
     padding-right: 10px;
     padding-bottom: 20px;
     height: 300px;
-    /* Should be removed. Only for demonstration */
-    background-color: #f1f1f1;
 }
 
 .columnbtn {
@@ -491,7 +494,6 @@ footer ul.quick-links li:hover a i {
     padding-top: 10px;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: #f1f1f1;
     height: 123px;
 }
 
@@ -502,6 +504,7 @@ footer ul.quick-links li:hover a i {
     content: "";
     display: table;
     clear: both;
+    background-color: none;
 }
 
 @media screen and (max-width: 950px) {
@@ -556,6 +559,8 @@ footer ul.quick-links li:hover a i {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border: 2px whitesmoke solid;
+    border-radius: 5px;
 }
 
 
@@ -655,6 +660,10 @@ footer ul.quick-links li:hover a i {
 
 /*-----------------------*/
 
+.table {
+    background-color: white;
+}
+
 .paging-nav {
     text-align: center;
     padding-top: 5px;
@@ -682,6 +691,7 @@ footer ul.quick-links li:hover a i {
     margin: 0px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -690,6 +700,7 @@ footer ul.quick-links li:hover a i {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -698,6 +709,7 @@ footer ul.quick-links li:hover a i {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -706,6 +718,15 @@ footer ul.quick-links li:hover a i {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    th,
+    td {
+        width: 20px;
+        font-size: 10px;
+    }
 }
 
 
@@ -765,6 +786,16 @@ footer ul.quick-links li:hover a i {
 .btn {
     background-color: #1d814a;
     border-color: #1d814a;
+}
+
+.elimina {
+    background-color: rgb(212, 3, 3) !important;
+    border-color: rgb(212, 3, 3) !important;
+}
+
+.elimina:hover {
+    background-color: rgb(255, 4, 4) !important;
+    border-color: rgb(255, 4, 4) !important;
 }
 
 
@@ -952,7 +983,6 @@ input[type=submit]:hover {
 
 .container-form-modifica {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
 }
 

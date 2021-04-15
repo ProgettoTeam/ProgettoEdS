@@ -21,9 +21,13 @@
          </div>
          <?php
          } 
+         ?>
+         <div calss="column"> 
+         <?php
          $tabella = 'alberi';
          include 'Searchbar.php';
       ?>
+      </div>
 </div>
 
 <table id="tableData2" class="table table-bordered table-striped">
@@ -43,16 +47,23 @@
          $query_albero = "SELECT * FROM flora WHERE GenereAlbero LIKE '$genereAlbero' AND flora.fk_IdParco = '$parco[0]'";
       }
       if($result_albero = mysqli_query($conn, $query_albero)) {
-         while($albero = mysqli_fetch_array($result_albero))
+         $fieldinfo = mysqli_fetch_fields($result_albero);
+         while($row = mysqli_fetch_array($result_albero))
          { 
             ?>
             <tr>
                <td>
-                  <img src=" ../../<?php echo $albero['path_immagine_albero'] ?>" id="img_tabella"></img>
+                  <img src=" ../../<?php echo $row['path_immagine_albero'] ?>" id="img_tabella"></img>
                </td>
-               <td><?php echo $albero['GenereAlbero']?></td>
-               <td><?php echo $albero['TipoFoglie']?></td> 
-               <td><?php echo $albero['Stagione_fioritura'] ?></td>
+               <td><?php echo $row['GenereAlbero']?></td>
+               <td><?php echo $row['TipoFoglie']?></td> 
+               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <?php
+               if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+                  $tab = 'flora';
+                  include '../Admin/Button_modifica-elimina.php';
+               }
+               ?>
             </tr>
             <?php
          } 
@@ -106,20 +117,28 @@
          $specieArbusto = mysqli_real_escape_string($conn, $_POST['search']);
          $query_arbusto = "SELECT * FROM flora WHERE SpecieArbusto LIKE '$specieArbusto' AND flora.fk_IdParco = '$parco[0]'";
       }
-      $result_arbusto = mysqli_query($conn, $query_arbusto);
-      while($arbusto = mysqli_fetch_array($result_arbusto))
-      { 
-         ?>
-         <tr>
-            <td>
-               <img src=" ../../<?php echo $arbusto['path_immagine_arbusto'] ?>" id="img_tabella"></img>
-            </td>
-            <td><?php echo $arbusto['SpecieArbusto']?></td>
-            <td><?php echo $arbusto['DimensioneArbusto']?></td> 
-            <td><?php echo $arbusto['Stagione_fioritura'] ?></td>
-         </tr>
-         <?php
-      } 
+      if($result_arbusto = mysqli_query($conn, $query_arbusto)) {
+         $fieldinfo = mysqli_fetch_fields($result_arbusto);
+         while($row = mysqli_fetch_array($result_arbusto))
+         { 
+            ?>
+            <tr>
+               <td>
+                  <img src=" ../../<?php echo $row['path_immagine_arbusto'] ?>" id="img_tabella"></img>
+               </td>
+               <td><?php echo $row['SpecieArbusto']?></td>
+               <td><?php echo $row['DimensioneArbusto']?></td> 
+               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <?php
+               if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+                  $tab = 'flora';
+                  include '../Admin/Button_modifica-elimina.php';
+               }
+               ?>
+            </tr>
+            <?php
+         } 
+      }
       ?>
    </tbody>
 </table>
@@ -169,20 +188,28 @@
          $ClassificazionePianteErbacee = mysqli_real_escape_string($conn, $_POST['search']);
          $query_piantaErbacea = "SELECT * FROM flora WHERE ClassificazionePianteErbacee LIKE '$ClassificazionePianteErbacee' AND flora.fk_IdParco = '$parco[0]'";
       }
-      $result_piantaErbacea = mysqli_query($conn, $query_piantaErbacea);
-      while($piantaErbacea = mysqli_fetch_array($result_piantaErbacea))
-      { 
-         ?>
-         <tr>
-            <td>
-               <img src=" ../../<?php echo $piantaErbacea['path_immagine_PiantaErbacea'] ?>" id="img_tabella"></img>
-            </td>
-            <td><?php echo $piantaErbacea['ClassificazionePianteErbacee']?></td>
-            <td><?php echo $piantaErbacea['ColorePianteErbacee']?></td> 
-            <td><?php echo $piantaErbacea['Stagione_fioritura'] ?></td>
-         </tr>
-         <?php
-      } 
+      if($result_piantaErbacea = mysqli_query($conn, $query_piantaErbacea)) {
+         $fieldinfo = mysqli_fetch_fields($result_piantaErbacea);
+         while($row = mysqli_fetch_array($result_piantaErbacea))
+         { 
+            ?>
+            <tr>
+               <td>
+                  <img src=" ../../<?php echo $row['path_immagine_PiantaErbacea'] ?>" id="img_tabella"></img>
+               </td>
+               <td><?php echo $row['ClassificazionePianteErbacee']?></td>
+               <td><?php echo $row['ColorePianteErbacee']?></td> 
+               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <?php
+               if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+                  $tab = 'flora';
+                  include '../Admin/Button_modifica-elimina.php';
+               }
+               ?>
+            </tr>
+            <?php
+         } 
+      }
       ?>
    </tbody>
 </table>

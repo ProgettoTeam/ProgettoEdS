@@ -1,9 +1,12 @@
+<?php
+include '../DAL.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-<?php include '../librerie.php' ?>
+<?php include '../librerie.php'; ?>
 <body>
 <?php include '../navbar.php'; ?>
 <div class="image-help-banner">
@@ -23,16 +26,15 @@
 	</div>
 	<div class="contact-form">
 		<h1 class="title">CONTATTACI</h1>
-		<h2 class="subtitle">Se hai bisogno di aiuto noi siamo qui per te!</h2>
-		<form action="">
-			<input type="text" name="name" placeholder="Your Name" />
-			<input type="email" name="e-mail" placeholder="Your E-mail Adress" />
-			<input type="tel" name="phone" placeholder="Your Phone Number"/>
-			<textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
-			<button class="btn-send">Invia la tua richiesta </button>
+		<h2 class="subtitle">Questo spazio è dedicato a risovere tutti i tuoi dubbi e problemi!</h2>
+        <h2 class="subtitle">Per inviarci una mail con i tuoi dubbi o problemi premi il tasto sottostante e il nostro operatore sarà lieto di risponderti!</h2>
+		<form action="mailto:amministratore.parchi.helpdesk3@gmail.com"> 
+		
+			<button class="btn-send"  >Invia la tua richiesta </button>
 		</form>
 	</div>
 </div>
+
     <?php include '../footer.php'; ?>
 </body>
 

@@ -38,10 +38,9 @@ if($tabella == 'flora') {
 
 <div class="container-form-modifica">
     
-  <!-- COMBOBOX -->
-  <div id="addRow">
-    <label for="cars">Righe</label>
-    <input name="cars" id="cars" value="<?php echo $value ?>" onchange="window.location.href='form-aggiungi.php?tabella=<?php echo $tabella ?><?php if($tabella == 'flora'){ echo $link; } ?>&value=' + this.value"></input>
+<div id="addRow">
+  <label for="cars">Righe</label>
+  <input name="cars" id="cars" value="<?php echo $value ?>" onchange="window.location.href='form-aggiungi.php?tabella=<?php echo $tabella ?><?php if($tabella == 'flora'){ echo $link; } ?>&value=' + this.value"></input>
 </div>
   <?php
   include ("../Errors.php");

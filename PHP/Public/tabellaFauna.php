@@ -13,11 +13,15 @@
                </a>
             </div>
          </div>
-      <?php
+         <?php
       }
-      $tabella = 'fauna';
-      include 'Searchbar.php'; 
-   ?>
+      ?>
+      <div calss="column"> 
+         <?php
+         $tabella = 'fauna';
+         include 'Searchbar.php';
+      ?>
+      </div>
 </div>
 
 <table id="tableData" class="table table-bordered table-striped">
@@ -37,19 +41,26 @@
          $query_fauna = "SELECT * FROM fauna INNER JOIN categoria ON (fk_IdCategoria = IdCategoria) WHERE categoria.Specie LIKE '$specieAnimale' AND fauna.fk_IdParco = '$parco[0]'";
       }
       if($result = mysqli_query($conn, $query_fauna)) {
-         while($fauna = mysqli_fetch_array($result))
+         $fieldinfo = mysqli_fetch_fields($result);
+         while($row = mysqli_fetch_array($result))
          { 
-            $query_categoria = "SELECT * FROM categoria WHERE IdCategoria = " . $fauna['fk_IdCategoria'];
+            $query_categoria = "SELECT * FROM categoria WHERE IdCategoria = " . $row['fk_IdCategoria'];
             $result_categoria = mysqli_query($conn, $query_categoria);
             $categoria = mysqli_fetch_array($result_categoria);
             ?>
             <tr>
                <td>
-                  <img src=" ../../<?php echo $fauna['path_immagine'] ?>" id="img_tabella"></img>
+                  <img src=" ../../<?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
                </td>
                <td><?php echo $categoria['Specie']?></td>
                <td><?php echo $categoria['OrdineAppartenenza']?></td> 
-               <td><?php echo $fauna['Sesso'] ?></td>
+               <td><?php echo $row['Sesso'] ?></td>
+               <?php
+                  if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+                     $tab = 'fauna';
+                     include '../Admin/Button_modifica-elimina.php';
+                  }
+               ?>
             </tr>
             <?php
          } 

@@ -84,6 +84,7 @@ include ('../DAL.php');
           $result_responsabile = mysqli_query($conn, $query_responsabile);
           while($row = mysqli_fetch_array($result_responsabile))
           { 
+             $fieldinfo = mysqli_fetch_fields($result_responsabile);
           ?>
             <tr>
               <td><?php echo $row['Nome']?></td>
@@ -105,6 +106,12 @@ include ('../DAL.php');
                   echo $row_par['Nome'];
                ?>
               </td>
+              <?php 
+              if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+                  $tab = 'responsabile';
+                 include '../Admin/Button_modifica-elimina.php'; 
+              }
+              ?>
             </tr>
           <?php
           }
