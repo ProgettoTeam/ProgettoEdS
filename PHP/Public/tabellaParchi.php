@@ -4,10 +4,22 @@
           <th>Parco</th>
           <th>Nome</th>
           <th>Luogo</th>
-          <th>Latitudine</th>
-          <th>Longitudine</th>
+          <?php
+          if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+          ?>
+            <th>Latitudine</th>
+            <th>Longitudine</th>
+          <?php
+          }
+          ?>
           <th>Descrizione</th>
-          <th>Amministratore</th>
+          <?php
+          if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+          ?>
+            <th>Amministratore</th>
+          <?php
+          }
+          ?>
         </tr>
     </thead>
     <tbody>
@@ -18,6 +30,7 @@
             $query_parco = "SELECT * FROM parco WHERE Nome LIKE '$nomeParco'";
           }
           $result_parco = mysqli_query($conn, $query_parco);
+          $fieldinfo = mysqli_fetch_fields($result_parco);
           while($row = mysqli_fetch_array($result_parco))
           { 
           ?>
@@ -46,23 +59,35 @@
               </td>
               <td><?php echo $row['Nome']?></td>
               <td><?php echo $row['Luogo']?></td>
-              <td><?php echo $row['Latitudine']?></td>
-              <td><?php echo $row['Longitudine']?></td>
+              <?php
+              if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+              ?>
+                <td><?php echo $row['Latitudine']; ?></td>
+                <td><?php echo $row['Longitudine']; ?></td>
+              <?php
+              }
+              ?>
               <td><?php echo $row['Descrizione']?></td>
-              <td>
-              <?php 
-                  $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
-                  $result_amm = mysqli_query($conn, $query_amm);
-                  $row_amm = mysqli_fetch_array($result_amm);
-                  echo $row_amm['Cognome'];
+              <?php
+              if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+              ?>
+                <td>
+                <?php 
+                    $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
+                    $result_amm = mysqli_query($conn, $query_amm);
+                    $row_amm = mysqli_fetch_array($result_amm);
+                    echo $row_amm['Cognome'];
+                ?>
+                </td>
+              <?php
+              }
+              ?>
+              <?php
+                  if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+                    $tab = 'parco';
+                    include '../Admin/Button_modifica-elimina.php';
+                  }
                ?>
-              </td>
-              <td>
-                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg">Modifica</a>
-               </td>
-               <td>
-                  <a href="../Admin/form-modifica.php" class=" btn btn-success btn-lg elimina">Elimina</a>
-               </td>
             </tr>
           <?php
           }
