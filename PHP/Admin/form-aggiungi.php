@@ -56,24 +56,15 @@ if($tabella == 'flora') {
     ?>
 
 
-    <!-- se vuoi creare altri campi copia questi elementi 
-    
-    <label for="CampoN-name">CampoN</label>
-    <input type="text" id="campoN" name="CampoN-name" value=" placeholder="Introduci campo1">
-    -->
-
     <div class="rowimg">
       <div class="columnbtn">
-            <input type="submit" value="Annulla" name="Annulla" href="#">
+            <input type="submit" value="Annulla" name="Annulla">
       </div>
 
       <div class="columnbtn">
           <input type="submit" value="Aggiungi" name="Aggiungi">
       </div>
 
-      <!-- puoi fare la verifica nella pagina 'pagina-che-gestisce.php' la verifica 
-        sul submit vedendo il testo che ha schiacciato
-        (verifica sul 'name' --annulla o modifica-- ) -->
     </div>
 
     

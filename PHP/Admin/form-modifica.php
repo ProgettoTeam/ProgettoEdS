@@ -1,6 +1,3 @@
-<?php
-include ('../DAL.php'); 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +10,14 @@ include ('../DAL.php');
 </head>
 <body>
 <?php 
-include ("../navbar.php");
 
 $tabella = $_GET["tabella"];
 $id = $_GET["id"];
 if($tabella == 'flora') {
   $tipo = $_GET["tipo"];
 }
+include ('../DAL.php'); 
+include ("../navbar.php");
 
 $colmuns = array();
 
@@ -47,32 +45,25 @@ if($tabella == 'flora') {
 }
 ?>
 
+<?php
+  include ("../Errors.php");
+  include ("../Corrects.php");
+?>
+
 <div class="container-form-modifica">
-  <form action="form-modifica.php">
-  <?php include '../form.php'; ?>
-
-      <!-- se vuoi creare altri campi copia questi elementi 
-      
-      <label for="CampoN-name">CampoN</label>
-      <input type="text" id="campoN" name="CampoN-name" value=" <?php /* echo("#Introduci campoN") */?>">
-      -->
-
-      <div class="rowimg">
+  <form action="form-modifica.php?tabella=<?php echo $tabella ?>&id=<?php echo $id ?><?php if($tabella == 'flora') { echo '&tipo=' . $tipo; } ?>" method="POST" enctype="multipart/form-data">
+    <input style="display: none" name="tabella" value="<?php echo $tabella ?>"></input>
+    <?php include '../form.php'; ?>
+    <div class="rowimg">
     <div class="columnbtn">
           <input type="submit" value="Annulla" name="annulla">
     </div>
-
     <div class="columnbtn">
         <input type="submit" value="Modifica" name="modifica">
     </div>
-
-    <!-- puoi fare la verifica nella pagina 'pagina-che-gestisce.php' la verifica 
-      sul submit vedendo il testo che ha schiacciato
-      (verifica sul 'name' --annulla o modifica-- ) -->
     </div>   
   </form>
 </div>
-
 <?php include ("../footer.php")?>
 
 </body>

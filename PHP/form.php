@@ -5,8 +5,13 @@
             $cont = 0;
             foreach ($fieldinfo as $val) {
                 if($tabella == 'flora') {
+                    if(basename($_SERVER['PHP_SELF']) == 'form-aggiungi.php') {
+                        $lastCol = 12;
+                    } else {
+                        $lastCol = 0;
+                    }
                     if($tipo == 'albero') {
-                        if($cont > 3 && $cont != 5 && $cont < 8) {
+                        if($cont > 3 && $cont != 5 && $cont != 8 && $cont != 9 && $cont != 10 && $cont != 11 && $cont != $lastCol) {
                         $col = $val->name;
                         ?> 
                             <th> <?php echo $col ?></th>
@@ -17,7 +22,7 @@
                         <?php
                         }
                     } else if($tipo == 'arbusto') {
-                        if($cont > 3 && $cont != 5 && $cont != 6 && $cont != 7 && $cont < 10) {
+                        if($cont > 3 && $cont != 5 && $cont != 6 && $cont != 7 && $cont != 10 && $cont != 11 && $cont != $lastCol) {
                         $col = $val->name;
                         ?> 
                             <th> <?php echo $col ?></th>
@@ -28,7 +33,7 @@
                         <?php
                         }
                     } else if($tipo == 'piantaErbacea') {
-                        if($cont > 3 && $cont != 5 && $cont != 6 && $cont != 7 && $cont != 8 && $cont != 9 && $cont != 12) {
+                        if($cont > 3 && $cont != 5 && $cont != 6 && $cont != 7 && $cont != 8 && $cont != 9 && $cont != $lastCol) {
                         $col = $val->name;
                         ?> 
                             <th> <?php echo $col ?></th>
@@ -48,7 +53,12 @@
                         <?php
                         }
                     } else if($tabella == 'fauna') {
-                        if($cont < (count($fieldinfo)) - 1) {
+                        if(basename($_SERVER['PHP_SELF']) == 'form-aggiungi.php') {
+                            $limite_col_fauna = (count($fieldinfo)) - 1;
+                        } else {
+                            $limite_col_fauna = count($fieldinfo);
+                        }
+                        if($cont < $limite_col_fauna) {
                             if($cont > 1) {
                                 $col = $val->name;
                                 ?> 
@@ -85,6 +95,7 @@
             include 'tbody.php';
         }
     } else {
+        $i = 0;
         include 'tbody.php';
     }
     ?>

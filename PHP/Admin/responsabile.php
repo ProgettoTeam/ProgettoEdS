@@ -21,7 +21,7 @@ include ('../DAL.php');
    $parco = mysqli_fetch_array($result_parco_responsabile);
 ?>
 
-<h1 class="titolo"><?php echo $parco['Nome']?> </h1>
+<h1 class="titolo"><?php echo $parco['Nome']?></h1>
 
 <div class="container-img">
    <img src="../../<?php echo $parco['path_immagine']?>" class="imgparco"> </img>

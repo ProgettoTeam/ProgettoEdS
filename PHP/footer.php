@@ -1,17 +1,3 @@
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
--->
-
 <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -29,13 +15,29 @@
                 <li><a href="../../index.php">Home</a></li>
               <?php
               }
+        
+              if(basename($_SERVER['PHP_SELF']) == 'index.php') {
               ?>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Help</a></li>
-              <?php 
-                include 'amministratore-responsabile.php'; 
-                $navbar = 0;
-                include ('SessionLogin.php') 
+                <li><a href="PHP/Public/Aboutus.php">About Us</a></li>
+              <?php
+              } else if(basename($_SERVER['PHP_SELF']) != 'Aboutus.php'){
+                ?>
+                <li><a href="../Public/Aboutus.php">About Us</a></li>
+              <?php
+              }
+
+              if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+              ?>
+                <li><a href="PHP/Public/Help.php">Help</a></li>
+              <?php
+              } else if(basename($_SERVER['PHP_SELF']) != 'Help.php'){
+                ?>
+                <li><a href="../Public/Help.php">Help</a></li>
+              <?php
+              }
+              include 'amministratore-responsabile.php'; 
+              $navbar = 0;
+              include ('SessionLogin.php') 
               ?>
             </ul>
           </div>

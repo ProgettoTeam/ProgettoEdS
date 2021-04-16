@@ -65,89 +65,7 @@ if(isset($_POST['Aggiungi'])) {
     $cont_err = 0;
     $cont_err_txb = 0;
     for($i = 0; $i < $value; $i++) {
-        if($tabella == 'responsabile') {
-            if(isset($_POST['col1riga' . $i])) {
-                $txb1 = mysqli_real_escape_string($conn, $_POST['col1riga' . $i]);
-                if($txb1 == '') {
-                    $cont_err_txb++;
-                }
-            }
-        } else {
-            if(isset($_FILES['col1riga' . $i])) {
-                if($tabella == 'parco') {
-                    $txb1 = "CSS/img_parchi/" . basename($_FILES['col1riga' . $i]['name']);
-                } else if($tabella == 'fauna') {
-                    $txb1 = "CSS/img_fauna/" . basename($_FILES['col1riga' . $i]['name']);
-                } else if($tabella == 'flora') {
-                    if($tipo == 'albero') {
-                        $txb1 = "CSS/img_flora/Alberi/" . basename($_FILES['col1riga' . $i]['name']);
-                    } else if($tipo == 'arbusto') {
-                        $txb1 = "CSS/img_flora/Arbusti/" . basename($_FILES['col1riga' . $i]['name']);
-                    } else if($tipo == 'piantaErbacea') {
-                        $txb1 = "CSS/img_flora/PianteErbacee/" . basename($_FILES['col1riga' . $i]['name']);
-                    }
-                }
-                $img_name = $_FILES['col1riga' . $i]['name'];
-                $img_size = $_FILES['col1riga' . $i]['size'];
-                $img_type = $_FILES['col1riga' . $i]['type'];
-                $tmp_name = $_FILES['col1riga' . $i]['tmp_name'];
-                if($img_size > 1000000) {
-                    array_push($errors, "Riga " . ($i+1) .": questa immagine è troppo grande");
-                    $cont_err++;
-                } else {
-                    $img_ex = pathinfo($img_name, PATHINFO_EXTENSION);
-                    $img_ex_lc = strtolower($img_ex);
-                    if(!in_array($img_ex_lc, array("jpg", "jpeg", "png"))) {
-                        array_push($errors, "Riga " . ($i+1) .": questo tipo di file non è supportato");
-                        $cont_err++;
-                    } 
-                }
-            } else {
-                array_push($errors, "Hai dimenticato di inserire l'immagine");
-                $cont_err++;
-            }
-        }
-        if(isset($_POST['col2riga' . $i])) {
-            $txb2 = mysqli_real_escape_string($conn, $_POST['col2riga' . $i]);
-            if($txb2 == '') {
-                $cont_err_txb++;
-            }
-        }
-        if(isset($_POST['col3riga' . $i])) {
-            $txb3 = mysqli_real_escape_string($conn, $_POST['col3riga' . $i]);
-            if($txb3 == '') {
-                $cont_err_txb++;
-            }
-        }
-        if(isset($_POST['col4riga' . $i])) {
-            $txb4 = mysqli_real_escape_string($conn, $_POST['col4riga' . $i]);
-            if($txb4 == '') {
-                $cont_err_txb++;
-            }
-        }
-        if(isset($_POST['col5riga' . $i])) {
-            $txb5 = mysqli_real_escape_string($conn, $_POST['col5riga' . $i]);
-            if($txb5 == '') {
-                $cont_err_txb++;
-            }
-        }
-        if(isset($_POST['col6riga' . $i])) {
-            $txb6 = mysqli_real_escape_string($conn, $_POST['col6riga' . $i]);
-            if($txb6 == '') {
-                $cont_err_txb++;
-            }
-        }
-        if(isset($_POST['col7riga' . $i])) {
-            $txb7 = mysqli_real_escape_string($conn, $_POST['col7riga' . $i]);
-            if($txb7 == '') {
-                $cont_err_txb++;
-            }
-        } 
-
-        if($cont_err_txb > 0) {
-            array_push($errors, "Riga " . ($i+1) . ": è necessario compilare tutti i campi");
-            $cont_err++;
-        } 
+        include 'import-txb.php';
         
         if($tabella == 'responsabile') {
             $query_unicità_parco = "SELECT * FROM responsabile WHERE fk_IdParco = '$txb6'";
@@ -232,6 +150,91 @@ if(isset($_POST['elimina'])) {
     $tabella = mysqli_real_escape_string($conn, $_POST['tabella']);
     $query_delete = "DELETE FROM $tabella WHERE $name_id = $value_id";
     $result_elimina = mysqli_query($conn, $query_delete);
+}
+
+//button modifica
+if(isset($_POST['modifica'])) {
+    $cont_err = 0;
+    $cont_err_txb = 0;
+    $i = 0;
+    include 'import-txb.php';
+
+    $cont_err = $cont_err + $cont_err_txb;
+    if($cont_err == 0) {
+        if($tabella == 'parco') {
+            $query_update_parco = "UPDATE $tabella 
+                                    SET path_immagine = '$txb1', Nome = '$txb2', Luogo = '$txb3', Latitudine = '$txb4', Longitudine = '$txb5', Descrizione = '$txb6', fk_IdAmministratore = '$txb7' 
+                                    WHERE IdParco = $id";
+            if($_FILES['col1riga' . $i]["error"] == 0) {
+                move_uploaded_file($tmp_name, '../../' . $txb1);
+            } 
+            if(mysqli_query($conn, $query_update_parco)) {
+                array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+            } else {
+                array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+            }
+        } else  if($tabella == 'responsabile') {
+            $pswCript = password_hash($txb4, PASSWORD_DEFAULT);
+            $query_update_responsabile = "UPDATE $tabella 
+                                            SET Nome = '$txb1', Cognome = '$txb2', Email = '$txb3', Password = '$pswCript', fk_IdAmministratore = '$txb5', fk_IdParco = '$txb6' 
+                                            WHERE IdResponsabile = $id";
+            if(mysqli_query($conn, $query_update_responsabile)) {
+                array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+            } else {
+                array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+            }
+        } else if($tabella == 'fauna') {
+            $query_update_fauna = "UPDATE $tabella 
+                                    SET path_immagine = '$txb1', IsAdult = '$txb2', Sesso = '$txb3', Salute = '$txb4', fk_IdCategoria = '$txb5', fk_IdParco = '$txb6' 
+                                    WHERE IdFauna = $id";
+            if($_FILES['col1riga' . $i]["error"] == 0) {
+                move_uploaded_file($tmp_name, '../../' . $txb1);
+            } 
+            if(mysqli_query($conn, $query_update_fauna)) {
+                array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+            } else {
+                array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+            }
+        } else if($tabella == 'flora') {
+            if($tipo == 'albero') {
+                $query_update_albero = "UPDATE $tabella 
+                                        SET path_immagine_albero = '$txb1', path_immagine_arbusto = null, path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'albero', GenereAlbero = '$txb3', TipoFoglie = '$txb4', SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$txb5'
+                                        WHERE IdFlora = $id";
+                if($_FILES['col1riga' . $i]["error"] == 0) {
+                    move_uploaded_file($tmp_name, '../../' . $txb1);
+                } 
+                if(mysqli_query($conn, $query_update_albero)) {
+                    array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+                } else {
+                    array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+                }
+            } else if($tipo == 'arbusto') {
+                $query_update_arbusto = "UPDATE $tabella 
+                                        SET path_immagine_albero = null, path_immagine_arbusto = '$txb1', path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'arbusto', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = '$txb3', DimensioneArbusto = '$txb4', ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$txb5'
+                                        WHERE IdFlora = $id";
+                if($_FILES['col1riga' . $i]["error"] == 0) {
+                    move_uploaded_file($tmp_name, '../../' . $txb1);
+                } 
+                if(mysqli_query($conn, $query_update_arbusto)) {
+                    array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+                } else {
+                    array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+                }
+            } else if($tipo == 'piantaErbacea') {
+                $query_update_piantaErbacea = "UPDATE $tabella 
+                                        SET path_immagine_albero = null, path_immagine_arbusto = null, path_immagine_PiantaErbacea = '$txb1', Stagione_fioritura = '$txb2', Categoria = 'Pianta erbacea', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = '$txb3', ColorePianteErbacee = '$txb4', fk_IdParco = '$txb5'
+                                        WHERE IdFlora = $id";
+                if($_FILES['col1riga' . $i]["error"] == 0) {
+                    move_uploaded_file($tmp_name, '../../' . $txb1);
+                } 
+                if(mysqli_query($conn, $query_update_piantaErbacea)) {
+                    array_push($corrects, "Riga " . ($i+1) . " modificata con successo");
+                } else {
+                    array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
+                }
+            }
+        }
+    }
 }
 
 //logout

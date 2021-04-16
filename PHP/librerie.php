@@ -9,10 +9,27 @@
     <script src="https://kit.fontawesome.com/29dd549171.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <link rel="stylesheet" href="CSS/style.css">
+        <?php
+    } else {
+        ?>
+        <link rel="stylesheet" href="../../CSS/style.css">
+        <?php
+    }
 
-    <link rel="stylesheet" href="../../CSS/style.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/index.js"></script>
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <script src="JS/index.js"></script>
+        <?php
+    } else {
+        ?>
+        <script src="../../JS/index.js"></script>
+        <?php
+    }
+    ?>
 
     
   

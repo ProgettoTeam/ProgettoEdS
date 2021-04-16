@@ -27,10 +27,24 @@
 <table id="tableData" class="table table-bordered table-striped">
    <thead>
       <tr>
-         <th>Animale</th>
-         <th>Specie</th>
-         <th>Ordine di appartenenza</th>
-         <th>Sesso</th>
+         <?php
+         if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+         ?>
+            <th>Animale</th>
+            <th>Adulto</th>
+            <th>Sesso</th>
+            <th>Salute</th>
+            <th>fk_IdCategoria</th>
+         <?php
+         } else {
+            ?>
+            <th>Animale</th>
+            <th>Sesso</th>
+            <th>Specie</th>
+            <th>Ordine di appartenenza</th>
+         <?php
+         }
+         ?>
       </tr>
    </thead>
    <tbody>
@@ -52,9 +66,37 @@
                <td>
                   <img src=" ../../<?php echo $row['path_immagine'] ?>" id="img_tabella"></img>
                </td>
-               <td><?php echo $categoria['Specie']?></td>
-               <td><?php echo $categoria['OrdineAppartenenza']?></td> 
+               <?php
+               if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+                  if($row['IsAdult'] == 1) {
+                     $IsAdult = 'si';
+                  } else {
+                     $IsAdult = 'no';
+                  }
+               ?>
+                  <td><?php echo $IsAdult?></td>
+               <?php
+               }
+               ?>
                <td><?php echo $row['Sesso'] ?></td>
+               <?php
+               if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+               ?>
+                  <td><?php echo $row['Salute']?></td>
+               <?php
+               }
+
+               if(basename($_SERVER['PHP_SELF']) != 'parco.php') {
+               ?>
+                  <td><?php echo $row['fk_IdCategoria']?></td>
+               <?php
+               } else {
+                  ?>
+                  <td><?php echo $categoria['Specie']?></td>
+                  <td><?php echo $categoria['OrdineAppartenenza']?></td> 
+                  <?php
+               }
+               ?>
                <?php
                   if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
                      $tab = 'fauna';

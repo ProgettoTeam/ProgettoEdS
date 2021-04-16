@@ -46,7 +46,7 @@
             <li><a href="../Public/Help.php">Help</a></li>
           <?php
           }
-      ?>
+        ?>
         <?php include 'amministratore-responsabile.php'; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">

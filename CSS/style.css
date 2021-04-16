@@ -64,6 +64,7 @@ body {
 
 .correct {
     color: green !important;
+    padding-left: 30px !important;
 }
 
 .username {
@@ -983,7 +984,7 @@ input[type=submit]:hover {
 
 .container-form-modifica {
     border-radius: 5px;
-    padding: 20px;
+    padding: 78px;
 }
 
 div.gm-style-iw-d {
