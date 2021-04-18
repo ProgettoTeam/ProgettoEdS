@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Creato il: Apr 12, 2021 alle 09:32
+-- Creato il: Apr 16, 2021 alle 22:24
 -- Versione del server: 8.0.18
 -- Versione PHP: 7.4.5
 
@@ -543,7 +543,7 @@ INSERT INTO `fauna` (`IdFauna`, `path_immagine`, `IsAdult`, `Sesso`, `Salute`, `
 (451, 'CSS/img_fauna/orso.jpg', 0, 'Female', 'Portal contr phlebogram', 7, 41),
 (452, 'CSS/img_fauna/panda.jpg', 0, 'Female', 'Irrigation of ear', 8, 8),
 (453, 'CSS/img_fauna/leone.jpg', 0, 'Female', 'Remove head/neck sutures', 23, 5),
-(454, 'CSS/img_fauna/scimmia.jpg', 0, 'Female', 'Excise lg intestine les', 5, 1),
+(454, 'CSS/img_fauna/scimmia.jpg', 0, 'Female', 'Excise lg intestine les', 5, 74),
 (455, 'CSS/img_fauna/koala.jpg', 0, 'Female', 'C & s-integument', 12, 18),
 (456, 'CSS/img_fauna/leone.jpg', 0, 'Male', 'Nasal lesion excis NOS', 12, 43),
 (457, 'CSS/img_fauna/orso.jpg', 1, 'Male', 'Head/neck var v lig-str', 3, 36),
@@ -601,7 +601,12 @@ INSERT INTO `fauna` (`IdFauna`, `path_immagine`, `IsAdult`, `Sesso`, `Salute`, `
 (511, 'CSS/img_fauna/koala.jpg', 0, 'Female', 'Breast xerography', 29, 16),
 (512, 'CSS/img_fauna/pappagallo.jpg', 1, 'Female', 'Brain/skull contrst xray', 24, 16),
 (513, 'CSS/img_fauna/koala.jpg', 1, 'Female', 'Destruc hepatic les NEC', 21, 16),
-(514, 'CSS/img_fauna/scimmia.jpg', 1, 'Female', 'Cde for calculus remov', 8, 16);
+(514, 'CSS/img_fauna/scimmia.jpg', 1, 'Female', 'Cde for calculus remov', 8, 16),
+(1907, 'CSS/img_fauna/animale1.jpg', 1, 'Male', 'sta benissimo', 1, 74),
+(1908, 'CSS/img_fauna/ghepardo_0.jpg', 1, 'Male', 'bene', 17, 74),
+(1909, 'CSS/img_fauna/ippopotamo.jpg', 0, 'Male', 'benone', 12, 74),
+(1912, 'CSS/img_fauna/orso.jpg', 1, 'male', 'sues', 22, 74),
+(1914, 'CSS/img_fauna/panda.jpg', 0, 'Male', 'bene', 1, 74);
 
 -- --------------------------------------------------------
 
@@ -614,7 +619,7 @@ CREATE TABLE `flora` (
   `path_immagine_albero` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
   `path_immagine_arbusto` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
   `path_immagine_PiantaErbacea` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `Stagione_fioritura` varchar(25) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `Stagione_fioritura` varchar(25) NOT NULL,
   `Categoria` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `GenereAlbero` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
   `TipoFoglie` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
@@ -1527,7 +1532,15 @@ INSERT INTO `flora` (`IdFlora`, `path_immagine_albero`, `path_immagine_arbusto`,
 (997, NULL, NULL, 'CSS/img_flora/PianteErbacee/PiantaErbacea7.jpg', 'Primavera', 'Pianta erbacea', NULL, NULL, NULL, NULL, 'Ramalina lacera (With.) J.R. Laundon', 'Mauv', 21),
 (998, NULL, 'CSS/img_flora/Arbusti/arbusto7.jpg', NULL, 'Primavera', 'Arbusto', NULL, NULL, 'Ginseng', '5m', NULL, NULL, 44),
 (999, 'CSS/img_flora/Alberi/albero1.jpg', NULL, NULL, 'Primavera', 'Albero', 'Fabaceae', 'Lupinus agardhianus A. Heller', NULL, NULL, NULL, NULL, 34),
-(1000, NULL, 'CSS/img_flora/Arbusti/arbusto1.jpg', NULL, 'Primavera', 'Arbusto', NULL, NULL, 'Beautiful Alumroot', '2m', NULL, NULL, 3);
+(1000, NULL, 'CSS/img_flora/Arbusti/arbusto1.jpg', NULL, 'Primavera', 'Arbusto', NULL, NULL, 'Beautiful Alumroot', '2m', NULL, NULL, 3),
+(1009, 'CSS/img_flora/Alberi/foto-16-dic.jpg', NULL, NULL, 'Ses', 'Albero', 'dewfewf', 'edwdewdew', NULL, NULL, NULL, NULL, 74),
+(1012, NULL, 'CSS/img_flora/Arbusti/geranio-5.jpg', NULL, 'efwrf', 'Arbusto', NULL, NULL, 'efwff', '23', NULL, NULL, 74),
+(1013, NULL, 'CSS/img_flora/Arbusti/arbusto4.jpg', NULL, 'sueups', 'arbusto', NULL, NULL, 'fewf', '33', NULL, NULL, 74),
+(1016, NULL, NULL, 'CSS/img_flora/PianteErbacee/piantaerbacea2.jpg', 'rgrev', 'Pianta erbacea', NULL, NULL, NULL, NULL, 'revrve', 'revvre', 74),
+(1018, NULL, NULL, 'CSS/img_flora/PianteErbacee/PiantaErbacea7.jpg', 'greegr', 'Pianta erbacea', NULL, NULL, NULL, NULL, 'gergre', 'reggre', 74),
+(1021, 'CSS/img_flora/Alberi/albero7.jpg', NULL, NULL, 'hhtr', 'Albero', 'thrhtr', 'htrhtr', NULL, NULL, NULL, NULL, 74),
+(1027, NULL, NULL, 'CSS/img_flora/PianteErbacee/hibiscus_O2.jpg', 'prova78111', 'Pianta erbacea', NULL, NULL, NULL, NULL, 'rtvertv', 'rtvtvr', 74),
+(1028, 'CSS/img_flora/Alberi/albero3.jpg', NULL, NULL, 'rtve', 'albero', 'pips', 'AAAA', NULL, NULL, NULL, NULL, 74);
 
 -- --------------------------------------------------------
 
@@ -1538,8 +1551,8 @@ INSERT INTO `flora` (`IdFlora`, `path_immagine_albero`, `path_immagine_arbusto`,
 CREATE TABLE `parco` (
   `IdParco` int(11) NOT NULL,
   `path_immagine` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `Nome` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `Luogo` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `Nome` varchar(50) NOT NULL,
+  `Luogo` varchar(50) NOT NULL,
   `Latitudine` double NOT NULL,
   `Longitudine` double NOT NULL,
   `Descrizione` text NOT NULL,
@@ -1597,7 +1610,8 @@ INSERT INTO `parco` (`IdParco`, `path_immagine`, `Nome`, `Luogo`, `Latitudine`, 
 (47, 'CSS/img_parchi/parco1.jpg', 'equaline acid reducer', 'Jinkou', 38.6, 16.21, 'amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in', 2),
 (48, 'CSS/img_parchi/parco4.jpg', 'moxifloxacin hydrochloride', 'Nnewi', 41.28, 12.46, 'sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis', 1),
 (49, 'CSS/img_parchi/parco2.jpg', 'Clindamycin Hydrochloride', 'Laoliangcang', 43.18, 14.98, 'dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero', 3),
-(50, 'CSS/img_parchi/parco5.jpg', 'ZINACEF', 'Al Qaţīf', 44.01, 17.04, 'justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce', 2);
+(50, 'CSS/img_parchi/parco5.jpg', 'ZINACEF', 'Al Qaţīf', 44.01, 17.04, 'justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce', 2),
+(74, 'CSS/img_parchi/trasferimento.jpg', 'Ses', 'Genova', 37, 15, 'jeeeej', 1);
 
 -- --------------------------------------------------------
 
@@ -1665,7 +1679,8 @@ INSERT INTO `responsabile` (`IdResponsabile`, `Nome`, `Cognome`, `Email`, `Passw
 (47, 'Bill', 'Castro', 'Bill.Castro@ambiente.com', '$2y$10$4/XvLGKbkld4qI1RBRJuRO6iZwR5EgeoO95OQ7k/qDiKtwsGCLsi.', 3, 47),
 (48, 'Myrah', 'Meadows', 'Myrah.Meadows@ambiente.com', '$2y$10$lZkyPKUW5EHYKPCNruCwtuK3tb08a61pX085FfS0cuqGVOQ7cpS1S', 2, 48),
 (49, 'Wittie', 'Byford', 'Wittie.Byford@ambiente.com', '$2y$10$M0Dh.W39u1yXKGwIXeeKjO8vzBT/uq0PWuUC/1ChKFcbDipXRa2S.', 1, 49),
-(50, 'Linoel', 'Grisard', 'Linoel.Grisard@ambiente.com', '$2y$10$zW2KkXefuCyJyNHnM24IoOJi7ccjPSLVak0YHyDDvR3Cehe8ItIm6', 3, 50);
+(50, 'Linoel', 'Grisard', 'Linoel.Grisard@ambiente.com', '$2y$10$zW2KkXefuCyJyNHnM24IoOJi7ccjPSLVak0YHyDDvR3Cehe8ItIm6', 3, 50),
+(57, 'Bob', 'Suips', 'bob.suips@ambiente.it', '$2y$10$DaDmNyBG/henEynSKzKRHOGmrl7xlHlwp8enNv7aYfAMA2Pc1OM9K', 1, 74);
 
 --
 -- Indici per le tabelle scaricate
@@ -1733,25 +1748,25 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT per la tabella `fauna`
 --
 ALTER TABLE `fauna`
-  MODIFY `IdFauna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1907;
+  MODIFY `IdFauna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1915;
 
 --
 -- AUTO_INCREMENT per la tabella `flora`
 --
 ALTER TABLE `flora`
-  MODIFY `IdFlora` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1001;
+  MODIFY `IdFlora` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1029;
 
 --
 -- AUTO_INCREMENT per la tabella `parco`
 --
 ALTER TABLE `parco`
-  MODIFY `IdParco` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `IdParco` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=157;
 
 --
 -- AUTO_INCREMENT per la tabella `responsabile`
 --
 ALTER TABLE `responsabile`
-  MODIFY `IdResponsabile` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `IdResponsabile` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 
 --
 -- Limiti per le tabelle scaricate
