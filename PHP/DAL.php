@@ -4,7 +4,7 @@ $username = "";
 $email = "";
 $errors = array();
 $corrects = array();
-$conn = mysqli_connect("localhost", "parco", "", "parco");
+include 'DBconnection.php';
 
 if(isset($_POST['login'])){
     $email = mysqli_real_escape_string($conn, $_POST['email']);

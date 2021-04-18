@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
       <!-- librerie importate -->
-      <?php include ('../librerie.php') ?>
-
-    <title>Parco</title>
-</head>
-<body>
-<?php 
+   <?php include ('../librerie.php') ?>
+   <?php 
    $IdParco = $_GET["IdParco"];
    include '../DBconnection.php';
    include '../DAL.php';
    $query = "SELECT * FROM parco WHERE IdParco=$IdParco";
    $result = mysqli_query($conn, $query);
    $parco = mysqli_fetch_array($result);
+   ?>
+   <title><?php echo $parco["Nome"]?> | ParchiNazionali</title>
+</head>
+<body>
+   <?php
    include '../navbar.php';
-?>
+   ?>
+
 
 <h1 class="titolo"><?php echo $parco[2] ?></h1>
 <div class="container-img">

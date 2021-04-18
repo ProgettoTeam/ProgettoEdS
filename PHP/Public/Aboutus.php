@@ -10,16 +10,7 @@ include '../DAL.php';
 
     <?php include '../navbar.php'; ?>
 
- <div class="image-aboutus-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="lg-text h1-aboutus">About Us</h1>
-                    <p class="image-aboutus-para p-aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-        </div>
-    </div> 
+ <div class="image-aboutus-banner"></div> 
     
     <div class="aboutus-secktion paddingTB60">
         <div class="container">

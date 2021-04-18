@@ -1237,17 +1237,17 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background: url(img_aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding-top: 110px;
+    padding-top: 220px;
     padding-bottom: 110px;
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(img_aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

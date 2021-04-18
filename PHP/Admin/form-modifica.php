@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include ('../librerie.php') ?>
 
-    <title>Form-Modifica</title>
 </head>
 <body>
 <?php 

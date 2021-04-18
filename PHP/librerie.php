@@ -12,6 +12,18 @@
     <?php
     if(basename($_SERVER['PHP_SELF']) == 'index.php') {
         ?>
+            <link rel="icon" href="favicon.png">
+        <?php
+    } else {
+        ?>
+            <link rel="icon" href="../../favicon.png">
+        <?php
+    }
+    ?>
+
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
         <link rel="stylesheet" href="CSS/style.css">
         <?php
     } else {
@@ -29,6 +41,43 @@
         <script src="../../JS/index.js"></script>
         <?php
     }
+    ?>
+
+
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <title>HOME | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'Aboutus.php') {
+        ?>
+        <title>ABOUT US | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'Help.php') {
+        ?>
+        <title>HELP | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'login.php') {
+        ?>
+        <title>LOGIN | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+        ?>
+        <title>AMMINISTRATORE | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+        ?>
+        <title>RESPONSABILE | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'form-aggiungi.php') {
+        ?>
+        <title>AGGIUNGI | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'form-modifica.php') {
+        ?>
+        <title>MODIFICA | ParchiNazionali</title>
+        <?php
+    } 
     ?>
 
     

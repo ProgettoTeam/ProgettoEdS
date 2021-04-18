@@ -73,7 +73,6 @@
                     if($cont > 0) {
                         $col = $val->name;
                         if($col == "Password") {
-                            $pswCript = password_hash($value[$cont], PASSWORD_DEFAULT);
                             ?>
                             <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>"  placeholder="********"></td>
                             <?php
