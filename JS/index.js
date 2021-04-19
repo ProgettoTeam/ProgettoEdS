@@ -27,7 +27,7 @@ function initMap() {
 
         google.maps.event.addListener(marker, "click", function() {
             infoWindow.close();
-            infoWindow.setContent("<div position:absolute><img id='imgMappa' src='" + parco[1] + "'></div> <div style='padding-top: 40px'><b style='padding-left: 5%'>" + parco[2] + "</b></br></br><p style='margin-left: 50%'>" + parco[6] + "</br></br></br><a style='color:blue' href='PHP/Public/parco.php?IdParco=" + parco[0] + "'>Visita</a></p></div>");
+            infoWindow.setContent("<div position:absolute><img id='imgMappa' src='" + parco[1] + "'></div> <div style='padding-top: 40px'><b style='padding-left: 5%'>" + parco[2] + "</b></br></br><p style='margin-left: 50%'>" + parco[6] + "</br></br></br><a style='color:blue' href='App/Public/Parco.php?IdParco=" + parco[0] + "'>Visita</a></p></div>");
             infoWindow.open(map, marker);
         });
     });
