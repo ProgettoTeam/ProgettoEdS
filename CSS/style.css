@@ -44,6 +44,19 @@ body {
     width: 280px;
     height: auto;
     float: left;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:770px) {
+    #imgMappa {
+        width: 120px
+    }
+    .gm-style-iw-d{
+        width: 150px !important;
+    }
+    .pMappa{
+        margin-left:2px !important;
+    }
+    
 }
 
 .username {
@@ -1258,6 +1271,7 @@ div.gm-style-iw-d {
     color: #fff;
     padding-top: 110px;
     padding-bottom: 110px;
+    width: 100%;
 }
 
 .image-aboutus-sm-banner {
@@ -1268,6 +1282,7 @@ div.gm-style-iw-d {
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .lg-text {
@@ -1280,8 +1295,35 @@ div.gm-style-iw-d {
 .image-aboutus-para {
     color: #fff;
 }
+.thumbnail{
+    width: 70% !important;
+    margin:auto;
+    margin-top: 10px;
+}
 
 
+@media screen and (max-width: 700px) {
+   .h1-aboutus{
+       font-size: 25px;
+   }
+   .h2-aboutus{
+    font-size: 22px;
+    }
+    .h3-aboutus{
+    font-size: 20px;
+    }   
+    .h4-aboutus{
+        font-size: 18px;
+    }
+    .p-aboutus{
+        font-size: 18px;
+    }
+    
+    .site-heading h3 {
+        font-size: 20px;
+       
+    }
+}
 /*----------HELP-------------*/
 
 
@@ -1371,4 +1413,25 @@ div.gm-style-iw-d {
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container-contact .map {
+        width: 40%;
+    }
+    .container-contact .contact-form .title {
+        font-size: 20px;
+        margin: none;
+    }
+    .container-contact{
+        width: 90%;
+    }
+    .container-contact .contact-form .btn-send{
+        margin: auto;
+        
+    }
+    .container-contact .contact-form .subtitle {
+        font-size: 15px;
+    }
 }
