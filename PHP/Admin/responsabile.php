@@ -7,7 +7,6 @@ include ('../DAL.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>responsabile</title>
 
 <?php  include ("../librerie.php");?>
 </head>
@@ -21,7 +20,7 @@ include ('../DAL.php');
    $parco = mysqli_fetch_array($result_parco_responsabile);
 ?>
 
-<h1 class="titolo"><?php echo $parco['Nome']?> </h1>
+<h1 class="titolo"><?php echo $parco['Nome']?></h1>
 
 <div class="container-img">
    <img src="../../<?php echo $parco['path_immagine']?>" class="imgparco"> </img>
