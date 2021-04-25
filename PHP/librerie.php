@@ -9,10 +9,76 @@
     <script src="https://kit.fontawesome.com/29dd549171.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+            <link rel="icon" href="favicon.png">
+        <?php
+    } else {
+        ?>
+            <link rel="icon" href="../../favicon.png">
+        <?php
+    }
+    ?>
 
-    <link rel="stylesheet" href="../../CSS/style.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/index.js"></script>
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <link rel="stylesheet" href="CSS/style.css">
+        <?php
+    } else {
+        ?>
+        <link rel="stylesheet" href="../../CSS/style.css">
+        <?php
+    }
+
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <script src="JS/index.js"></script>
+        <?php
+    } else {
+        ?>
+        <script src="../../JS/index.js"></script>
+        <?php
+    }
+    ?>
+
+
+    <?php
+    if(basename($_SERVER['PHP_SELF']) == 'index.php') {
+        ?>
+        <title>HOME | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'Aboutus.php') {
+        ?>
+        <title>ABOUT US | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'Help.php') {
+        ?>
+        <title>HELP | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'login.php') {
+        ?>
+        <title>LOGIN | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'amministratore.php') {
+        ?>
+        <title>AMMINISTRATORE | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'responsabile.php') {
+        ?>
+        <title>RESPONSABILE | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'form-aggiungi.php') {
+        ?>
+        <title>AGGIUNGI | ParchiNazionali</title>
+        <?php
+    } else if(basename($_SERVER['PHP_SELF']) == 'form-modifica.php') {
+        ?>
+        <title>MODIFICA | ParchiNazionali</title>
+        <?php
+    } 
+    ?>
 
     
   
@@ -23,17 +89,3 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
     <!-- jQuery UI -->
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-
-
-    <?php 
-    if(basename($_SERVER['PHP_SELF'])== 'Aboutus.php'){
-        ?> 
-        <link rel="stylesheet" href="CSS/style.css">
-        <?php
-    } else{
-        ?>
-            <link rel="stylesheet" href="../CSS/style.css">
-
-    <?php 
-    }
-    ?>
