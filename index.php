@@ -13,7 +13,6 @@ include ('PHP/DAL.php');
 
     <?php include 'PHP/librerie.php';?>
     
-    <title>HomePage</title> 
 </head>
 
 <?php
