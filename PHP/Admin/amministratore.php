@@ -10,7 +10,6 @@ include ('../DAL.php');
     
     <?php include ('../librerie.php') ?>
 
-    <title>Amministratore</title>
 </head>
 <body>
  <?php 
