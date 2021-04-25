@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("Background/Background-2.jpg");
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("background/background-2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
@@ -44,27 +44,19 @@ body {
     width: 280px;
     height: auto;
     float: left;
+    margin-bottom: 10px;
 }
 
-#addRow {
-    margin-left: 95%;
-}
-
-#cars {
-    width: 60px;
-}
-
-.error {
-    width: 92%;
-    margin: 0px auto;
-    padding: 10px;
-    color: red;
-    text-align: left;
-}
-
-.correct {
-    color: green !important;
-    padding-left: 30px !important;
+@media screen and (max-width:770px) {
+    #imgMappa {
+        width: 120px
+    }
+    .gm-style-iw-d {
+        width: 150px !important;
+    }
+    .pMappa {
+        margin-left: 2px !important;
+    }
 }
 
 .username {
@@ -85,6 +77,14 @@ body {
 
 td {
     font-size: 15px !important;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    color: red;
+    text-align: left;
 }
 
 #dropdownMenuButton {
@@ -417,6 +417,12 @@ body {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .carousel-caption h3 {
+        font-size: 11px !important;
+    }
+}
+
 .img-carousel {
     width: 100%;
     height: 100%;
@@ -508,19 +514,19 @@ body {
     background-color: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 946px) {
     .columnimg {
         width: 100%;
     }
     .column {
         /*float: right;*/
-        width: 100%;
+        width: 45% !important;
     }
 }
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 35%;
 }
 
 
@@ -562,6 +568,16 @@ body {
     transform-style: preserve-3d;
     border: 2px whitesmoke solid;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 880px) {
+    .flip-box {
+        width: 90%;
+        height: 90%;
+    }
+    .flip-box-back a {
+        margin-top: 20px;
+    }
 }
 
 
@@ -612,7 +628,7 @@ body {
     color: white;
     position: absolute;
     left: 45%;
-    margin-top: 74px;
+    margin-top: 25px;
 }
 
 .flip-box-back a:hover {
@@ -692,6 +708,7 @@ body {
     margin: 0px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -700,6 +717,7 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -708,6 +726,7 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 .paging-nav,
@@ -716,6 +735,7 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 @media screen and (max-width: 950px) {
@@ -723,6 +743,63 @@ body {
     td {
         width: 20px;
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #th_adulto {
+        display: none;
+    }
+    #th_sesso {
+        display: none;
+    }
+    #th_salute {
+        display: none;
+    }
+    #th_StagioneFioritura {
+        display: none;
+    }
+    #th_TipoFoglie {
+        display: none;
+    }
+    #th_Dimensione {
+        display: none;
+    }
+    #th_StagioneDiFioritura {
+        display: none;
+    }
+    #th_Colore {
+        display: none;
+    }
+    #th_StagioneDiFiorituraPiante {
+        display: none;
+    }
+    #td_adulto {
+        display: none;
+    }
+    #td_sesso {
+        display: none;
+    }
+    #td_salute {
+        display: none;
+    }
+    #td_StagioneFioritura {
+        display: none;
+    }
+    #td_TipoFoglie {
+        display: none;
+    }
+    #td_DimensioneArbusto {
+        display: none;
+    }
+    #td_StagioneDiFioritura {
+        display: none;
+    }
+    #td_Colore {
+        display: none;
+    }
+    #td_StagioneDiFiorituraPiante {
+        display: none;
     }
 }
 
@@ -793,6 +870,12 @@ body {
 .elimina:hover {
     background-color: rgb(255, 4, 4) !important;
     border-color: rgb(255, 4, 4) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        font-size: 10px !important;
+    }
 }
 
 
@@ -895,7 +978,19 @@ body {
 
 @media screen and (max-width: 660px) {
     .text {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    .container-img-tab {
+        position: relative;
+        width: 92px;
+    }
+    #img_tabella {
+        width: 92px;
+        height: 52px;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.459), 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    }
+    td {
+        font-size: 10px !important;
     }
 }
 
@@ -930,7 +1025,7 @@ input[type=text] {
 
 @media screen and (max-width: 600px) {
     input[type=text] {
-        width: 120px;
+        width: 105px;
     }
 }
 
@@ -980,7 +1075,7 @@ input[type=submit]:hover {
 
 .container-form-modifica {
     border-radius: 5px;
-    padding: 78px;
+    padding: 20px;
 }
 
 div.gm-style-iw-d {
@@ -1041,6 +1136,16 @@ div.gm-style-iw-d {
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
+}
+
+@media screen and (max-width: 600px) {
+    .login {
+        width: 90%;
+    }
+    .login form input[type="password"],
+    .login form input[type="text"] {
+        width: 270px !important;
+    }
 }
 
 .login h1 {
@@ -1233,23 +1338,25 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: url(img_aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding-top: 220px;
+    padding-top: 110px;
     padding-bottom: 110px;
+    width: 100%;
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(img_aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .lg-text {
@@ -1261,6 +1368,33 @@ div.gm-style-iw-d {
 
 .image-aboutus-para {
     color: #fff;
+}
+
+.thumbnail {
+    width: 70% !important;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .h1-aboutus {
+        font-size: 25px;
+    }
+    .h2-aboutus {
+        font-size: 22px;
+    }
+    .h3-aboutus {
+        font-size: 20px;
+    }
+    .h4-aboutus {
+        font-size: 18px;
+    }
+    .p-aboutus {
+        font-size: 18px;
+    }
+    .site-heading h3 {
+        font-size: 20px;
+    }
 }
 
 
@@ -1336,7 +1470,7 @@ div.gm-style-iw-d {
 }
 
 .image-help-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../images/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1346,11 +1480,30 @@ div.gm-style-iw-d {
 }
 
 .image-help-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../images/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .container-contact .map {
+        width: 40%;
+    }
+    .container-contact .contact-form .title {
+        font-size: 20px;
+        margin: none;
+    }
+    .container-contact {
+        width: 90%;
+    }
+    .container-contact .contact-form .btn-send {
+        margin: auto;
+    }
+    .container-contact .contact-form .subtitle {
+        font-size: 15px;
+    }
 }

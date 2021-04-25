@@ -36,8 +36,8 @@
       <tr>
          <th>Albero</th>
          <th>Genere</th>
-         <th>Tipo di foglie</th>
-         <th>Stagione di fioritura</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_TipoFoglie" <?php }?>>Tipo di foglie</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_StagioneFioritura" <?php }?>>Stagione di fioritura</th>
       </tr>
    </thead>
    <tbody>
@@ -57,8 +57,8 @@
                   <img src=" ../../<?php echo $row['path_immagine_albero'] ?>" id="img_tabella"></img>
                </td>
                <td><?php echo $row['GenereAlbero']?></td>
-               <td><?php echo $row['TipoFoglie']?></td> 
-               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_TipoFoglie" <?php }?>><?php echo $row['TipoFoglie']?></td> 
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_StagioneFioritura" <?php }?>><?php echo $row['Stagione_fioritura'] ?></td>
                <?php
                if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {
                   $tab = 'flora';
@@ -113,8 +113,8 @@
       <tr>
          <th>Arbusto</th>
          <th>Specie</th>
-         <th>Dimensione</th>
-         <th>Stagione di fioritura</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_Dimensione" <?php }?>>Dimensione</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_StagioneDiFioritura" <?php }?>>Stagione di fioritura</th>
       </tr>
    </thead>
    <tbody>
@@ -134,8 +134,8 @@
                   <img src=" ../../<?php echo $row['path_immagine_arbusto'] ?>" id="img_tabella"></img>
                </td>
                <td><?php echo $row['SpecieArbusto']?></td>
-               <td><?php echo $row['DimensioneArbusto']?></td> 
-               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_DimensioneArbusto" <?php }?>><?php echo $row['DimensioneArbusto']?></td> 
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_StagioneDiFioritura" <?php }?>><?php echo $row['Stagione_fioritura'] ?></td>
                <?php
                if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {
                   $tab = 'flora';
@@ -194,8 +194,8 @@
       <tr>
          <th>Pianta erbacea</th>
          <th>Classificazione</th>
-         <th>Colore</th>
-         <th>Stagione di fioritura</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_Colore" <?php }?>>Colore</th>
+         <th <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="th_StagioneDiFiorituraPiante" <?php }?>>Stagione di fioritura</th>
       </tr>
    </thead>
    <tbody>
@@ -215,8 +215,8 @@
                   <img src=" ../../<?php echo $row['path_immagine_PiantaErbacea'] ?>" id="img_tabella"></img>
                </td>
                <td><?php echo $row['ClassificazionePianteErbacee']?></td>
-               <td><?php echo $row['ColorePianteErbacee']?></td> 
-               <td><?php echo $row['Stagione_fioritura'] ?></td>
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_Colore" <?php }?>><?php echo $row['ColorePianteErbacee']?></td> 
+               <td <?php if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {?> id="td_StagioneDiFiorituraPiante" <?php }?>><?php echo $row['Stagione_fioritura'] ?></td>
                <?php
                if(basename($_SERVER['PHP_SELF']) == 'Responsabile.php') {
                   $tab = 'flora';
