@@ -745,6 +745,69 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #th_adulto{
+        display: none;
+    }
+    #th_sesso{
+        display: none;
+    }
+    #th_categoria{
+        display: none;
+    }
+    #th_StagioneFioritura{
+        display: none;
+    }
+    #th_TipoFoglie{
+        display: none;
+    }
+    #th_Dimensione
+    {
+        display: none;
+    }
+    #th_StagioneDiFioritura{
+        display: none;
+    }
+    #th_Colore{
+        display: none;
+    }
+    #th_StagioneDiFiorituraPiante{
+        display: none;
+    }
+    
+
+
+    #td_adulto{
+        display: none;
+    }
+    #td_sesso{
+        display: none;
+    }
+    #td_categoria{
+        display: none;
+    }
+    #td_StagioneFioritura{
+        display: none;
+    }
+    #td_TipoFoglie{
+        display: none;
+    }
+    #td_DimensioneArbusto
+    {
+        display: none;
+    }
+    #td_StagioneDiFioritura{
+        display: none;
+    }
+    #td_Colore{
+        display: none;
+    }
+    #td_StagioneDiFiorituraPiante{
+        display: none;
+    }
+}
+
+ 
 
 /*-----------------------*/
 
@@ -812,6 +875,13 @@ body {
 .elimina:hover {
     background-color: rgb(255, 4, 4) !important;
     border-color: rgb(255, 4, 4) !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    .btn{
+        font-size: 10px !important;
+    }
 }
 
 
@@ -1072,6 +1142,15 @@ div.gm-style-iw-d {
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
+}
+@media screen and (max-width: 600px) {
+    .login{
+        width: 90%;
+    }
+    .login form input[type="password"],
+.login form input[type="text"] {
+    width: 270px !important;
+}
 }
 
 .login h1 {
