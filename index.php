@@ -1,5 +1,5 @@
 <?php
-include ('PHP/DAL.php');
+include ('App/DAL.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,12 +11,12 @@ include ('PHP/DAL.php');
     
     <!-- librerie importate -->
 
-    <?php include 'PHP/librerie.php';?>
+    <?php include 'App/Librerie.php';?>
     
 </head>
 
 <?php
-  include 'PHP/classeParchi.php';
+  include 'App/ClasseParchi.php';
   $parco = new parchi;
   $all_parchi = $parco->getParchi();
   $json_all_parchi = json_encode($all_parchi);
@@ -26,8 +26,8 @@ include ('PHP/DAL.php');
 
 <body>
   <?php 
-  include 'PHP/navbar.php';
-  include 'PHP/DBconnection.php'; 
+  include 'App/Navbar.php';
+  include 'App/DBconnection.php'; 
   ?>
   <div class="body-container">
     
@@ -43,19 +43,19 @@ include ('PHP/DAL.php');
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="CSS/img_carusel/img1.jpg" class="img-carousel">
+          <img src="Images/img_carusel/img1.jpg" class="img-carousel">
         </div>
 
         <div class="item">
-          <img src="CSS/img_carusel/img2.jpg" class="img-carousel";>
+          <img src="Images/img_carusel/img2.jpg" class="img-carousel";>
         </div>
       
         <div class="item">
-          <img src="CSS/img_carusel/img3.jpg" class="img-carousel">
+          <img src="Images/img_carusel/img3.jpg" class="img-carousel">
         </div>
 
         <div class="item">
-          <img src="CSS/img_carusel/img4.jpg" class="img-carousel">
+          <img src="Images/img_carusel/img4.jpg" class="img-carousel">
         </div>
       </div>
       <div class="carousel-caption">
@@ -98,7 +98,7 @@ include ('PHP/DAL.php');
       <div class="flip-box-back">
         <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
-        <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>' style:"padding-top: 80px">Visita</a>
+        <a href='App/Public/Parco.php?IdParco=<?php echo $row['IdParco'] ?>' style:"padding-top: 80px">Visita</a>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@ include ('PHP/DAL.php');
     <div class="flip-box-inner">
       <div class="flip-box-front">
         <?php
-          $query_parco2 = "SELECT * FROM parco WHERE Nome='Xyntha'";
+          $query_parco2 = "SELECT * FROM parco WHERE Nome='Proctozone'";
           $result = mysqli_query($conn, $query_parco2);
           $row = mysqli_fetch_array($result)
         ?>
@@ -117,14 +117,14 @@ include ('PHP/DAL.php');
       <div class="flip-box-back">
         <h2><?php echo $row['Nome'] ?></h2>
         <p><?php echo $row['Descrizione'] ?></p>
-        <a href='PHP/Public/parco.php?IdParco=<?php echo $row['IdParco'] ?>'>Visita</a>
+        <a href='App/Public/Parco.php?IdParco=<?php echo $row['IdParco'] ?>'>Visita</a>
       </div>
     </div>
   </div>
     </div>
   </div>
 
-  <h2 class="titolo">Viualizza qui i Parchi sulla mappa:</h2>
+  <h2 class="titolo">Visualizza qui i Parchi sulla mappa:</h2>
 
   <div id="map"></div>
     <script
@@ -142,21 +142,21 @@ include ('PHP/DAL.php');
    <div class="columnbtn">
       <?php 
         $tabella = 'parco';
-        include 'PHP/Public/Searchbar.php';
+        include 'App/Public/Searchbar.php';
       ?>
    </div>
 </div>
 
-<?php include 'PHP/Public/tabellaParchi.php'; ?>
+<?php include 'App/Public/TabellaParchi.php'; ?>
 
-  <script type="text/javascript" src="JS/index.js"></script> 
+  <script type="text/javascript" src="Js/index.js"></script> 
   <script type="text/javascript">
               $(document).ready(function() {
                   $('#tableData').paging({limit:5});
               });
   </script>
 
-    <?php include 'PHP/footer.php'?>
+    <?php include 'App/Footer.php'?>
 
 </body>
 

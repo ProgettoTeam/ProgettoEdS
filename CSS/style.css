@@ -46,17 +46,17 @@ body {
     float: left;
     margin-bottom: 10px;
 }
-@media screen and (max-width:770px) {
+
+@media screen and (max-width:600px) {
     #imgMappa {
         width: 120px
     }
-    .gm-style-iw-d{
+    .gm-style-iw-d {
         width: 150px !important;
     }
-    .pMappa{
-        margin-left:2px !important;
+    .pMappa {
+        margin-left: 2px !important;
     }
-    
 }
 
 .username {
@@ -147,7 +147,7 @@ td {
     color: #000000 !important;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) {
     .logo {
         float: left;
         margin-left: 10px;
@@ -410,14 +410,11 @@ body {
 
 @media screen and (max-width: 1000px) {
     .carousel-caption h3 {
-        font-size: 16px !important;
-    }
-    .carousel-caption {
-        padding-bottom: 5%;
+        font-size: 20px !important;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .carousel-caption h3 {
         font-size: 11px !important;
     }
@@ -514,13 +511,13 @@ body {
     background-color: none;
 }
 
-@media screen and (max-width: 946px) {
+@media screen and (max-width: 600px) {
     .columnimg {
         width: 100%;
     }
     .column {
         /*float: right;*/
-        width: 45%  !important;
+        width: 45% !important;
     }
 }
 
@@ -570,16 +567,17 @@ body {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 880px) {
-    .flip-box{
+@media screen and (max-width: 1050px) {
+    .flip-box {
         width: 90%;
         height: 90%;
     }
     .flip-box-back a {
         margin-top: 20px;
     }
-    
 }
+
+
 /* Do an horizontal flip when you move the mouse over the flip box container */
 
 .flip-box:hover .flip-box-inner {
@@ -737,7 +735,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
     th,
     td {
         width: 20px;
@@ -746,68 +744,62 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    #th_adulto{
+    #th_adulto {
         display: none;
     }
-    #th_sesso{
+    #th_sesso {
         display: none;
     }
-    #th_categoria{
+    #th_salute {
         display: none;
     }
-    #th_StagioneFioritura{
+    #th_StagioneFioritura {
         display: none;
     }
-    #th_TipoFoglie{
+    #th_TipoFoglie {
         display: none;
     }
-    #th_Dimensione
-    {
+    #th_Dimensione {
         display: none;
     }
-    #th_StagioneDiFioritura{
+    #th_StagioneDiFioritura {
         display: none;
     }
-    #th_Colore{
+    #th_Colore {
         display: none;
     }
-    #th_StagioneDiFiorituraPiante{
+    #th_StagioneDiFiorituraPiante {
         display: none;
     }
-    
-
-
-    #td_adulto{
+    #td_adulto {
         display: none;
     }
-    #td_sesso{
+    #td_sesso {
         display: none;
     }
-    #td_categoria{
+    #td_salute {
         display: none;
     }
-    #td_StagioneFioritura{
+    #td_StagioneFioritura {
         display: none;
     }
-    #td_TipoFoglie{
+    #td_TipoFoglie {
         display: none;
     }
-    #td_DimensioneArbusto
-    {
+    #td_DimensioneArbusto {
         display: none;
     }
-    #td_StagioneDiFioritura{
+    #td_StagioneDiFioritura {
         display: none;
     }
-    #td_Colore{
+    #td_Colore {
         display: none;
     }
-    #td_StagioneDiFiorituraPiante{
+    #td_StagioneDiFiorituraPiante {
         display: none;
     }
 }
 
- 
 
 /*-----------------------*/
 
@@ -878,8 +870,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-
-    .btn{
+    .btn {
         font-size: 10px !important;
     }
 }
@@ -982,7 +973,7 @@ body {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 600px) {
     .text {
         font-size: 12px;
     }
@@ -1143,14 +1134,15 @@ div.gm-style-iw-d {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
 }
+
 @media screen and (max-width: 600px) {
-    .login{
+    .login {
         width: 90%;
     }
     .login form input[type="password"],
-.login form input[type="text"] {
-    width: 270px !important;
-}
+    .login form input[type="text"] {
+        width: 270px !important;
+    }
 }
 
 .login h1 {
@@ -1343,7 +1335,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1354,7 +1346,7 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../CSS/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1374,35 +1366,35 @@ div.gm-style-iw-d {
 .image-aboutus-para {
     color: #fff;
 }
-.thumbnail{
+
+.thumbnail {
     width: 70% !important;
-    margin:auto;
+    margin: auto;
     margin-top: 10px;
 }
 
-
-@media screen and (max-width: 700px) {
-   .h1-aboutus{
-       font-size: 25px;
-   }
-   .h2-aboutus{
-    font-size: 22px;
+@media screen and (max-width: 1050px) {
+    .h1-aboutus {
+        font-size: 25px;
     }
-    .h3-aboutus{
-    font-size: 20px;
-    }   
-    .h4-aboutus{
+    .h2-aboutus {
+        font-size: 22px;
+    }
+    .h3-aboutus {
+        font-size: 20px;
+    }
+    .h4-aboutus {
         font-size: 18px;
     }
-    .p-aboutus{
+    .p-aboutus {
         font-size: 18px;
     }
-    
     .site-heading h3 {
         font-size: 20px;
-       
     }
 }
+
+
 /*----------HELP-------------*/
 
 
@@ -1475,7 +1467,7 @@ div.gm-style-iw-d {
 }
 
 .image-help-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../images/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1485,7 +1477,7 @@ div.gm-style-iw-d {
 }
 
 .image-help-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../CSS/img_help/help1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../images/img_help/help1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1494,8 +1486,7 @@ div.gm-style-iw-d {
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 600px) {
     .container-contact .map {
         width: 40%;
     }
@@ -1503,12 +1494,11 @@ div.gm-style-iw-d {
         font-size: 20px;
         margin: none;
     }
-    .container-contact{
+    .container-contact {
         width: 90%;
     }
-    .container-contact .contact-form .btn-send{
+    .container-contact .contact-form .btn-send {
         margin: auto;
-        
     }
     .container-contact .contact-form .subtitle {
         font-size: 15px;
