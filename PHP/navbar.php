@@ -1,4 +1,4 @@
-<nav id="navbar1" class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -46,7 +46,7 @@
             <li><a href="../Public/Help.php">Help</a></li>
           <?php
           }
-      ?>
+        ?>
         <?php include 'amministratore-responsabile.php'; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
