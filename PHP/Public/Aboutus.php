@@ -3,23 +3,16 @@ include '../DAL.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php include '../librerie.php'; ?>
-
+</head>
 <body>
 
     <?php include '../navbar.php'; ?>
 
- <div class="image-aboutus-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="lg-text h1-aboutus">About Us</h1>
-                    <p class="image-aboutus-para p-aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-        </div>
-    </div> 
+ <div class="image-aboutus-banner"></div> 
     
     <div class="aboutus-secktion paddingTB60">
         <div class="container">
