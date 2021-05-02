@@ -3,20 +3,20 @@
         <tr>
           <th>Parco</th>
           <th>Nome</th>
-          <th>Luogo</th>
+          <th <?php if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') { ?>class="DisplayNone" <?php } ?>>Luogo</th>
           <?php
           if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {
           ?>
-            <th>Latitudine</th>
-            <th>Longitudine</th>
+            <th class="DisplayNone">Latitudine</th>
+            <th class="DisplayNone">Longitudine</th>
           <?php
           }
           ?>
-          <th>Descrizione</th>
+          <th class="DisplayNone">Descrizione</th>
           <?php
           if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {
           ?>
-            <th>Amministratore</th>
+            <th class="DisplayNone">Amministratore</th>
           <?php
           }
           ?>
@@ -58,20 +58,20 @@
                   ?>
               </td>
               <td><?php echo $row['Nome']?></td>
-              <td><?php echo $row['Luogo']?></td>
+              <td <?php if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') { ?>class="DisplayNone" <?php } ?>><?php echo $row['Luogo']?></td>
               <?php
               if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {
               ?>
-                <td><?php echo $row['Latitudine']; ?></td>
-                <td><?php echo $row['Longitudine']; ?></td>
+                <td class="DisplayNone"><?php echo $row['Latitudine']; ?></td>
+                <td class="DisplayNone"><?php echo $row['Longitudine']; ?></td>
               <?php
               }
               ?>
-              <td><?php echo $row['Descrizione']?></td>
+              <td <?php if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {} ?>class="DisplayNone" ?>><?php echo $row['Descrizione']?></td>
               <?php
               if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {
               ?>
-                <td>
+                <td class="DisplayNone">
                 <?php 
                     $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
                     $result_amm = mysqli_query($conn, $query_amm);

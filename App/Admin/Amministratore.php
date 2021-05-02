@@ -70,11 +70,11 @@ include '../Corrects.php';
 <table id="tableData2" class="table table-bordered table-striped">
    <thead>
         <tr>
-          <th>Nome</th>
-          <th>Cognome</th>
+          <th class="DisplayNone">Nome</th>
+          <th class="DisplayNone">Cognome</th>
           <th>Email</th>
-          <th>Amministratore</th>
-          <th>Parco assegnato</th>
+          <th class="DisplayNone">Amministratore</th>
+          <th class="DisplayNone">Parco assegnato</th>
         </tr>
     </thead>
     <tbody>
@@ -91,10 +91,10 @@ include '../Corrects.php';
              $fieldinfo = mysqli_fetch_fields($result_responsabile);
           ?>
             <tr>
-              <td><?php echo $row['Nome']?></td>
-              <td><?php echo $row['Cognome']?></td>
+              <td class="DisplayNone"><?php echo $row['Nome']?></td>
+              <td class="DisplayNone"><?php echo $row['Cognome']?></td>
               <td><?php echo $row['Email']?></td>
-              <td>
+              <td class="DisplayNone">
                <?php 
                   $query_amm = "SELECT * FROM amministratore WHERE IdAmministratore =" . $row['fk_IdAmministratore'];
                   $result_amm = mysqli_query($conn, $query_amm);
@@ -102,7 +102,7 @@ include '../Corrects.php';
                   echo $row_amm['Cognome'];
                ?>
               </td>
-              <td>
+              <td class="DisplayNone">
                <?php 
                   $query_par = "SELECT * FROM parco WHERE IdParco =" . $row['fk_IdParco'];
                   $result_par = mysqli_query($conn, $query_par);

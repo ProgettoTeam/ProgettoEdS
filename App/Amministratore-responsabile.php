@@ -11,11 +11,11 @@ if(isset($_SESSION['success'])) {
             <?php
         }
     } else {
-        if(isset($_SESSION['IdAmministratore']) && basename($_SERVER['PHP_SELF']) != 'amministratore.php'){
+        if(isset($_SESSION['IdAmministratore']) && basename($_SERVER['PHP_SELF']) != 'Amministratore.php'){
             ?>
             <li><a href="../Admin/Amministratore.php">Amministratore</a></li>
             <?php
-        } else if(isset($_SESSION['IdResponsabile']) && basename($_SERVER['PHP_SELF']) != 'responsabile.php') {
+        } else if(isset($_SESSION['IdResponsabile']) && basename($_SERVER['PHP_SELF']) != 'Responsabile.php') {
             ?>
             <li><a href="../Admin/Responsabile.php">Responsabile</a></li>
             <?php
