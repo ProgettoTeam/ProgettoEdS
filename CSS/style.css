@@ -47,7 +47,7 @@ body {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) {
     #imgMappa {
         width: 120px
     }
@@ -147,7 +147,7 @@ td {
     color: #000000 !important;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) {
     .logo {
         float: left;
         margin-left: 10px;
@@ -408,7 +408,7 @@ body {
     font-size: 35px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .carousel-caption h3 {
         font-size: 16px !important;
     }
@@ -417,7 +417,7 @@ body {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .carousel-caption h3 {
         font-size: 11px !important;
     }
@@ -514,7 +514,7 @@ body {
     background-color: none;
 }
 
-@media screen and (max-width: 946px) {
+@media screen and (max-width: 600px) {
     .columnimg {
         width: 100%;
     }
@@ -570,7 +570,7 @@ body {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 600px) {
     .flip-box {
         width: 90%;
         height: 90%;
@@ -708,7 +708,6 @@ body {
     margin: 0px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    text-align: center;
 }
 
 .paging-nav,
@@ -717,7 +716,6 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    text-align: center;
 }
 
 .paging-nav,
@@ -726,7 +724,6 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    text-align: center;
 }
 
 .paging-nav,
@@ -735,10 +732,9 @@ body {
     margin: 10px auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    text-align: center;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
     th,
     td {
         width: 20px;
@@ -747,97 +743,13 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    #th_adulto {
-        display: none;
-    }
-    #th_sesso {
-        display: none;
-    }
-    #th_salute {
-        display: none;
-    }
-    #th_StagioneFioritura {
-        display: none;
-    }
-    #th_TipoFoglie {
-        display: none;
-    }
-    #th_Dimensione {
-        display: none;
-    }
-    #th_StagioneDiFioritura {
-        display: none;
-    }
-    #th_Colore {
-        display: none;
-    }
-    #th_StagioneDiFiorituraPiante {
-        display: none;
-    }
-    #td_adulto {
-        display: none;
-    }
-    #td_sesso {
-        display: none;
-    }
-    #td_salute {
-        display: none;
-    }
-    #td_StagioneFioritura {
-        display: none;
-    }
-    #td_TipoFoglie {
-        display: none;
-    }
-    #td_DimensioneArbusto {
-        display: none;
-    }
-    #td_StagioneDiFioritura {
-        display: none;
-    }
-    #td_Colore {
-        display: none;
-    }
-    #td_StagioneDiFiorituraPiante {
+    .DisplayNone {
         display: none;
     }
 }
 
 
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
 /*-----RESPONSABILE-------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
-
-
-/*-----------------------*/
 
 .imgparco {
     display: block;
@@ -976,7 +888,7 @@ body {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 600px) {
     .text {
         font-size: 12px;
     }
@@ -1338,18 +1250,18 @@ div.gm-style-iw-d {
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../Images/img_aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding-top: 110px;
+    padding-top: 200px;
     padding-bottom: 110px;
     width: 100%;
 }
 
 .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../../images/img-aboutus/sfondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../Images/img_aboutus/sfondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1376,7 +1288,7 @@ div.gm-style-iw-d {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .h1-aboutus {
         font-size: 25px;
     }
@@ -1489,7 +1401,7 @@ div.gm-style-iw-d {
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .container-contact .map {
         width: 40%;
     }

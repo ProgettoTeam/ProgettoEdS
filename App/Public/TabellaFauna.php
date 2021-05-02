@@ -31,9 +31,9 @@
          if(basename($_SERVER['PHP_SELF']) != 'Parco.php') {
          ?>
             <th>Animale</th>
-            <th id="th_adulto">Adulto</th>
-            <th id="th_sesso">Sesso</th>
-            <th id="th_salute">Salute</th>
+            <th class="DisplayNone">Adulto</th>
+            <th class="DisplayNone">Sesso</th>
+            <th class="DisplayNone">Salute</th>
             <th>Specie</th>
          <?php
          } else {
@@ -74,15 +74,15 @@
                      $IsAdult = 'no';
                   }
                ?>
-                  <td id="td_adulto"><?php echo $IsAdult?></td>
+                  <td class="DisplayNone"><?php echo $IsAdult?></td>
                <?php
                }
                ?>
-               <td id="td_sesso"><?php echo $row['Sesso'] ?></td>
+               <td class="DisplayNone"><?php echo $row['Sesso'] ?></td>
                <?php
                if(basename($_SERVER['PHP_SELF']) != 'Parco.php') {
                ?>
-                  <td id="td_salute"><?php echo $row['Salute']?></td>
+                  <td class="DisplayNone"><?php echo $row['Salute']?></td>
                <?php
                }
 

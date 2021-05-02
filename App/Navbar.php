@@ -13,7 +13,7 @@
       <?php
       } else {
       ?>
-        <img src="../../Css/logo-flora-fauna.png" class="logo">
+        <a href="../../index.php"><img src="../../Css/logo-flora-fauna.png" class="logo"></a>
       <?php
       }
       ?>
