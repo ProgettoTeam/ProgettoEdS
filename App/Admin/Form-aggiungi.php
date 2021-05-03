@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include ('../Librerie.php') ?>
+
+    <head>
+      <title>AGGIUNGI | ParchiNazionali</title>
+      <?php include ('../Librerie.php') ?>
+    </head>
 
 </head>
 <body>
@@ -22,6 +26,9 @@ $result = mysqli_query($conn, $query);
 $fieldinfo = mysqli_fetch_fields($result);
 
 include ('../DAL.php'); 
+if (!isset($_SESSION['IdResponsabile']) && !isset($_SESSION['IdAmministratore'])) {
+  header("location:../Public/Login.php");
+}
 include ("../Navbar.php");
 if($tabella == 'flora') {
   $link = '&tipo=' . $tipo;

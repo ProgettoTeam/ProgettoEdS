@@ -1,5 +1,8 @@
 <?php
 include ('../DAL.php'); 
+if (!isset($_SESSION['IdAmministratore'])) {
+   header("location:../Public/Login.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +11,10 @@ include ('../DAL.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <?php include ('../Librerie.php') ?>
+    <head>
+      <title>AMMINISTRATORE | ParchiNazionali</title>
+      <?php include ('../Librerie.php') ?>
+    </head>
 
 </head>
 <body>

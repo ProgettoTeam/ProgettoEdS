@@ -3,7 +3,10 @@ include '../DAL.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include '../Librerie.php'; ?>
+<head>
+    <title>HELP | ParchiNazionali</title>
+    <?php include '../Librerie.php'; ?>
+<head>
 <body>
 <?php include '../Navbar.php'; ?>
 <div class="image-help-banner">
