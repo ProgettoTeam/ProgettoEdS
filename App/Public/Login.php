@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Css/style.css">
 
-    <?php include("../Librerie.php");
-    ?>
+    <head>
+        <title>LOGIN | ParchiNazionali</title>
+        <?php include("../Librerie.php"); ?>
+    </head>
 
 </head>
 <body style="background-color: #1d814a;">

@@ -4,8 +4,10 @@ include '../DAL.php';
 <!DOCTYPE html>
 <html lang="en">
 
-
+<head>
+<title>ABOUT US | ParchiNazionali</title>
 <?php include '../Librerie.php'; ?>
+</head>
 
 
 <body>
