@@ -1,4 +1,3 @@
-<tbody>
     <?php
         $cont = 0;
         $cont_txb = 1;
@@ -24,15 +23,19 @@
                         $cont_txb++;
                         $col = $val->name;
                         ?> 
-                        <td><input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                        <div>
+                            <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                            <input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+                        </div>
                         <?php
                     } else if($cont == 0) {
                         ?>    
-                        <td>
-                            <div class="container-img-tab" id="containerimghome">
+                        <div>
+                            <div class="container-img-tab-form" id="containerimghome">
+                            <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci Immagine: </label>
                             <input type="file" class="upload_image" name="col<?php echo $cont_txb?>riga<?php echo $i?>"></input>
                             </div>
-                        </td>
+                        </div>
                         <?php
                     }
                 } else if($tipo == 'arbusto') {
@@ -40,15 +43,19 @@
                     $cont_txb++;
                     $col = $val->name;
                     ?> 
-                    <td><input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                    <div>
+                        <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                        <input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+                        </div>
                     <?php
                 } else if($cont == 0) {
                     ?>    
-                    <td>
-                        <div class="container-img-tab" id="containerimghome">
+                    <div>
+                        <div class="container-img-tab-form" id="containerimghome">
+                        <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci Immagine: </label>
                         <input type="file" class="upload_image" name="col<?php echo $cont_txb?>riga<?php echo $i?>"></input>
                         </div>
-                    </td>
+                    </div>
                     <?php
                 }
                 } else if($tipo == 'piantaErbacea') {
@@ -56,15 +63,19 @@
                         $cont_txb++;
                         $col = $val->name;
                         ?> 
-                        <td><input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                        <div>
+                            <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                            <input type="text" class="campoN" name="col<?php echo $cont_txb?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+                            </div>
                         <?php
                     } else if($cont == 0) {
                         ?>    
-                        <td>
-                            <div class="container-img-tab" id="containerimghome">
+                        <div>
+                            <div class="container-img-tab-form" id="containerimghome">
+                            <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci Immagine: </label>
                             <input type="file" class="upload_image" name="col<?php echo $cont_txb?>riga<?php echo $i?>"></input>
                             </div>
-                        </td>
+                        </div>
                         <?php
                     }
                 }
@@ -74,14 +85,20 @@
                         $col = $val->name;
                         if($col == "Password") {
                             ?>
-                            <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>"  placeholder="********"></td>
+                            <div>
+                            <label for="col<?php echo $cont_txb?>riga<?php echo $i?>">Inserisci Password:: </label>
+                            <input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>"  placeholder="********">
+                            </div>
                             <?php
                         } else {
                         ?>
                         <?php
                             if($cont != 5) {
                             ?>
-                                <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                                <div>
+                                <label for="col<?php echo $cont?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                                <input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+                                </div>
                             <?php
                             }
                         }
@@ -98,15 +115,19 @@
                         if($cont > 1) {
                             $col = $val->name;
                             ?> 
-                            <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                            <div>
+                                <label for="col<?php echo $cont?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                                <input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+                            </div>
                             <?php
                         } else if($cont == 1) {
                             ?>
-                            <td>
-                            <div class="container-img-tab" id="containerimghome">
-                                <input type="file" class="upload_image" name="col<?php echo $cont?>riga<?php echo $i?>"></input>
+                            <div>
+                                <div class="container-img-tab-form"  id="containerimghome">
+                                    <label for="col<?php echo $cont?>riga<?php echo $i?>">Inserisci Immagine: </label>
+                                    <input type="file" class="upload_image" name="col<?php echo $cont?>riga<?php echo $i?>"></input>
+                                </div>
                             </div>
-                            </td>
                             <?php
                         }  
                     }          
@@ -114,16 +135,31 @@
                     if($cont > 1 && $cont != 7) {
                         $col = $val->name;
                         ?> 
-                        <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                        <div>
+                            <label for="col<?php echo $cont?>riga<?php echo $i?>">Inserisci <?php echo $col ?>: </label>
+                            <?php
+                            if($cont == 6) {
+                            ?>
+                                <textarea type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></textarea>
+                            <?php
+                            } else {
+                            ?>
+                                <input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>">
+
+                            <?php
+                            }
+                            ?>
+                        </div>
                         <?php
                     } else if($cont == 1 && $tabella != 'responsabile') {
                         $col = $val->name;
                         ?>    
-                        <td>
-                            <div class="container-img-tab" id="containerimghome">
+                        <div>
+                            <div class="container-img-tab-form-form" id="containerimghome">
+                                <label for="col<?php echo $cont?>riga<?php echo $i?>">Inserisci Immagine: </label>
                                 <input type="file" class="upload_image" name="col<?php echo $cont?>riga<?php echo $i?>"></input>
                             </div>
-                        </td>
+                        </div>
                         <?php
                     }
                 }
@@ -131,4 +167,3 @@
         $cont++;
         }
     ?>
-</tbody>

@@ -43,11 +43,11 @@ $value = mysqli_fetch_array($result);
 if($tabella == 'flora') {
   $link = '&tipo=' . $tipo;
   ?>
-    <h1 style="padding-left: 45%; padding-top: 11px">Modifica <?php if($tabella == 'flora') { echo $tipo; } else { echo $tabella; }?> <?php echo $value[0]; ?></h1>
+    <h1 style="text-align:center; padding-top: 11px">Modifica <?php if($tabella == 'flora') { echo $tipo; } else { echo $tabella; }?> <?php echo $value[0]; ?></h1>
   <?php
 } else {
   ?>
-    <h1 style="padding-left: 45%; padding-top: 11px">Modifica <?php echo $tabella ?> <?php echo $value[0]; ?></h1>
+    <h1 style="text-align:center; padding-top: 11px">Modifica <?php echo $tabella ?> <?php echo $value[0]; ?></h1>
   <?php
 }
 ?>

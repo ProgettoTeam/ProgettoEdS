@@ -33,11 +33,11 @@ include ("../Navbar.php");
 if($tabella == 'flora') {
   $link = '&tipo=' . $tipo;
   ?>
-    <h1 style="padding-left: 45%; padding-top: 11px">Aggiungi <?php echo $tipo ?></h1>
+    <h1 style="text-align:center; padding-top: 11px">Aggiungi <?php echo $tipo ?></h1>
   <?php
 } else {
   ?>
-    <h1 style="padding-left: 45%; padding-top: 11px">Aggiungi <?php echo $tabella ?></h1>
+    <h1 style="text-align:center; padding-top: 11px">Aggiungi <?php echo $tabella ?></h1>
   <?php
 }
 ?>
