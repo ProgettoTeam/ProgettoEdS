@@ -18,6 +18,10 @@ if($tabella == 'flora') {
 include ('../DAL.php'); 
 include ("../Navbar.php");
 
+if (!isset($_SESSION['IdResponsabile']) && !isset($_SESSION['IdAmministratore'])) {
+  header("location:../Public/Login.php");
+}
+
 $colmuns = array();
 
 $query_columns = "SELECT * FROM $tabella";

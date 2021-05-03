@@ -22,6 +22,9 @@ $result = mysqli_query($conn, $query);
 $fieldinfo = mysqli_fetch_fields($result);
 
 include ('../DAL.php'); 
+if (!isset($_SESSION['IdResponsabile']) && !isset($_SESSION['IdAmministratore'])) {
+  header("location:../Public/Login.php");
+}
 include ("../Navbar.php");
 if($tabella == 'flora') {
   $link = '&tipo=' . $tipo;

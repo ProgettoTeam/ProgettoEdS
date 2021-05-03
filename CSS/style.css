@@ -1419,3 +1419,7 @@ div.gm-style-iw-d {
         font-size: 15px;
     }
 }
+
+.correct {
+    color: green !important;
+}

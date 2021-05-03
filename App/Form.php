@@ -46,7 +46,7 @@
                     }
                 } else {
                     if($tabella == 'responsabile') {
-                        if($cont > 0) {
+                        if($cont > 0 && $cont != 5) {
                         $col = $val->name;
                         ?> 
                             <th> <?php echo $col ?></th>
@@ -71,7 +71,7 @@
                             }
                         }
                     } else {
-                        if($cont > 1) {
+                        if($cont > 1 && $cont != 7) {
                         $col = $val->name;
                         ?> 
                             <th><?php echo $col ?></th>

@@ -1,5 +1,8 @@
 <?php
-include ('../DAL.php'); 
+include ('../DAL.php');
+if (!isset($_SESSION['IdResponsabile'])) {
+   header("location:../Public/Login.php");
+} 
 ?>
 <!DOCTYPE html>
 <html lang="en">

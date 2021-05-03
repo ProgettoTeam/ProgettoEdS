@@ -78,8 +78,12 @@
                             <?php
                         } else {
                         ?>
-                            <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
                         <?php
+                            if($cont != 5) {
+                            ?>
+                                <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>
+                            <?php
+                            }
                         }
                         ?> 
                         <?php
@@ -107,7 +111,7 @@
                         }  
                     }          
                 } else {
-                    if($cont > 1) {
+                    if($cont > 1 && $cont != 7) {
                         $col = $val->name;
                         ?> 
                         <td><input type="text" class="campoN" name="col<?php echo $cont?>riga<?php echo $i?>" placeholder="Inserisci <?php echo $col ?>"<?php if(basename($_SERVER['PHP_SELF']) == 'Form-modifica.php') { ?> value="<?php echo $value[$cont]; ?>" <?php } ?>"></td>

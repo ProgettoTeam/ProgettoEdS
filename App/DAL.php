@@ -80,7 +80,8 @@ if(isset($_POST['Aggiungi'])) {
 
         if($cont_err == 0) {
             if($tabella == 'parco') {
-                $query_insert_parco = "INSERT INTO $tabella(path_immagine, Nome, Luogo, Latitudine, Longitudine, Descrizione, fk_IdAmministratore) VALUES ('$txb1', '$txb2', '$txb3', '$txb4', '$txb5', '$txb6', '$txb7')";
+                $fk_amministratore = $_SESSION['IdAmministratore'];
+                $query_insert_parco = "INSERT INTO $tabella(path_immagine, Nome, Luogo, Latitudine, Longitudine, Descrizione, fk_IdAmministratore) VALUES ('$txb1', '$txb2', '$txb3', '$txb4', '$txb5', '$txb6', '$fk_amministratore')";
                 move_uploaded_file($tmp_name, '../../' . $txb1);
                 if(mysqli_query($conn, $query_insert_parco)) {
                     array_push($corrects, "Riga " . ($i+1) . " inserita con successo");
@@ -89,7 +90,8 @@ if(isset($_POST['Aggiungi'])) {
                 }
             } else if($tabella == 'responsabile') {
                 $pswCript = password_hash($txb4, PASSWORD_DEFAULT);
-                $query_insert_responsabili = "INSERT INTO $tabella(Nome, Cognome, Email, Password, fk_IdAmministratore, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$pswCript', '$txb5', '$txb6')";
+                $fk_amministratore = $_SESSION['IdAmministratore'];
+                $query_insert_responsabili = "INSERT INTO $tabella(Nome, Cognome, Email, Password, fk_IdAmministratore, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$pswCript', '$fk_amministratore', '$txb6')";
                 if(mysqli_query($conn, $query_insert_responsabili)) {
                     array_push($corrects, "Riga " . ($i+1) . " inserita con successo");
                 } else {
