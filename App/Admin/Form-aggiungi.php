@@ -78,7 +78,7 @@ if($tabella == 'flora') {
 </div>
 </div>
 
-<script src="../../Js/index.js"></script>
+<script type="text/javascript" src="../../Js/index.js"></script>
 
 <?php 
 include '../DBclose.php';

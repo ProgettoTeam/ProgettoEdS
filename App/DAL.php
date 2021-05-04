@@ -89,17 +89,27 @@ if(isset($_POST['Aggiungi'])) {
                     array_push($errors, "Riga " . ($i+1) . " non inserita. Dati non corretti");
                 }
             } else if($tabella == 'responsabile') {
+
+                $query_find_parco = "SELECT * FROM parco WHERE Nome = '$txb6'";
+                $result_parco = mysqli_query($conn, $query_find_parco);
+                $row_parco = mysqli_fetch_array($result_parco);
+
                 $pswCript = password_hash($txb4, PASSWORD_DEFAULT);
                 $fk_amministratore = $_SESSION['IdAmministratore'];
-                $query_insert_responsabili = "INSERT INTO $tabella(Nome, Cognome, Email, Password, fk_IdAmministratore, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$pswCript', '$fk_amministratore', '$txb6')";
+                $query_insert_responsabili = "INSERT INTO $tabella(Nome, Cognome, Email, Password, fk_IdAmministratore, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$pswCript', '$fk_amministratore', '$row_parco[0]')";
                 if(mysqli_query($conn, $query_insert_responsabili)) {
                     array_push($corrects, "Riga " . ($i+1) . " inserita con successo");
                 } else {
                     array_push($errors, "Riga " . ($i+1) . " non inserita. Dati non corretti");
                 }
             } else if($tabella == 'fauna') {
+
+                $query_find_categoria = "SELECT * FROM categoria WHERE Specie = '$txb5'";
+                $result_categoria = mysqli_query($conn, $query_find_categoria);
+                $row_categoria = mysqli_fetch_array($result_categoria);
+
                 $fk_IdParco = $_SESSION['fk_IdParco'];
-                $query_insert_fauna = "INSERT INTO $tabella(path_immagine, IsAdult, Sesso, Salute, fk_IdCategoria, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$txb4', '$txb5', '$fk_IdParco')";
+                $query_insert_fauna = "INSERT INTO $tabella(path_immagine, IsAdult, Sesso, Salute, fk_IdCategoria, fk_IdParco) VALUES ('$txb1', '$txb2', '$txb3', '$txb4', '$row_categoria[0]', '$fk_IdParco')";
                 move_uploaded_file($tmp_name, '../../' . $txb1);
                 if(mysqli_query($conn, $query_insert_fauna)) {
                     array_push($corrects, "Riga " . ($i+1) . " inserita con successo");
@@ -169,7 +179,7 @@ if(isset($_POST['modifica'])) {
     if($cont_err == 0) {
         if($tabella == 'parco') {
             $query_update_parco = "UPDATE $tabella 
-                                    SET path_immagine = '$txb1', Nome = '$txb2', Luogo = '$txb3', Latitudine = '$txb4', Longitudine = '$txb5', Descrizione = '$txb6', fk_IdAmministratore = '$txb7' 
+                                    SET path_immagine = '$txb1', Nome = '$txb2', Luogo = '$txb3', Latitudine = '$txb4', Longitudine = '$txb5', Descrizione = '$txb6', fk_IdAmministratore = $_SESSION[IdAmministratore]
                                     WHERE IdParco = $id";
             if($_FILES['col1riga' . $i]["error"] == 0) {
                 move_uploaded_file($tmp_name, '../../' . $txb1);
@@ -203,8 +213,13 @@ if(isset($_POST['modifica'])) {
             }
         } else if($tabella == 'flora') {
             if($tipo == 'albero') {
+
+                $query_find_parco = "SELECT * FROM parco WHERE Nome = '$txb5'";
+                $result_parco = mysqli_query($conn, $query_find_parco);
+                $row_parco = mysqli_fetch_array($result_parco);
+
                 $query_update_albero = "UPDATE $tabella 
-                                        SET path_immagine_albero = '$txb1', path_immagine_arbusto = null, path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'albero', GenereAlbero = '$txb3', TipoFoglie = '$txb4', SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$txb5'
+                                        SET path_immagine_albero = '$txb1', path_immagine_arbusto = null, path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'albero', GenereAlbero = '$txb3', TipoFoglie = '$txb4', SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$row_parco[0]'
                                         WHERE IdFlora = $id";
                 if($_FILES['col1riga' . $i]["error"] == 0) {
                     move_uploaded_file($tmp_name, '../../' . $txb1);
@@ -215,8 +230,13 @@ if(isset($_POST['modifica'])) {
                     array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
                 }
             } else if($tipo == 'arbusto') {
+
+                $query_find_parco = "SELECT * FROM parco WHERE Nome = '$txb5'";
+                $result_parco = mysqli_query($conn, $query_find_parco);
+                $row_parco = mysqli_fetch_array($result_parco);
+
                 $query_update_arbusto = "UPDATE $tabella 
-                                        SET path_immagine_albero = null, path_immagine_arbusto = '$txb1', path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'arbusto', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = '$txb3', DimensioneArbusto = '$txb4', ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$txb5'
+                                        SET path_immagine_albero = null, path_immagine_arbusto = '$txb1', path_immagine_PiantaErbacea = null, Stagione_fioritura = '$txb2', Categoria = 'arbusto', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = '$txb3', DimensioneArbusto = '$txb4', ClassificazionePianteErbacee = null, ColorePianteErbacee = null, fk_IdParco = '$row_parco[0]'
                                         WHERE IdFlora = $id";
                 if($_FILES['col1riga' . $i]["error"] == 0) {
                     move_uploaded_file($tmp_name, '../../' . $txb1);
@@ -227,8 +247,13 @@ if(isset($_POST['modifica'])) {
                     array_push($errors, "Riga " . ($i+1) . " non modificata. Dati non corretti");
                 }
             } else if($tipo == 'piantaErbacea') {
+
+                $query_find_parco = "SELECT * FROM parco WHERE Nome = '$txb5'";
+                $result_parco = mysqli_query($conn, $query_find_parco);
+                $row_parco = mysqli_fetch_array($result_parco);
+
                 $query_update_piantaErbacea = "UPDATE $tabella 
-                                        SET path_immagine_albero = null, path_immagine_arbusto = null, path_immagine_PiantaErbacea = '$txb1', Stagione_fioritura = '$txb2', Categoria = 'Pianta erbacea', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = '$txb3', ColorePianteErbacee = '$txb4', fk_IdParco = '$txb5'
+                                        SET path_immagine_albero = null, path_immagine_arbusto = null, path_immagine_PiantaErbacea = '$txb1', Stagione_fioritura = '$txb2', Categoria = 'Pianta erbacea', GenereAlbero = null, TipoFoglie = null, SpecieArbusto = null, DimensioneArbusto = null, ClassificazionePianteErbacee = '$txb3', ColorePianteErbacee = '$txb4', fk_IdParco = '$row_parco[0]'
                                         WHERE IdFlora = $id";
                 if($_FILES['col1riga' . $i]["error"] == 0) {
                     move_uploaded_file($tmp_name, '../../' . $txb1);

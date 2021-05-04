@@ -28,6 +28,7 @@
                 <i class="fas fa-lock"></i>
             </label>
             <input type="password" name="password" placeholder="Password" id="password" required>
+            <input type="checkbox" onclick="PswVisible()" style="margin-left: 30px">Show Password
             <input type="submit" name="login" value="Login">
         </form>
     </div>
