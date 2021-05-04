@@ -67,7 +67,7 @@
               <?php
               }
               ?>
-              <td <?php if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {} ?>class="DisplayNone" ?>><?php echo $row['Descrizione']?></td>
+              <td <?php if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {} ?>class="DisplayNone" ?><?php echo $row['Descrizione']?></td>
               <?php
               if(basename($_SERVER['PHP_SELF']) == 'Amministratore.php') {
               ?>

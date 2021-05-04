@@ -88,7 +88,7 @@ include ('App/DAL.php');
       <div class="flip-box">
         <div class="flip-box-inner">
         <?php
-          $query_parco1 = "SELECT * FROM parco WHERE Nome='Glycerin'";
+          $query_parco1 = "SELECT * FROM parco WHERE Nome='Parco nazionale della Maiella'";
           $result = mysqli_query($conn, $query_parco1);
           $row = mysqli_fetch_array($result);
         ?>
@@ -108,7 +108,7 @@ include ('App/DAL.php');
     <div class="flip-box-inner">
       <div class="flip-box-front">
         <?php
-          $query_parco2 = "SELECT * FROM parco WHERE Nome='Proctozone'";
+          $query_parco2 = "SELECT * FROM parco WHERE Nome='Parco nazionale della Asinara'";
           $result = mysqli_query($conn, $query_parco2);
           $row = mysqli_fetch_array($result)
         ?>

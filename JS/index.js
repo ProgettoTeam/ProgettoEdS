@@ -47,6 +47,15 @@ function Combobox(value) {
     combobox.options[combobox.selectedIndex].value = value;
 }
 
+function PswVisible() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
 
 //------------------------------
 //------------------------------

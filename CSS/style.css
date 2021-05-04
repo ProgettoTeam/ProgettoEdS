@@ -422,6 +422,7 @@ body {
         font-size: 15px !important;
     }
 }
+
 @media screen and (max-width: 600px) {
     .carousel-caption h3 {
         font-size: 11px !important;
@@ -867,6 +868,7 @@ body {
     position: relative;
     width: 192px;
 }
+
 .container-img-tab-form {
     position: relative;
 }
@@ -967,7 +969,9 @@ input[type=text] {
 
 /*-----------------------*/
 
-.container-form-modifica input[type=text], textarea {
+.container-form-modifica input[type=text],
+.container-form-modifica input[type=password],
+textarea {
     width: 80%;
     padding: 12px 20px;
     margin: auto;
@@ -976,11 +980,11 @@ input[type=text] {
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    
 }
+
 input[type=file] {
     display: block;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 input[type=submit] {
@@ -1007,7 +1011,8 @@ div.gm-style-iw-d {
     width: 636px;
     height: 210px;
 }
-.container-form-modifica label{
+
+.container-form-modifica label {
     font-size: 18px;
     text-align: center;
     padding-left: 10%;
@@ -1439,5 +1444,6 @@ div.gm-style-iw-d {
 }
 
 .correct {
+    margin-left: 5%;
     color: green !important;
 }
